@@ -59,7 +59,7 @@ export default function Nav() {
           src="/images/logotype-free.png"
           alt="FREE"
           fill
-          className="object-contain"
+          className="object-contain mix-blend-screen"
           sizes="80px"
           priority
         />

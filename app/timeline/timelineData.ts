@@ -14,6 +14,7 @@ export interface TimelineEntry {
   tracks?: number
 }
 
+// Array order is intentional display order (not strictly chronological by date)
 export const TIMELINE_ENTRIES: TimelineEntry[] = [
   {
     id: 1,
@@ -23,11 +24,22 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     displayDate: 'Oct 31, 2023',
     type: 'single',
     era: 'finexme',
-    image: 'finexme-cover.avif',
+    image: 'red-bokeh-portrait.avif',
     link: 'https://music.apple.com/us/album/zodiac-killer/1713498638?i=1713498639',
   },
   {
     id: 2,
+    title: 'AT NO COST',
+    subtitle: 'First Trailer',
+    date: '2024-02-01',
+    displayDate: '~Feb 2024',
+    type: 'trailer',
+    era: 'finexme',
+    image: 'red-portrait.avif',
+    link: 'https://youtu.be/lV3YCXGO6kw',
+  },
+  {
+    id: 3,
     title: 'FINExME',
     subtitle: 'Album — 7 tracks',
     date: '2024-01-11',
@@ -37,17 +49,6 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     image: 'finexme-cover.avif',
     link: 'https://music.apple.com/us/album/finexme/1724944039',
     tracks: 7,
-  },
-  {
-    id: 3,
-    title: 'AT NO COST',
-    subtitle: 'First Trailer',
-    date: '2024-02-01',
-    displayDate: '~Feb 2024',
-    type: 'trailer',
-    era: 'finexme',
-    image: 'red-portrait.avif',
-    link: 'https://youtu.be/lV3YCXGO6kw',
   },
   {
     id: 4,
@@ -62,28 +63,6 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
   },
   {
     id: 5,
-    title: 'Run',
-    subtitle: 'Collab — Developed Minds',
-    date: '2024-03-01',
-    displayDate: 'Mar 1, 2024',
-    type: 'collaboration',
-    era: 'finexme',
-    image: 'finexme-backcover.avif',
-    link: 'https://music.apple.com/us/album/run-feat-free/1731498372?i=1731498373',
-  },
-  {
-    id: 6,
-    title: 'SBTRKT - FORWARD',
-    subtitle: 'Worst Choice Remix',
-    date: '2025-02-01',
-    displayDate: '~Feb 2025',
-    type: 'remix',
-    era: 'finexme',
-    image: '',
-    link: 'https://youtu.be/y6jloXYPaRs',
-  },
-  {
-    id: 7,
     title: 'ANTE',
     subtitle: 'Teaser',
     date: '2025-11-01',
@@ -94,7 +73,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     link: 'https://youtu.be/LjMu2mOCKpw',
   },
   {
-    id: 8,
+    id: 6,
     title: 'VESPERA',
     subtitle: 'Teaser II',
     date: '2025-12-01',
@@ -105,7 +84,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     link: 'https://youtu.be/3LlIdAvtuqY',
   },
   {
-    id: 9,
+    id: 7,
     title: 'NOCTEM',
     subtitle: 'Trailer',
     date: '2026-01-01',
@@ -116,7 +95,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     link: 'https://youtu.be/pJeSxF9nmHE',
   },
   {
-    id: 10,
+    id: 8,
     title: 'SINE NOCTIS',
     subtitle: 'EP — 3 tracks',
     date: '2026-06-01',
@@ -127,7 +106,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     tracks: 3,
   },
   {
-    id: 11,
+    id: 9,
     title: 'SINE NOCTIS 2',
     subtitle: 'Future',
     date: '2099-01-01',
@@ -137,7 +116,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     image: 'logotype-sinenoctis2.png',
   },
   {
-    id: 12,
+    id: 10,
     title: 'OTHERLAND',
     subtitle: 'Future',
     date: '2099-01-02',
@@ -147,7 +126,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     image: 'logotype-otherland.png',
   },
   {
-    id: 13,
+    id: 11,
     title: 'SEX SYMBOL',
     subtitle: 'Future',
     date: '2099-01-03',

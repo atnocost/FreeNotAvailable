@@ -440,7 +440,7 @@ function InternalContent() {
           {/* FINE BY ME */}
           <SubTitle>&ldquo;FINE BY ME&rdquo; &mdash; Visual</SubTitle>
           <KeyValue label="Setting">
-            An ambiguous gravel lot by water near Detroit&rsquo;s Ambassador Bridge; the white BMW
+            An ambiguous gravel lot by water near The Bridge; the white BMW
             acts as his chariot through this night-world.
           </KeyValue>
           <KeyValue label="Characters">

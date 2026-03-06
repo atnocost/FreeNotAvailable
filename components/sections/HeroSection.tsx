@@ -15,7 +15,7 @@ export default function HeroSection() {
           src="/images/hero-cover.avif"
           alt="FREE — FINExME and SINE NOCTIS"
           fill
-          preload
+          priority
           sizes="100vw"
           className="object-cover object-center"
           quality={85}
@@ -33,7 +33,7 @@ export default function HeroSection() {
             src="/images/logotype-free.png"
             alt="FREE"
             fill
-            className="object-contain"
+            className="object-contain mix-blend-screen"
             sizes="(max-width: 768px) 192px, 256px"
           />
         </div>

@@ -121,7 +121,7 @@ export default function EkthesisPage() {
             </p>
             <p>
               The creative universe is called Other World. Two copyright-holding entities
-              sit behind it: Creative Minds Coalition and OWJV (Other World Joint Venture).
+              sit behind it: Creative Minds Coalition and OWJV (Other Worldly, Just Visiting).
               Every release lives inside a visual mythology built before the first track dropped.
             </p>
           </AnimatedElement>
@@ -222,7 +222,7 @@ export default function EkthesisPage() {
             <div>
               <div className="flex items-center gap-4 mb-2">
                 <span className="font-sans text-2xl md:text-3xl italic text-[#e8e8e8] tracking-wide">SINE NOCTIS</span>
-                <span className="font-sans text-xs tracking-[0.15em] uppercase text-white/40">2026</span>
+                <span className="font-sans text-xs tracking-[0.15em] uppercase text-white/40">Act II &mdash; 2026</span>
               </div>
               <p className="font-sans text-sm leading-[1.8] text-muted mb-3">
                 The icy follow-up. Three tracks. Grayscale. Alone this time. Stillness on the
@@ -242,7 +242,7 @@ export default function EkthesisPage() {
             <span className="font-sans text-xs tracking-[0.15em] uppercase text-accent/60 block mb-3">Film</span>
             <span className="font-display text-lg text-heading block mb-2">Fine By Me Film</span>
             <p className="font-sans text-xs text-muted leading-relaxed">
-              A short film set at an ambiguous gravel lot by water near Detroit&rsquo;s Ambassador Bridge.
+              A short film set at an ambiguous gravel lot by water near The Bridge.
               The white BMW acts as his chariot through this night-world.
             </p>
           </div>

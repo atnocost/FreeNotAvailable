@@ -2,8 +2,8 @@ import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
 
 const MEDIA_ITEMS = [
-  { num: '1', title: 'FINExME', status: 'TBD' },
-  { num: '2', title: 'SINE NOCTIS', status: 'TBD' },
+  { num: '1', title: 'FINExME (vinyl)', status: 'TBD' },
+  { num: '2', title: 'SINE NOCTIS (vinyl)', status: 'TBD' },
 ]
 
 export default function OtherMediaSection() {

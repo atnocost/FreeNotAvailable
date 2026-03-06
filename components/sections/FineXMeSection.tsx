@@ -17,7 +17,7 @@ const GALLERY = [
   { src: '/images/bmw-red-wheel.avif', alt: 'BMW red wheel detail', caption: 'BMW wheel detail' },
   { src: '/images/fine-by-me-still.avif', alt: 'Fine By Me visual still', caption: 'Fine By Me' },
   { src: '/images/dusk-silhouette-two.avif', alt: 'Dusk silhouette with two figures', caption: 'Dusk silhouette' },
-  { src: '/images/fine-by-me-sunset.webp', alt: 'Fine By Me sunset', caption: 'Sunset' },
+  { src: '/images/crouching-smoke.avif', alt: 'Crouching figure in smoke', caption: 'Smoke' },
   { src: '/images/red-bokeh-portrait.avif', alt: 'Red bokeh portrait', caption: 'Red bokeh' },
 ]
 
@@ -175,7 +175,7 @@ export default function FineXMeSection() {
         id="threshold"
         data-section-id="threshold"
         className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
-        aria-label="ANTE — threshold between eras"
+        aria-label="Threshold between eras"
       >
         <div className="absolute inset-0">
           <AutoplayVideo
@@ -186,11 +186,6 @@ export default function FineXMeSection() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#1a0505]/60 via-black/40 to-[#0f0f0f]/80" />
         </div>
         <div className="absolute inset-0 vignette" />
-        <div className="relative z-10 text-center">
-          <span className="font-sans text-6xl md:text-8xl italic text-[#c0392b]/20 tracking-[0.2em]" style={{ textShadow: '0 0 40px rgba(192, 57, 43, 0.15), 0 0 80px rgba(192, 57, 43, 0.08)' }}>
-            ANTE
-          </span>
-        </div>
       </section>
     </>
   )

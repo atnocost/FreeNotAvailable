@@ -25,7 +25,6 @@ const CLIPS = [
   { src: "FREE - FLO.mp4", startSec: 4, durFrames: 90 },
   { src: "FREE - CHAMBERS.mp4", startSec: 12, durFrames: 90 },
   { src: "FREE - TWINS.mp4", startSec: 6, durFrames: 90 },
-  { src: "SBTRKT - FORWARD (WORST CHOICE REMIX).mp4", startSec: 5, durFrames: 90 },
   { src: "AT NO COST.mp4", startSec: 3, durFrames: 90 },
   { src: "NOCTEM.mp4", startSec: 30, durFrames: 90 },
   { src: "VESPERA.mp4", startSec: 20, durFrames: 90 },

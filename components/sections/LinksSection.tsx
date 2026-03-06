@@ -22,7 +22,7 @@ export default function LinksSection() {
             Listen
           </span>
           <h2 className="font-sans text-3xl md:text-4xl italic text-[#f2ede8] mb-4">
-            Find FREE everywhere
+            Find FREE somewhere
           </h2>
           <p className="font-sans text-sm text-white/40 mb-12 md:mb-16">
             Streaming now on all platforms.
