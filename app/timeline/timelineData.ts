@@ -24,7 +24,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     displayDate: 'Oct 31, 2023',
     type: 'single',
     era: 'finexme',
-    image: 'red-bokeh-portrait.avif',
+    image: 'zodiac-killer-still.avif',
     link: 'https://music.apple.com/us/album/zodiac-killer/1713498638?i=1713498639',
   },
   {

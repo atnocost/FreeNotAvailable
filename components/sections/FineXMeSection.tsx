@@ -16,8 +16,8 @@ const GALLERY = [
   { src: '/images/red-portrait.avif', alt: 'Red-lit portrait', caption: 'Red-lit portrait' },
   { src: '/images/bmw-red-wheel.avif', alt: 'BMW red wheel detail', caption: 'BMW wheel detail' },
   { src: '/images/fine-by-me-still.avif', alt: 'Fine By Me visual still', caption: 'Fine By Me' },
-  { src: '/images/dusk-silhouette-two.avif', alt: 'Dusk silhouette with two figures', caption: 'Dusk silhouette' },
-  { src: '/images/crouching-smoke.avif', alt: 'Crouching figure in smoke', caption: 'Smoke' },
+  { src: '/images/dusk-silhouette-two.avif', alt: 'Sunset silhouette with two figures', caption: 'Sunset' },
+  { src: '/images/fine-by-me-sunset.webp', alt: 'Dusk silhouette at the lot', caption: 'Dusk silhouette' },
   { src: '/images/red-bokeh-portrait.avif', alt: 'Red bokeh portrait', caption: 'Red bokeh' },
 ]
 

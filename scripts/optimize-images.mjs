@@ -1,10 +1,9 @@
 import sharp from 'sharp'
-import { readdir, mkdir, copyFile } from 'fs/promises'
-import { join, basename, extname } from 'path'
+import { readdir, mkdir } from 'fs/promises'
+import { join } from 'path'
 
 const ASSETS_DIR = './assets'
 const OUTPUT_DIR = './public/images'
-const SIZES = [1920, 1280, 828]
 const AVIF_QUALITY = 75
 const WEBP_QUALITY = 82
 
@@ -39,6 +38,7 @@ const IMAGE_MAP = {
   'pdf1-002.png': 'crouching-smoke',
   'pdf1-005.png': 'red-bokeh-portrait',
   'pdf1-006.png': 'bokeh-night',
+  'zodiac-killer-still.png': 'zodiac-killer-still',
 }
 
 // These are logos/logotypes that should be kept as PNG (transparency)
