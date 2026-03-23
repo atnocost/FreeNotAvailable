@@ -24,17 +24,19 @@ function NodeDot({ era }: { era: TimelineEntry['era'] }) {
 function CoverImage({ entry }: { entry: TimelineEntry }) {
   if (entry.type === 'future') {
     return (
-      <div className="relative aspect-[3/4] w-full rounded-sm border border-dashed border-white/20 flex items-center justify-center bg-white/[0.03]">
+      <div className="relative aspect-[3/4] w-full rounded-sm border border-dashed border-white/20 flex flex-col items-center justify-center gap-4 bg-white/[0.03]">
         {entry.image && (
-          <Image
-            src={`/images/${entry.image}`}
-            alt={entry.title}
-            fill
-            sizes="(max-width: 768px) 100vw, 420px"
-            className="object-cover opacity-30"
-          />
+          <div className="relative w-3/4 aspect-[3/1]">
+            <Image
+              src={`/images/${entry.image}`}
+              alt={entry.title}
+              fill
+              sizes="(max-width: 768px) 80vw, 300px"
+              className="object-contain opacity-40"
+            />
+          </div>
         )}
-        <span className="relative z-10 font-mono text-[10px] tracking-widest uppercase text-white/30">
+        <span className="font-mono text-[10px] tracking-widest uppercase text-white/30">
           Coming Soon
         </span>
       </div>
@@ -107,7 +109,7 @@ export default function TimelineNode({ entry }: { entry: TimelineEntry }) {
             rel="noopener noreferrer"
             className="mt-2 inline-flex items-center gap-1 font-mono text-[10px] tracking-wider uppercase text-muted/80 hover:text-heading transition-colors"
           >
-            Listen
+            {entry.type === 'film' || entry.type === 'trailer' || entry.type === 'teaser' ? 'Watch' : 'Listen'}
             <svg
               width="10"
               height="10"

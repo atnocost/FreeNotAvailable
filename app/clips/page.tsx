@@ -105,28 +105,18 @@ function ClipCard({ clip }: { clip: Clip }) {
       : 'text-[#d4a574]'
 
   return (
-    <div className={`border ${borderColor} transition-colors duration-300 group`}>
-      {/* Video Player */}
+    <div className={`border ${borderColor} pointer-events-none cursor-default`}>
+      {/* Thumbnail only — no video player */}
       <div className={`relative ${clip.aspectClass} overflow-hidden bg-black`}>
-        <video
-          poster={clip.thumbnail}
-          controls
-          playsInline
-          preload="metadata"
-          onError={(e) => {
-            const target = e.currentTarget
-            target.style.display = 'none'
-            const fallback = target.parentElement?.querySelector('.video-fallback')
-            if (fallback) (fallback as HTMLElement).style.display = 'flex'
-          }}
-          className={`w-full h-full object-cover ${
+        <Image
+          src={clip.thumbnail}
+          alt={clip.title}
+          fill
+          className={`object-cover ${
             clip.era === 'sinenoctis' ? 'grayscale' : ''
           }`}
-          src={clip.video}
+          sizes="(max-width: 768px) 100vw, 33vw"
         />
-        <div className="video-fallback hidden absolute inset-0 items-center justify-center bg-black/80 text-white/40 text-xs font-sans tracking-wider uppercase">
-          Video unavailable
-        </div>
       </div>
 
       {/* Info */}
@@ -185,40 +175,37 @@ export default function ClipsPage() {
         </div>
       </section>
 
-      {/* Film Reel - Full Width Feature */}
-      <section className="max-w-6xl mx-auto px-6 md:px-10 mb-12">
+      {/* Disclaimer */}
+      <section className="max-w-6xl mx-auto px-6 md:px-10 mb-10">
+        <p className="text-center text-sm font-sans tracking-[0.12em] italic opacity-35">
+          Short visual works — coming with SINE NOCTIS.
+        </p>
+      </section>
+
+      {/* Film Reel - Full Width Feature (disabled) */}
+      <section className="max-w-6xl mx-auto px-6 md:px-10 mb-12 opacity-40 pointer-events-none cursor-default">
         <div className="border border-[#d4a574]/20">
           <div className="relative aspect-video overflow-hidden bg-black">
-            <video
-              poster="/images/fine-by-me-still.avif"
-              controls
-              playsInline
-              preload="metadata"
-              onError={(e) => {
-                const target = e.currentTarget
-                target.style.display = 'none'
-                const fallback = target.parentElement?.querySelector('.video-fallback')
-                if (fallback) (fallback as HTMLElement).style.display = 'flex'
-              }}
-              className="w-full h-full object-cover"
-              src="https://ttymkvave4pkwaku.public.blob.vercel-storage.com/clips/FilmReel.mp4"
+            <Image
+              src="/images/fine-by-me-still.avif"
+              alt="Film Reel"
+              fill
+              className="object-cover"
+              sizes="100vw"
             />
-            <div className="video-fallback hidden absolute inset-0 items-center justify-center bg-black/80 text-white/40 text-xs font-sans tracking-wider uppercase">
-              Video unavailable
-            </div>
           </div>
           <div className="p-5 md:p-6">
             <div className="flex items-baseline justify-between mb-2">
               <h3 className="font-sans text-lg text-heading">Film Reel</h3>
               <span className="text-[10px] font-sans tracking-[0.2em] uppercase text-[#d4a574]">16:9 / 60s</span>
             </div>
-            <p className="font-sans text-sm text-muted">Hard cuts, slow zoom, no text. Sixty seconds across all <a href="/films" className="text-[#d4a574] italic hover:underline focus-visible:ring-1 focus-visible:ring-warm/50 focus-visible:outline-none rounded-sm">eleven source films</a>. Let the work speak.</p>
+            <p className="font-sans text-sm text-muted">Hard cuts, slow zoom, no text. Sixty seconds across all eleven source films. Let the work speak.</p>
           </div>
         </div>
       </section>
 
-      {/* Vertical Clips Grid */}
-      <section className="max-w-6xl mx-auto px-6 md:px-10 pb-24">
+      {/* Vertical Clips Grid (disabled) */}
+      <section className="max-w-6xl mx-auto px-6 md:px-10 pb-24 opacity-40">
         <h2 className="text-xs font-sans tracking-[0.2em] uppercase text-white/40 mb-8">Vertical Clips</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {CLIPS.filter(c => c.id !== 'FilmReel').map((clip) => (

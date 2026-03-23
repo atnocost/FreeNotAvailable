@@ -5,24 +5,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 /* ------------------------------------------------------------------ */
-/*  Discriminated-union link types                                     */
+/*  Nav links — reduced to 3 per audit                                 */
 /* ------------------------------------------------------------------ */
 
-type AnchorLink = { kind: 'anchor'; label: string; hash: string }
-type RouteLink = { kind: 'route'; label: string; href: string }
+type NavLink = { label: string; href: string }
 
-
-const ANCHOR_LINKS: AnchorLink[] = [
-  { kind: 'anchor', label: 'ACT I', hash: '#finexme' },
-  { kind: 'anchor', label: 'ACT II', hash: '#sinenoctis' },
-  { kind: 'anchor', label: 'MYTHOS', hash: '#mythos' },
-]
-
-const ROUTE_LINKS: RouteLink[] = [
-  { kind: 'route', label: 'FILMS', href: '/films' },
-  { kind: 'route', label: 'CLIPS', href: '/clips' },
-  { kind: 'route', label: 'TIMELINE', href: '/timeline' },
-  { kind: 'route', label: 'EKTHESIS', href: '/ekthesis' },
+const NAV_LINKS: NavLink[] = [
+  { label: 'OTHERWORLD', href: '/#mythos' },
+  { label: 'FILMS', href: '/films' },
+  { label: 'HEAR', href: '/#finexme' },
 ]
 
 /* ------------------------------------------------------------------ */
@@ -41,58 +32,62 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  /** Resolve anchor href: on home page use hash directly, on sub-pages prefix with / */
-  const anchorHref = (link: AnchorLink) =>
-    isHome ? link.hash : `/${link.hash}`
+  const resolveHref = (link: NavLink) => {
+    if (link.href.startsWith('/#')) {
+      return isHome ? link.href.replace('/', '') : link.href
+    }
+    return link.href
+  }
 
-  /** Check if a route link is the active page */
-  const isActiveRoute = (link: RouteLink) => pathname.startsWith(link.href)
+  const isActive = (link: NavLink) => {
+    if (link.href.startsWith('/#')) return false
+    return pathname.startsWith(link.href)
+  }
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 md:px-10 py-4 transition-all duration-300 ${
-        scrolled ? 'backdrop-blur-lg bg-black/70 border-b border-white/5' : ''
+      className={`fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 md:px-8 py-5 transition-all duration-300 border-b ${
+        scrolled
+          ? 'backdrop-blur-lg bg-black/70 border-white/5'
+          : 'border-white/7'
       }`}
     >
-      <Link href="/" className="relative w-20 h-8">
+      {/* OWJV cherub logo */}
+      <Link href="/" className="relative w-11 h-11">
         <Image
-          src="/images/logotype-free.png"
-          alt="FREE"
+          src="/images/owjv_white.jpeg"
+          alt="OWJV"
           fill
           className="object-contain mix-blend-screen"
-          sizes="80px"
+          sizes="44px"
           priority
         />
       </Link>
 
-      {/* Desktop nav */}
-      <ul className="hidden md:flex gap-6 lg:gap-8">
-        {ANCHOR_LINKS.map((link) => (
-          <li key={link.hash}>
-            <Link
-              href={anchorHref(link)}
-              className="text-xs font-sans tracking-[0.15em] uppercase text-white/60 hover:text-white transition-colors"
-            >
-              {link.label}
-            </Link>
-          </li>
+      {/* Desktop nav links */}
+      <div className="hidden md:flex items-center gap-[30px]">
+        {NAV_LINKS.map((link) => (
+          <Link
+            key={link.label}
+            href={resolveHref(link)}
+            className={`text-[9px] tracking-[0.18em] uppercase font-sans transition-colors ${
+              isActive(link)
+                ? 'text-white/70'
+                : 'text-white/45 hover:text-white/70'
+            }`}
+          >
+            {link.label}
+          </Link>
         ))}
-        <li className="w-px h-4 bg-white/10 self-center" aria-hidden="true" />
-        {ROUTE_LINKS.map((link) => (
-          <li key={link.href}>
-            <Link
-              href={link.href}
-              className={`text-xs font-sans tracking-[0.15em] uppercase transition-colors ${
-                isActiveRoute(link)
-                  ? 'text-accent'
-                  : 'text-accent/70 hover:text-accent'
-              }`}
-            >
-              {link.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      </div>
+
+      {/* Visit CTA */}
+      <Link
+        href="/films"
+        className="hidden md:block text-[9px] tracking-[0.14em] uppercase py-1.5 px-[18px] border border-white/22 text-white/55 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
+      >
+        Visit
+      </Link>
 
       {/* Mobile hamburger */}
       <button
@@ -126,10 +121,10 @@ export default function Nav() {
       {menuOpen && (
         <div id="mobile-nav-menu" className="absolute top-full left-0 right-0 bg-black/95 backdrop-blur-xl border-b border-white/5 md:hidden">
           <ul className="flex flex-col p-6 gap-6">
-            {ANCHOR_LINKS.map((link) => (
-              <li key={link.hash}>
+            {NAV_LINKS.map((link) => (
+              <li key={link.label}>
                 <Link
-                  href={anchorHref(link)}
+                  href={resolveHref(link)}
                   onClick={() => setMenuOpen(false)}
                   className="text-sm tracking-[0.15em] uppercase text-white/70 hover:text-white"
                 >
@@ -138,21 +133,15 @@ export default function Nav() {
               </li>
             ))}
             <li className="h-px bg-white/10" aria-hidden="true" />
-            {ROUTE_LINKS.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className={`text-sm tracking-[0.15em] uppercase ${
-                    isActiveRoute(link)
-                      ? 'text-accent'
-                      : 'text-accent/70 hover:text-accent'
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link
+                href="/films"
+                onClick={() => setMenuOpen(false)}
+                className="text-sm tracking-[0.15em] uppercase text-white/45 hover:text-white"
+              >
+                Visit
+              </Link>
+            </li>
           </ul>
         </div>
       )}

@@ -13,7 +13,7 @@ const GALLERY = [
   { src: '/images/noctem-staircase.avif', alt: 'Noctem staircase scene', caption: 'Noctem' },
   { src: '/images/sn-street-1.avif', alt: 'VESPERA street scene', caption: 'Vespera' },
   { src: '/images/continuity.avif', alt: 'Continuity - figure against vine wall', caption: 'Continuity' },
-  { src: '/images/bokeh-night.avif', alt: 'Bokeh night photography', caption: 'Bokeh night' },
+  { src: '/images/bokeh-night.jpg', alt: 'Bokeh night photography', caption: 'Bokeh night' },
 ]
 
 export default function SineNoctisSection() {
@@ -30,8 +30,8 @@ export default function SineNoctisSection() {
           <span className="text-xs font-pixel tracking-[0.2em] uppercase text-[#d0d0d0]/80 block mb-6">
             Act II
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#e8e8e8] tracking-wide">
-            SINE NOCTIS
+          <h2 className="font-big-caesar text-5xl md:text-6xl lg:text-7xl text-[#e8e8e8] tracking-wide">
+            SINENOCTIS
           </h2>
         </div>
 

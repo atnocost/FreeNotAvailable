@@ -1,10 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'BigCaesar';
+  src: url('/fonts/BigCaesar_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --font-display: var(--font-geist-sans);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-pixel: var(--font-geist-pixel-square);
+  --font-big-caesar: 'BigCaesar', serif;
 }
 
 @theme {

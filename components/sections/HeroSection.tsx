@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import FadeInView from '@/components/ui/FadeInView'
 
 export default function HeroSection() {
@@ -6,48 +7,74 @@ export default function HeroSection() {
     <section
       id="hero"
       data-section-id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex flex-col overflow-hidden"
       aria-label="Welcome"
     >
-      {/* Background cover image */}
+      {/* Background photo */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-cover.avif"
-          alt="FREE — FINExME and SINE NOCTIS"
+          src="/images/pilgrim-hero.jpg"
+          alt="FREE — Other World Mythos"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover"
+          style={{ objectPosition: '55% 18%' }}
           quality={85}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80" />
+        {/* Left-to-right gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/58 via-[42%] to-black/10" />
+        {/* Bottom-to-top gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent to-[38%]" />
       </div>
 
-      {/* Vignette overlay */}
-      <div className="absolute inset-0 vignette" />
-
-      {/* FREE wordmark */}
-      <div className="relative z-10 flex flex-col items-center gap-6">
-        <div className="relative w-48 md:w-64 h-16 md:h-24">
-          <Image
-            src="/images/logotype-free.png"
-            alt="FREE"
-            fill
-            className="object-contain mix-blend-screen"
-            sizes="(max-width: 768px) 192px, 256px"
-          />
-        </div>
-        <FadeInView delay={0.3}>
-          <p className="font-sans text-lg md:text-xl italic text-warm tracking-wide">
-            Welcome to the Other World
+      {/* Content — bottom-left aligned */}
+      <div className="relative z-10 mt-auto px-6 md:px-8 pb-10 md:pb-11 max-w-[960px]">
+        {/* Eyebrow */}
+        <FadeInView>
+          <p className="text-[8px] tracking-[0.24em] uppercase text-[#c35f23]/90 mb-3">
+            Other World Mythos
           </p>
         </FadeInView>
-      </div>
 
-      {/* Scroll indicator */}
-      <FadeInView delay={0.6} className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="w-px h-12 bg-white/30 animate-pulse" />
-      </FadeInView>
+        {/* FREE logo — forced white */}
+        <FadeInView delay={0.15}>
+          <div className="relative h-[54px] md:h-[130px] w-auto mb-3.5">
+            <Image
+              src="/images/logotype-free.png"
+              alt="FREE"
+              fill
+              className="object-contain object-left brightness-0 invert"
+              sizes="(max-width: 768px) 200px, 400px"
+            />
+          </div>
+        </FadeInView>
+
+        {/* Tagline */}
+        <FadeInView delay={0.25}>
+          <p className="font-serif text-[15px] italic font-light text-white/42 leading-[1.65] max-w-[340px] mb-5">
+            For the ones who still yearn.
+          </p>
+        </FadeInView>
+
+        {/* CTAs */}
+        <FadeInView delay={0.35}>
+          <div className="flex gap-2.5">
+            <Link
+              href="/#finexme"
+              className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-white text-black rounded-[2px] font-sans font-normal hover:bg-white/90 transition-colors"
+            >
+              Hear
+            </Link>
+            <Link
+              href="/films"
+              className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-transparent text-white/52 border border-white/20 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
+            >
+              Visit the Otherworld
+            </Link>
+          </div>
+        </FadeInView>
+      </div>
     </section>
   )
 }

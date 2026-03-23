@@ -1,11 +1,6 @@
 import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
-
-const FUTURE_PROJECTS = [
-  { src: '/images/logotype-sinenoctis2.png', label: 'Sine Noctis 2', alt: 'SINE NOCTIS 2' },
-  { src: '/images/logotype-otherland.png', label: 'Otherland', alt: 'OTHERLAND' },
-  { src: '/images/logotype-sexsymbol.png', label: 'Sex Symbol', alt: 'SEX SYMBOL' },
-]
+import LunarNav from '@/components/LunarNav'
 
 export default function MythosSection() {
   return (
@@ -51,32 +46,23 @@ export default function MythosSection() {
           </p>
         </FadeInView>
 
-        {/* Divider */}
-        <div className="flex items-center gap-6 mb-20 md:mb-28">
-          <div className="flex-1 h-px bg-white/10" />
-          <span className="text-xs font-sans tracking-[0.2em] uppercase text-warm">What Comes Next</span>
-          <div className="flex-1 h-px bg-white/10" />
+        {/* Lunar navigation */}
+        <div className="mb-20 md:mb-28">
+          <LunarNav />
         </div>
 
-        {/* Future project logotypes */}
-        <div className="grid grid-cols-3 gap-8 md:gap-16 items-center">
-          {FUTURE_PROJECTS.map(({ src, alt, label }) => (
-            <div key={label} className="flex flex-col items-center gap-4">
-              <div className="w-full aspect-[3/1] relative">
-                <Image
-                  src={src}
-                  alt={alt}
-                  fill
-                  className="object-contain opacity-40 hover:opacity-70 transition-opacity duration-500"
-                  sizes="(max-width: 768px) 33vw, 300px"
-                />
-              </div>
-              <span className="text-[10px] md:text-xs font-sans tracking-[0.2em] uppercase text-white/20">
-                {label}
-              </span>
-            </div>
-          ))}
-        </div>
+        {/* What Comes Next — consolidated image */}
+        <FadeInView>
+          <div className="relative w-full aspect-[490/130] max-w-2xl mx-auto">
+            <Image
+              src="/images/whats-next.png"
+              alt="What Comes Next — Sine Noctis 2, Otherland, Sex Symbol"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 100vw, 672px"
+            />
+          </div>
+        </FadeInView>
       </div>
     </section>
   )

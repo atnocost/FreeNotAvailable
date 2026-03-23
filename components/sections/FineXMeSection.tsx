@@ -17,8 +17,8 @@ const GALLERY = [
   { src: '/images/bmw-red-wheel.avif', alt: 'BMW red wheel detail', caption: 'BMW wheel detail' },
   { src: '/images/fine-by-me-still.avif', alt: 'Fine By Me visual still', caption: 'Fine By Me' },
   { src: '/images/dusk-silhouette-two.avif', alt: 'Sunset silhouette with two figures', caption: 'Sunset' },
-  { src: '/images/fine-by-me-sunset.webp', alt: 'Dusk silhouette at the lot', caption: 'Dusk silhouette' },
-  { src: '/images/red-bokeh-portrait.avif', alt: 'Red bokeh portrait', caption: 'Red bokeh' },
+  { src: '/images/dusk-silhouette.avif', alt: 'Dusk silhouette at the lot', caption: 'Dusk silhouette' },
+  { src: '/images/red-bokeh-portrait.jpg', alt: 'Red bokeh portrait', caption: 'Red bokeh' },
 ]
 
 export default function FineXMeSection() {
@@ -39,7 +39,7 @@ export default function FineXMeSection() {
             <span className="text-xs font-pixel tracking-[0.2em] uppercase text-[#c0392b]/80 block mb-6">
               Act I
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#f5e6e0] tracking-wide">
+            <h2 className="font-big-caesar text-5xl md:text-6xl lg:text-7xl text-[#f5e6e0] tracking-wide">
               FINExME
             </h2>
           </div>

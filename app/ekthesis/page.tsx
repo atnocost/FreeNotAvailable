@@ -731,6 +731,35 @@ export default function EkthesisPage() {
           </AnimatedElement>
         </div>
       </AnimatedSection>
+
+      {/* ── Contact Block ── */}
+      <AnimatedSection id="contact" className="relative py-24 md:py-32 border-t border-white/5">
+        <div className="max-w-2xl mx-auto px-6 md:px-10 text-center">
+          <AnimatedElement custom={0}>
+            <span className="text-xs font-sans tracking-[0.2em] uppercase text-white/40 block mb-6">
+              Contact
+            </span>
+          </AnimatedElement>
+          <AnimatedElement custom={1}>
+            <h2 className="font-sans text-3xl md:text-4xl italic text-heading mb-4 tracking-wide">
+              Get in Touch
+            </h2>
+          </AnimatedElement>
+          <AnimatedElement custom={2}>
+            <p className="font-sans text-sm text-muted leading-relaxed mb-10 max-w-[50ch] mx-auto">
+              For press, editorial, booking, sync licensing, and brand partnerships.
+            </p>
+          </AnimatedElement>
+          <AnimatedElement custom={3}>
+            <a
+              href="mailto:booking@atnocost.cc"
+              className="inline-flex items-center justify-center px-10 py-3.5 border border-white/20 text-xs font-sans tracking-[0.18em] uppercase text-white/80 hover:text-white hover:border-white/50 hover:bg-white/5 transition-all duration-300"
+            >
+              booking@atnocost.cc
+            </a>
+          </AnimatedElement>
+        </div>
+      </AnimatedSection>
     </main>
   )
 }
