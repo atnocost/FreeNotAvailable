@@ -20,7 +20,7 @@ const FINEXME_FILMS = [
     videoUrl: 'https://www.youtube.com/watch?v=Bpc8srzl8jA',
   },
   {
-    title: 'Fine By Me',
+    title: 'FINE BY ME',
     slug: 'fine-by-me',
     role: 'Film',
     description:
@@ -380,37 +380,6 @@ export default function FilmsPage() {
               grayscale
             />
           ))}
-        </div>
-      </section>
-
-      {/* ---- Recognition / Opportunities ---- */}
-      <section
-        data-section-id="films-recognition"
-        className="relative section-padding border-t border-white/5"
-        aria-label="Recognition and Opportunities"
-      >
-        <div className="max-w-3xl mx-auto px-6 md:px-10 text-center">
-          <h2 className="font-sans text-3xl md:text-4xl italic text-heading mb-12 tracking-wide">
-            Recognition
-          </h2>
-
-          <div className="space-y-8 text-sm md:text-base leading-[1.85] text-muted">
-            <p>
-              Film Independent&rsquo;s Sony Music Vision Fellowship &mdash; a $10K grant
-              for filmmakers with music-driven projects &mdash; is the first institutional
-              target for this body of work.
-            </p>
-            <p>
-              Sundance, SXSW, and Tribeca form the submission pipeline for the
-              completed short films as they leave development.
-            </p>
-          </div>
-
-          <div className="mt-16 pt-12 border-t border-white/5">
-            <p className="font-sans text-xl md:text-2xl italic text-white/30 tracking-wide max-w-[40ch] mx-auto leading-relaxed">
-              Every film is a Greek vignette. Every vignette expands the Other World.
-            </p>
-          </div>
         </div>
       </section>
 

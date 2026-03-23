@@ -651,6 +651,28 @@ export default function EkthesisPage() {
         </AnimatedElement>
       </AnimatedSection>
 
+      {/* ═══ RECOGNITION ═══ */}
+      <AnimatedSection id="recognition">
+        <SectionLabel>Recognition</SectionLabel>
+        <SectionTitle>Opportunities</SectionTitle>
+        <AnimatedElement custom={2} className="font-sans text-sm leading-[1.8] text-muted max-w-[60ch] space-y-5 mb-16">
+          <p>
+            Film Independent&rsquo;s Sony Music Vision Fellowship &mdash; a $10K grant
+            for filmmakers with music-driven projects &mdash; is the first institutional
+            target for this body of work.
+          </p>
+          <p>
+            Sundance, SXSW, and Tribeca form the submission pipeline for the
+            completed short films as they leave development.
+          </p>
+        </AnimatedElement>
+        <AnimatedElement custom={3} className="border border-white/10 p-6 text-center">
+          <p className="font-sans text-xl md:text-2xl italic text-white/30 tracking-wide max-w-[40ch] mx-auto leading-relaxed">
+            Every film is a Greek vignette. Every vignette expands the Other World.
+          </p>
+        </AnimatedElement>
+      </AnimatedSection>
+
       {/* ═══ 12. PROJECTIONS + CONTACT ═══ */}
       <AnimatedSection id="projections" className="border-t-0">
         <SectionLabel>Projections</SectionLabel>
@@ -723,7 +745,7 @@ export default function EkthesisPage() {
 
           <AnimatedElement custom={7} className="flex flex-col items-center gap-6 pt-8 border-t border-white/5">
             <div className="relative w-10 h-10 opacity-30">
-              <Image src="/images/owjv-cherub.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
+              <Image src="/images/owjv-cherub-transparent.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
             </div>
             <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30">
               &copy; 2024&ndash;2026 Creative Minds Coalition &times; OWJV &mdash; Detroit, MI
