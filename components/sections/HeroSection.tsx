@@ -39,12 +39,12 @@ export default function HeroSection() {
 
         {/* FREE logo — forced white */}
         <FadeInView delay={0.15}>
-          <div className="relative h-[180px] md:h-[380px] w-auto mb-3.5">
+          <div className="relative h-[72px] md:h-[160px] w-auto mb-3.5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/free-logotype.svg"
               alt="FREE"
-              className="h-full w-auto object-contain object-left [filter:brightness(0)_invert(1)]"
+              className="h-full w-auto object-contain object-left origin-left scale-[1.8] md:scale-[1.6] [filter:brightness(0)_invert(1)]"
             />
           </div>
         </FadeInView>

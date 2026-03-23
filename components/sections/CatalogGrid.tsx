@@ -13,7 +13,7 @@ const PROJECTS = [
   },
   {
     act: 'Act II',
-    title: 'SINE NOCTIS',
+    title: 'SINENOCTIS',
     desc: 'Three movements. Monochrome. One descent.',
     cover: '/images/sinenoctis-cover.avif',
     href: '/sinenoctis',

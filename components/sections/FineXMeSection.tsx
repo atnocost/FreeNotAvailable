@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
-import AutoplayVideo from '@/components/ui/AutoplayVideo'
 
 const TRACKLIST = [
   { num: '01', title: 'Fine By Me', spotify: 'https://open.spotify.com/track/1bDsTY39ICcA0DlBkiFDDv', apple: 'https://music.apple.com/us/album/fine-by-me/1724039694?i=1724039695' },
@@ -170,23 +169,6 @@ export default function FineXMeSection() {
         </div>
       </section>
 
-      {/* ANTE Transition */}
-      <section
-        id="threshold"
-        data-section-id="threshold"
-        className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
-        aria-label="Threshold between eras"
-      >
-        <div className="absolute inset-0">
-          <AutoplayVideo
-            src="/videos/ante-loop.mp4"
-            poster="/images/ante-doorway.avif"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#1a0505]/60 via-black/40 to-[#0f0f0f]/80" />
-        </div>
-        <div className="absolute inset-0 vignette" />
-      </section>
     </>
   )
 }

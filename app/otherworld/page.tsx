@@ -16,7 +16,7 @@ const SECTIONS = [
   },
   {
     label: 'Act II',
-    title: 'SINE NOCTIS',
+    title: 'SINENOCTIS',
     desc: 'Three movements. Monochrome. One descent.',
     href: '/sinenoctis',
     image: '/images/sinenoctis-cover.avif',

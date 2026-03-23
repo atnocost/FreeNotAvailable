@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
+import AutoplayVideo from '@/components/ui/AutoplayVideo'
 
 const TRACKLIST = [
   { num: '01', title: 'Al B. Sure!/Donell Jones', spotify: null, apple: null },
@@ -18,6 +19,25 @@ const GALLERY = [
 
 export default function SineNoctisSection() {
   return (
+    <>
+      {/* ANTE Transition */}
+      <section
+        id="threshold"
+        data-section-id="threshold"
+        className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
+        aria-label="Threshold between eras"
+      >
+        <div className="absolute inset-0">
+          <AutoplayVideo
+            src="/videos/ante-loop.mp4"
+            poster="/images/ante-doorway.avif"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#1a0505]/60 via-black/40 to-[#0f0f0f]/80" />
+        </div>
+        <div className="absolute inset-0 vignette" />
+      </section>
+
     <section
       id="sinenoctis"
       data-section-id="sinenoctis"
@@ -158,5 +178,6 @@ export default function SineNoctisSection() {
         </div>
       </div>
     </section>
+    </>
   )
 }

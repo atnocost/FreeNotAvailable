@@ -334,16 +334,19 @@ export default function FilmsPage() {
       {/* ---- Pilgrim Interlude ---- */}
       <section className="relative h-[320px] overflow-hidden" aria-label="Pilgrim interlude">
         <Image
-          src="/images/pilgrim-film.jpg"
+          src="/images/pilgrim-divider.jpg"
           alt="Pilgrim — reaching into snow"
           fill
           className="object-cover object-[center_20%] opacity-[0.28] grayscale-[0.2]"
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-canvas via-transparent to-canvas" />
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
           <span className="text-xs font-sans tracking-[0.2em] uppercase text-white/30">
             Interlude · Pilgrim
+          </span>
+          <span className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 border border-white/15 px-5 py-2 hover:text-white/50 hover:border-white/30 transition-all cursor-default">
+            Coming Soon
           </span>
         </div>
       </section>
