@@ -27,7 +27,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-[10px] font-sans tracking-[0.1em] text-white/15">
-          &copy; {new Date().getFullYear()} FREE. All rights reserved.
+          &copy; 2026 Other Worldly, Just Visiting. All Rights Reserved.
         </p>
       </div>
     </footer>

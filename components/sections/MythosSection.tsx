@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
 import LunarNav from '@/components/LunarNav'
 
@@ -51,16 +50,27 @@ export default function MythosSection() {
           <LunarNav />
         </div>
 
-        {/* What Comes Next — consolidated image */}
+        {/* What Comes Next — built as HTML */}
         <FadeInView>
-          <div className="relative w-full aspect-[490/130] max-w-2xl mx-auto">
-            <Image
-              src="/images/whats-next.png"
-              alt="What Comes Next — Sine Noctis 2, Otherland, Sex Symbol"
-              fill
-              className="object-contain"
-              sizes="(max-width: 768px) 100vw, 672px"
-            />
+          <div className="max-w-2xl mx-auto text-center pointer-events-none select-none">
+            <div className="flex items-center gap-4 mb-10">
+              <div className="flex-1 h-px bg-white/10" />
+              <span className="text-[9px] tracking-[0.3em] uppercase text-white/20 font-sans">
+                What Comes Next
+              </span>
+              <div className="flex-1 h-px bg-white/10" />
+            </div>
+            <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+                SINENOCTIS 2
+              </h3>
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+                OTHERLAND
+              </h3>
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+                SEX SYMBOL
+              </h3>
+            </div>
           </div>
         </FadeInView>
       </div>

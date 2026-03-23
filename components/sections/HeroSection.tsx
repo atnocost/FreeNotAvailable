@@ -39,13 +39,12 @@ export default function HeroSection() {
 
         {/* FREE logo — forced white */}
         <FadeInView delay={0.15}>
-          <div className="relative h-[54px] md:h-[130px] w-auto mb-3.5">
-            <Image
-              src="/images/logotype-free.png"
+          <div className="relative h-[72px] md:h-[160px] w-auto mb-3.5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/free-logotype.svg"
               alt="FREE"
-              fill
-              className="object-contain object-left brightness-0 invert"
-              sizes="(max-width: 768px) 200px, 400px"
+              className="h-full w-auto object-contain object-left [filter:brightness(0)_invert(1)]"
             />
           </div>
         </FadeInView>
@@ -61,13 +60,13 @@ export default function HeroSection() {
         <FadeInView delay={0.35}>
           <div className="flex gap-2.5">
             <Link
-              href="/#finexme"
+              href="/#links"
               className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-white text-black rounded-[2px] font-sans font-normal hover:bg-white/90 transition-colors"
             >
               Hear
             </Link>
             <Link
-              href="/films"
+              href="/otherworld"
               className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-transparent text-white/52 border border-white/20 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
             >
               Visit the Otherworld

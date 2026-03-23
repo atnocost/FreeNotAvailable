@@ -172,3 +172,15 @@ section[id] {
 @utility section-padding {
   padding-block: var(--section-padding);
 }
+
+/* Vinyl tap-to-reveal on mobile */
+@media (max-width: 767px) {
+  img[data-tapped] {
+    filter: brightness(0.45) !important;
+    transform: scale(1.02) translateY(-4px) !important;
+  }
+  div[data-tapped] {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}

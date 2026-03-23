@@ -11,9 +11,9 @@ import Link from 'next/link'
 type NavLink = { label: string; href: string }
 
 const NAV_LINKS: NavLink[] = [
-  { label: 'OTHERWORLD', href: '/#mythos' },
+  { label: 'OTHERWORLD', href: '/otherworld' },
   { label: 'FILMS', href: '/films' },
-  { label: 'HEAR', href: '/#finexme' },
+  { label: 'HEAR', href: '/#links' },
 ]
 
 /* ------------------------------------------------------------------ */
@@ -55,7 +55,7 @@ export default function Nav() {
       {/* OWJV cherub logo */}
       <Link href="/" className="relative w-11 h-11">
         <Image
-          src="/images/owjv_white.jpeg"
+          src="/images/owjv_black.jpeg"
           alt="OWJV"
           fill
           className="object-contain mix-blend-screen"
@@ -83,7 +83,7 @@ export default function Nav() {
 
       {/* Visit CTA */}
       <Link
-        href="/films"
+        href="/otherworld"
         className="hidden md:block text-[9px] tracking-[0.14em] uppercase py-1.5 px-[18px] border border-white/22 text-white/55 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
       >
         Visit
@@ -135,7 +135,7 @@ export default function Nav() {
             <li className="h-px bg-white/10" aria-hidden="true" />
             <li>
               <Link
-                href="/films"
+                href="/otherworld"
                 onClick={() => setMenuOpen(false)}
                 className="text-sm tracking-[0.15em] uppercase text-white/45 hover:text-white"
               >

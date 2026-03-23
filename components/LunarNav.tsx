@@ -31,7 +31,7 @@ const MOONS: Moon[] = [
     fullname: 'Fine x Me.',
     desc: 'Blood moon. The collision of craft and self. Where the personal becomes undeniable.',
     src: '/images/moon-finexme.png',
-    href: '/#finexme',
+    href: '/finexme',
   },
   {
     id: 'sinenoctis',
@@ -39,7 +39,7 @@ const MOONS: Moon[] = [
     fullname: 'Sine Noctis.',
     desc: 'Without night. Light through the dark. Sound that exists between the silences.',
     src: '/images/moon-sinenoctis.png',
-    href: '/#sinenoctis',
+    href: '/sinenoctis',
   },
   {
     id: 'sn2',
@@ -176,7 +176,7 @@ export default function LunarNav() {
               <p className="text-[9px] tracking-[0.26em] uppercase text-white/22 mb-3">
                 Other World Mythos
               </p>
-              <h3 className="font-big-caesar text-5xl md:text-7xl lg:text-[80px] leading-[0.95] text-white/90 mb-5">
+              <h3 className="font-big-caesar text-4xl md:text-6xl lg:text-[70px] leading-[1.05] text-white/90 mb-6">
                 {m.label}
               </h3>
               <p className="text-sm md:text-[14.5px] font-light leading-[1.68] text-white/50 max-w-[600px] mb-6">

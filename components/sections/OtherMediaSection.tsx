@@ -1,4 +1,5 @@
 'use client'
+import { useState } from 'react'
 import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
 
@@ -42,6 +43,8 @@ const PRODUCTS = [
 /* ------------------------------------------------------------------ */
 
 export default function OtherMediaSection() {
+  const [tapped, setTapped] = useState<string | null>(null)
+
   return (
     <section
       id="other-media"
@@ -55,29 +58,42 @@ export default function OtherMediaSection() {
           Physical / Other Media
         </p>
 
-        {/* Hover hint */}
-        <p className="text-center text-[8px] tracking-[0.18em] uppercase text-white/12 mb-7">
+        {/* Interaction hint */}
+        <p className="md:hidden text-center text-[8px] tracking-[0.18em] uppercase text-white/12 mb-7">
+          Tap each record to see what&rsquo;s inside
+        </p>
+        <p className="hidden md:block text-center text-[8px] tracking-[0.18em] uppercase text-white/12 mb-7">
           Hover each record to see what&rsquo;s inside
         </p>
 
         {/* Product cards — two vinyl mockups side by side */}
         <FadeInView className="mb-12 md:mb-14">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-            {PRODUCTS.map((p) => (
-              <div key={p.title} className="relative group cursor-default">
+            {PRODUCTS.map((p) => {
+              const isOpen = tapped === p.title
+              return (
+              <div
+                key={p.title}
+                className="relative group cursor-default md:cursor-default"
+                onClick={() => setTapped(isOpen ? null : p.title)}
+              >
                 {/* Vinyl mockup image */}
                 <div className="relative aspect-square">
                   <Image
                     src={p.src}
                     alt={`${p.title} vinyl record`}
                     fill
-                    className="object-contain transition-all duration-[600ms] ease-[cubic-bezier(0.25,0,0,1)] group-hover:scale-[1.02] group-hover:-translate-y-1 group-hover:brightness-[0.45]"
+                    className="object-contain transition-all duration-[600ms] ease-[cubic-bezier(0.25,0,0,1)] md:group-hover:scale-[1.02] md:group-hover:-translate-y-1 md:group-hover:brightness-[0.45]"
+                    data-tapped={isOpen || undefined}
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
 
-                {/* Hover overlay */}
-                <div className="absolute inset-0 flex flex-col justify-end p-7 md:p-8 opacity-0 translate-y-2.5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-400 ease-[cubic-bezier(0.25,0,0,1)] pointer-events-none">
+                {/* Hover/tap overlay */}
+                <div
+                  className="absolute inset-0 flex flex-col justify-end p-7 md:p-8 transition-all duration-400 ease-[cubic-bezier(0.25,0,0,1)] pointer-events-none opacity-0 translate-y-2.5 md:group-hover:opacity-100 md:group-hover:translate-y-0"
+                  data-tapped={isOpen || undefined}
+                >
                   <p className="text-[8px] tracking-[0.22em] uppercase text-white/40 mb-1">
                     {p.act}
                   </p>
@@ -117,7 +133,8 @@ export default function OtherMediaSection() {
                   </span>
                 </div>
               </div>
-            ))}
+              )
+            })}
           </div>
         </FadeInView>
 
@@ -190,7 +207,7 @@ export default function OtherMediaSection() {
               &ldquo;Be The First Visitor When Pressing Is Ready.&rdquo;
             </p>
             <p className="text-[11px] text-white/28 leading-[1.75] mb-6">
-              Both records are in development. Drop your email and select your
+              Vinyl is in development. Drop your email and select your
               title — waitlist members get first access before any public
               announcement.
             </p>
