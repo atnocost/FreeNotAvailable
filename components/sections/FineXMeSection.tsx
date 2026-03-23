@@ -44,7 +44,7 @@ export default function FineXMeSection() {
           </div>
 
           {/* Manifesto text */}
-          <FadeInView className="max-w-2xl mb-20 md:mb-28">
+          <FadeInView className="max-w-2xl mb-12 md:mb-16">
             <p className="font-sans text-2xl md:text-3xl italic leading-relaxed text-[#f5e6e0]/90 mb-8">
               In today&rsquo;s R&amp;B, men rarely make music that yearns anymore.
             </p>
@@ -56,6 +56,26 @@ export default function FineXMeSection() {
               breathes in warm reds and amber, every beat a slow pulse in a room where
               someone just left.
             </p>
+          </FadeInView>
+
+          {/* Streaming links */}
+          <FadeInView className="flex gap-3 mb-20 md:mb-28">
+            <a
+              href="https://open.spotify.com/album/7qa4temn9cmuwiSPTwbf8c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-white text-black rounded-[2px] font-sans hover:bg-white/90 transition-colors"
+            >
+              Spotify
+            </a>
+            <a
+              href="https://music.apple.com/us/album/finexme/1724039694"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 border border-white/20 text-white/52 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
+            >
+              Apple Music
+            </a>
           </FadeInView>
 
           {/* Cover art */}

@@ -55,6 +55,13 @@ export default function SineNoctisSection() {
           </h2>
         </div>
 
+        {/* Streaming links */}
+        <FadeInView className="flex gap-3 mb-20 md:mb-28">
+          <span className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 border border-white/15 text-white/25 rounded-[2px] font-sans cursor-default">
+            Coming Soon
+          </span>
+        </FadeInView>
+
         {/* Cover art */}
         <div className="relative mb-20 md:mb-28">
           <div className="relative aspect-square max-w-md mx-auto">
