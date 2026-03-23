@@ -9,6 +9,7 @@ import Image from 'next/image'
 type Moon = {
   id: string
   label: string
+  displayTitle?: string  // Big Caesar rendering (no spaces)
   fullname: string
   desc: string
   src: string
@@ -36,6 +37,7 @@ const MOONS: Moon[] = [
   {
     id: 'sinenoctis',
     label: 'SINE NOCTIS',
+    displayTitle: 'SINENOCTIS',
     fullname: 'Sine Noctis.',
     desc: 'Without night. Light through the dark. Sound that exists between the silences.',
     src: '/images/moon-sinenoctis.png',
@@ -177,7 +179,7 @@ export default function LunarNav() {
                 Other World Mythos
               </p>
               <h3 className="font-big-caesar text-4xl md:text-6xl lg:text-[70px] leading-[1.05] text-white/90 mb-6">
-                {m.label}
+                {m.displayTitle || m.label}
               </h3>
               <p className="text-sm md:text-[14.5px] font-light leading-[1.68] text-white/50 max-w-[600px] mb-6">
                 {m.fullname} {m.desc}

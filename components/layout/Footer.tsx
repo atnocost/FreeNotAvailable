@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="relative py-16 md:py-24 border-t border-white/5">
       <div className="max-w-6xl mx-auto px-6 md:px-10 flex flex-col items-center gap-8">
         {/* OWJV cherub logo */}
-        <div className="relative w-12 h-12 md:w-16 md:h-16 opacity-40">
+        <div className="relative w-20 h-20 md:w-28 md:h-28 opacity-40">
           <Image
-            src="/images/owjv-cherub.png"
+            src="/images/owjv-cherub-transparent.png"
             alt="OWJV"
             fill
             className="object-contain"

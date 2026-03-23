@@ -55,10 +55,10 @@ export default function Nav() {
       {/* OWJV cherub logo */}
       <Link href="/" className="relative w-11 h-11">
         <Image
-          src="/images/owjv_black.jpeg"
+          src="/images/owjv-logo.png"
           alt="OWJV"
           fill
-          className="object-contain mix-blend-screen"
+          className="object-contain"
           sizes="44px"
           priority
         />

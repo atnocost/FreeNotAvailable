@@ -44,6 +44,7 @@ const PRODUCTS = [
 
 export default function OtherMediaSection() {
   const [tapped, setTapped] = useState<string | null>(null)
+  const [selected, setSelected] = useState<string | null>(null)
 
   return (
     <section
@@ -223,7 +224,12 @@ export default function OtherMediaSection() {
               {['FINExME', 'SINE NOCTIS', 'Both'].map((opt) => (
                 <button
                   key={opt}
-                  className="py-1.5 px-3.5 border border-white/10 text-white/28 text-[8px] tracking-[0.12em] uppercase hover:border-white/35 hover:text-white/70 hover:bg-white/[0.04] transition-all"
+                  onClick={() => setSelected(selected === opt ? null : opt)}
+                  className={`py-1.5 px-3.5 border text-[8px] tracking-[0.12em] uppercase transition-all cursor-pointer ${
+                    selected === opt
+                      ? 'border-white/50 text-white/90 bg-white/[0.08]'
+                      : 'border-white/10 text-white/28 hover:border-white/35 hover:text-white/70 hover:bg-white/[0.04]'
+                  }`}
                 >
                   {opt}
                 </button>

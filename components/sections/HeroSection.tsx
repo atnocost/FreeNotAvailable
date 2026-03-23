@@ -39,7 +39,7 @@ export default function HeroSection() {
 
         {/* FREE logo — forced white */}
         <FadeInView delay={0.15}>
-          <div className="relative h-[72px] md:h-[160px] w-auto mb-3.5">
+          <div className="relative h-[180px] md:h-[380px] w-auto mb-3.5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/free-logotype.svg"
