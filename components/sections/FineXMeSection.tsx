@@ -140,9 +140,9 @@ export default function FineXMeSection() {
                 ))}
               </ol>
               {/* THIS IS A COLLECTION OF DEMOS dedication */}
-              <div className="mt-16 pt-8 border-t border-white/5">
-                <p className="font-sans text-xl md:text-2xl italic text-white/30 tracking-wide">
-                  THIS IS A COLLECTION OF DEMOS
+              <div className="mt-16 pt-10 border-t border-white/8 text-center">
+                <p className="text-[10px] tracking-[0.35em] uppercase text-white/18 font-sans font-light">
+                  This Is a Collection of Demos
                 </p>
               </div>
             </div>
