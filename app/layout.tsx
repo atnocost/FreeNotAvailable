@@ -4,7 +4,7 @@ import Nav from '@/components/layout/Nav'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://atnocost.vercel.app'),
+  metadataBase: new URL('https://atnocost.cc'),
   title: {
     template: '%s | FREE',
     default: 'FREE — Other World Mythos',

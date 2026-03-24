@@ -44,7 +44,7 @@ const CLIPS: readonly Clip[] = [
   {
     id: 'SineNoctisTeaser',
     title: 'SINE NOCTIS Teaser',
-    description: <>The three-part descent: <a href="/films#ante" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">ANTE</a>, <a href="/films#vespera" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">VESPERA</a>, <a href="/films#noctem" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">NOCTEM</a>. Greyscale cuts from the <em className="text-[#d0d0d0]">SINE NOCTIS</em> trilogy, recut for short-form.</>,
+    description: <>The three-part descent: <a href="/films#ante" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">ANTE</a>, <a href="/films#vespera" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">VESPERA</a>, <a href="/films#noctem" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">NOCTEM</a>. Grayscale cuts from the <em className="text-[#d0d0d0]">SINE NOCTIS</em> trilogy, recut for short-form.</>,
     format: '9:16 Vertical',
     duration: '30s',
     platforms: ['TikTok', 'Instagram Reels', 'YouTube Shorts'],
@@ -80,7 +80,7 @@ const CLIPS: readonly Clip[] = [
   {
     id: 'FilmReel',
     title: 'Film Reel',
-    description: <>Hard cuts, slow zoom, no text. Sixty seconds across all <a href="/films" className="text-[#d4a574] italic hover:underline focus-visible:ring-1 focus-visible:ring-warm/50 focus-visible:outline-none rounded-sm">eleven source films</a>. Let the work speak.</>,
+    description: <>Hard cuts, slow zoom, no text. Sixty seconds across all <a href="/films" className="text-[#d4a574] italic hover:underline focus-visible:ring-1 focus-visible:ring-warm/50 focus-visible:outline-none rounded-sm">six source films</a>. Let the work speak.</>,
     format: '16:9 Landscape',
     duration: '60s',
     platforms: ['YouTube', 'Website'],
@@ -199,7 +199,7 @@ export default function ClipsPage() {
               <h3 className="font-sans text-lg text-heading">Film Reel</h3>
               <span className="text-[10px] font-sans tracking-[0.2em] uppercase text-[#d4a574]">16:9 / 60s</span>
             </div>
-            <p className="font-sans text-sm text-muted">Hard cuts, slow zoom, no text. Sixty seconds across all eleven source films. Let the work speak.</p>
+            <p className="font-sans text-sm text-muted">Hard cuts, slow zoom, no text. Sixty seconds across all six source films. Let the work speak.</p>
           </div>
         </div>
       </section>
