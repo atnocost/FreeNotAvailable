@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import FadeInView from '@/components/ui/FadeInView'
 
 const GALLERY = [
@@ -71,6 +72,28 @@ export default function PilgrimSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Continue */}
+        <div className="flex justify-between items-center">
+          <Link
+            href="/finexme"
+            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+          >
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+              <path d="M10 6H2M5 3L2 6l3 3" />
+            </svg>
+            Act I &mdash; FINExME
+          </Link>
+          <Link
+            href="/films"
+            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+          >
+            Films
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+              <path d="M2 6h8M7 3l3 3-3 3" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

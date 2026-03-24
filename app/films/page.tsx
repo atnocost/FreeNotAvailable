@@ -107,6 +107,7 @@ function PlayIcon() {
 /* ------------------------------------------------------------------ */
 
 function FilmCard({
+  slug,
   title,
   role,
   description,
@@ -117,6 +118,7 @@ function FilmCard({
   grayscale,
   accentColor,
 }: {
+  slug: string
   title: string
   role: string
   description: string
@@ -191,6 +193,7 @@ function FilmCard({
 
   return (
     <article
+      id={slug}
       className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center ${
         index > 0 ? 'mt-24 md:mt-32' : ''
       }`}
@@ -318,6 +321,7 @@ export default function FilmsPage() {
           {FINEXME_FILMS.map((film, i) => (
             <FilmCard
               key={film.slug}
+              slug={film.slug}
               title={film.title}
               role={film.role}
               description={film.description}
@@ -373,6 +377,7 @@ export default function FilmsPage() {
           {SINENOCTIS_FILMS.map((film, i) => (
             <FilmCard
               key={film.slug}
+              slug={film.slug}
               title={film.title}
               role={film.role}
               description={film.description}

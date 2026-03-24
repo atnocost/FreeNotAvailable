@@ -203,6 +203,10 @@ export default function EkthesisPage() {
               <p className="font-sans text-sm leading-[1.8] text-muted mb-3">
                 A collection of demos, sequenced into a cohesive narrative. 7 tracks. Vibrant reds
                 and neon accents against shadow work. Passion and rawness, unpolished on purpose.
+                An exercise in romantic fatalism&mdash;tracks that circle the drain of a relationship
+                with the kind of quiet obsession that makes you check your phone at 2AM knowing
+                nothing good is coming. The production breathes in warm reds and amber, every beat
+                a slow pulse in a room where someone just left.
               </p>
               <div className="font-mono text-xs text-white/30 space-y-1">
                 <div>Production: Mookie Magnolia, Ashton Woods, Worst Choice, Brando Heat</div>
@@ -227,7 +231,12 @@ export default function EkthesisPage() {
               </div>
               <p className="font-sans text-sm leading-[1.8] text-muted mb-3">
                 The icy follow-up. Three tracks. Grayscale. Alone this time. Stillness on the
-                surface, something heavier underneath.
+                surface, something heavier underneath. Where FINExME was instinct and accident,
+                this is measured and deliberate. Van Gogh and Thin Ice Freestyle were written and
+                recorded back to back in a single session overseas&mdash;conceived not as experiments
+                but as declarations. Color is stripped entirely. The architecture, street corners,
+                and amber-lit corridors become the only set&mdash;monochrome, repeating, voyeuristic.
+                The Alpinestars jacket replaces the BMW as the protective shell.
               </p>
               <div className="font-mono text-xs text-white/30 space-y-1">
                 <div>Production: FREE, HNMadeThisOne, Eli Myles</div>
@@ -821,10 +830,10 @@ export default function EkthesisPage() {
           </AnimatedElement>
           <AnimatedElement custom={3}>
             <a
-              href="mailto:booking@atnocost.cc"
+              href="mailto:freeisavailable@atnocost.cc"
               className="inline-flex items-center justify-center px-10 py-3.5 border border-white/20 text-xs font-sans tracking-[0.18em] uppercase text-white/80 hover:text-white hover:border-white/50 hover:bg-white/5 transition-all duration-300"
             >
-              booking@atnocost.cc
+              freeisavailable@atnocost.cc
             </a>
           </AnimatedElement>
         </div>

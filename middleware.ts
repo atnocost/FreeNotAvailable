@@ -21,14 +21,19 @@ export function middleware(req: NextRequest) {
 
   /* ── Ekthesis token gate ── */
   if (req.nextUrl.pathname.startsWith('/ekthesis')) {
+    // Gate page is always accessible
+    if (req.nextUrl.pathname === '/ekthesis/gate') {
+      return NextResponse.next()
+    }
+
     const token = req.nextUrl.searchParams.get('token')
 
     if (token && VALID_TOKENS.has(token)) {
       return NextResponse.next()
     }
 
-    // No token or invalid token — redirect silently to homepage
-    return NextResponse.redirect(new URL('/', req.url))
+    // No token or invalid token — show the gate page
+    return NextResponse.rewrite(new URL('/ekthesis/gate', req.url))
   }
 
   return NextResponse.next()

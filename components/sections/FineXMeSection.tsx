@@ -1,14 +1,15 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import FadeInView from '@/components/ui/FadeInView'
 
 const TRACKLIST = [
-  { num: '01', title: 'Fine By Me', spotify: 'https://open.spotify.com/track/1bDsTY39ICcA0DlBkiFDDv', apple: 'https://music.apple.com/us/album/fine-by-me/1724039694?i=1724039695' },
-  { num: '02', title: 'Twins', spotify: 'https://open.spotify.com/track/3gGDqcfkXGhC3djgbglAom', apple: 'https://music.apple.com/us/album/twins/1724039694?i=1724039696' },
-  { num: '03', title: 'Chambers', spotify: 'https://open.spotify.com/track/0bSisXV76kUMxJSIMsUPbN', apple: 'https://music.apple.com/us/album/chambers/1724039694?i=1724039697' },
-  { num: '04', title: 'Flo', spotify: 'https://open.spotify.com/track/7zGYtI2yueti0HpEKmQlni', apple: 'https://music.apple.com/us/album/flo/1724039694?i=1724039698' },
-  { num: '05', title: 'Zodiac Killer', spotify: 'https://open.spotify.com/track/3R5F18TT6SwbV6a9bD1bkh', apple: 'https://music.apple.com/us/album/zodiac-killer/1724039694?i=1724039699' },
-  { num: '06', title: 'Maybe', spotify: 'https://open.spotify.com/track/3JT3Oj6jsTS855v3Y2qazP', apple: 'https://music.apple.com/us/album/maybe/1724039694?i=1724039700' },
-  { num: '07', title: 'Pilgrim', spotify: 'https://open.spotify.com/track/39JXoG0CZxHFRiWwg29zi4', apple: 'https://music.apple.com/us/album/pilgrim/1724039694?i=1724039701' },
+  { num: '01', title: 'Fine By Me', spotify: 'https://open.spotify.com/track/1bDsTY39ICcA0DlBkiFDDv', apple: 'https://music.apple.com/us/album/fine-by-me/1724039694?i=1724039695', tidal: 'https://tidal.com/track/338087354' },
+  { num: '02', title: 'Twins', spotify: 'https://open.spotify.com/track/3gGDqcfkXGhC3djgbglAom', apple: 'https://music.apple.com/us/album/twins/1724039694?i=1724039696', tidal: 'https://tidal.com/track/338087356' },
+  { num: '03', title: 'Chambers', spotify: 'https://open.spotify.com/track/0bSisXV76kUMxJSIMsUPbN', apple: 'https://music.apple.com/us/album/chambers/1724039694?i=1724039697', tidal: 'https://tidal.com/track/338087358' },
+  { num: '04', title: 'Flo', spotify: 'https://open.spotify.com/track/7zGYtI2yueti0HpEKmQlni', apple: 'https://music.apple.com/us/album/flo/1724039694?i=1724039698', tidal: 'https://tidal.com/track/338087360' },
+  { num: '05', title: 'Zodiac Killer', spotify: 'https://open.spotify.com/track/3R5F18TT6SwbV6a9bD1bkh', apple: 'https://music.apple.com/us/album/zodiac-killer/1724039694?i=1724039699', tidal: 'https://tidal.com/track/338087362' },
+  { num: '06', title: 'Maybe', spotify: 'https://open.spotify.com/track/3JT3Oj6jsTS855v3Y2qazP', apple: 'https://music.apple.com/us/album/maybe/1724039694?i=1724039700', tidal: 'https://tidal.com/track/338087364' },
+  { num: '07', title: 'Pilgrim', spotify: 'https://open.spotify.com/track/39JXoG0CZxHFRiWwg29zi4', apple: 'https://music.apple.com/us/album/pilgrim/1724039694?i=1724039701', tidal: 'https://tidal.com/track/338087366' },
 ]
 
 const GALLERY = [
@@ -166,7 +167,7 @@ export default function FineXMeSection() {
                 Tracklist
               </h3>
               <ol className="space-y-4">
-                {TRACKLIST.map(({ num, title, spotify, apple }) => (
+                {TRACKLIST.map(({ num, title, spotify, apple, tidal }) => (
                   <li key={num} className="flex items-baseline gap-4 group">
                     <span className="text-xs font-sans text-[#c0392b]/40 tabular-nums">{num}</span>
                     <span className="font-sans text-lg md:text-xl italic text-[#f5e6e0]/80 group-hover:text-[#f5e6e0] transition-colors">
@@ -200,6 +201,19 @@ export default function FineXMeSection() {
                           </svg>
                         </a>
                       )}
+                      {tidal && (
+                        <a
+                          href={tidal}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${title} on TIDAL`}
+                          className="text-white/30 hover:text-white transition-colors focus-visible:ring-1 focus-visible:ring-accent/50 focus-visible:outline-none rounded-sm"
+                        >
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12.012 3.992L8.008 7.996 4.004 3.992 0 7.996l4.004 4.004L8.008 8l4.004 4 4.004-4-4.004-4.004zm4.004 4.004l-4.004 4.004 4.004 4.004L20.02 12l3.98-4.004-3.98-4.004-4.004 4.004z"/>
+                          </svg>
+                        </a>
+                      )}
                     </span>
                     <span className="flex-1 border-b border-white/5" />
                   </li>
@@ -227,10 +241,23 @@ export default function FineXMeSection() {
           </div>
 
           {/* Credits */}
-          <div className="text-center">
+          <div className="text-center mb-20 md:mb-28">
             <p className="text-xs font-sans tracking-[0.15em] uppercase text-white/25">
               Creative Minds Coalition 2024 / OWJV 2024
             </p>
+          </div>
+
+          {/* Continue */}
+          <div className="text-center">
+            <Link
+              href="/sinenoctis"
+              className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+            >
+              Act II &mdash; SINE NOCTIS
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <path d="M2 6h8M7 3l3 3-3 3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>

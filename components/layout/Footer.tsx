@@ -25,6 +25,14 @@ export default function Footer() {
           </p>
         </div>
 
+        {/* Proposition */}
+        <a
+          href="/ekthesis"
+          className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/15 hover:text-white/30 transition-colors"
+        >
+          Proposition
+        </a>
+
         {/* Copyright */}
         <p className="text-[10px] font-sans tracking-[0.1em] text-white/15">
           &copy; 2026 Other Worldly, Just Visiting. All Rights Reserved.
