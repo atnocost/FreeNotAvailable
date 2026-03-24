@@ -304,7 +304,7 @@ export default function FilmsPage() {
             FILMS
           </h1>
           <p className="mt-4 font-sans text-lg md:text-xl italic text-white/50 tracking-wide">
-            The visual extensions of the Other World
+            The Other World in motion.
           </p>
         </div>
       </section>
