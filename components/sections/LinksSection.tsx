@@ -26,7 +26,7 @@ export default function LinksSection() {
             Find FREE somewhere
           </h2>
           <p className="font-sans text-sm text-white/40 mb-12 md:mb-16">
-            Streaming now on all platforms.
+            Streaming on all platforms.
           </p>
         </FadeInView>
 
