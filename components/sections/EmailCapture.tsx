@@ -16,7 +16,7 @@ export default function EmailCapture() {
             Don&rsquo;t Just Visit, Stay.
           </h2>
           <p className="font-sans text-xs md:text-sm text-white/35 leading-[1.75] mb-8 max-w-[42ch] mx-auto">
-            Early access when SINE NOCTIS drops. Exclusive world-building content. Ongoing mythology drops through the entire arc.
+            Every phase. Every chapter. You get there first.
           </p>
           <form
             onSubmit={(e) => {

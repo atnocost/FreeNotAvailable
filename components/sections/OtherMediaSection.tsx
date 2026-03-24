@@ -205,12 +205,10 @@ export default function OtherMediaSection() {
               Vinyl Waitlist
             </p>
             <p className="font-serif text-xl italic font-light text-white/82 leading-[1.45] mb-2">
-              &ldquo;Be The First Visitor When Pressing Is Ready.&rdquo;
+              &ldquo;Be The First Visitor.&rdquo;
             </p>
             <p className="text-[11px] text-white/28 leading-[1.75] mb-6">
-              Vinyl is in development. Drop your email and select your
-              title — waitlist members get first access before any public
-              announcement.
+              Not yet pressed. Claim yours before it exists.
             </p>
             <input
               type="email"
@@ -238,9 +236,6 @@ export default function OtherMediaSection() {
             <button className="w-full py-3 bg-white text-black text-[9px] tracking-[0.16em] uppercase border-none cursor-pointer hover:bg-white/90 transition-colors">
               Join the Waitlist
             </button>
-            <p className="text-[9px] text-white/16 mt-2.5 leading-[1.6]">
-              No noise. First access only. Unsubscribe anytime.
-            </p>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function EkthesisGate() {
 
         {/* Subtitle */}
         <p className="font-serif text-sm italic text-white/40 mb-10">
-          This document was prepared for you specifically.
+          This isn&rsquo;t public. You&rsquo;d know if it were.
         </p>
 
         {/* Request access */}
