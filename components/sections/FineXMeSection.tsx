@@ -49,12 +49,7 @@ export default function FineXMeSection() {
               In today&rsquo;s R&amp;B, men rarely make music that yearns anymore.
             </p>
             <p className="font-sans text-sm md:text-base leading-[1.8] text-[#f5e6e0]/60 max-w-[65ch]">
-              FREE occupies the grey area where deflection meets self-reflection.
-              FINExME is an exercise in romantic fatalism&mdash;seven tracks that circle
-              the drain of a relationship with the kind of quiet obsession that makes you
-              check your phone at 2AM knowing nothing good is coming. The production
-              breathes in warm reds and amber, every beat a slow pulse in a room where
-              someone just left.
+              Seven tracks. Instinct over intention. The kind of quiet obsession that makes you check your phone at 2AM.
             </p>
           </FadeInView>
 
@@ -75,6 +70,14 @@ export default function FineXMeSection() {
               className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 border border-white/20 text-white/52 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
             >
               Apple Music
+            </a>
+            <a
+              href="https://tidal.com/album/338087351"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 border border-white/20 text-white/52 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
+            >
+              TIDAL
             </a>
           </FadeInView>
 

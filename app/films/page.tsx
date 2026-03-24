@@ -343,7 +343,7 @@ export default function FilmsPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-canvas via-transparent to-canvas" />
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
           <span className="text-xs font-sans tracking-[0.2em] uppercase text-white/30">
-            Interlude · Pilgrim
+            Interlude &middot; Pilgrim
           </span>
           <span className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 border border-white/15 px-5 py-2 hover:text-white/50 hover:border-white/30 transition-all cursor-default">
             Coming Soon

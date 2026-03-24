@@ -11,8 +11,8 @@ const TRACKLIST = [
 const GALLERY = [
   { src: '/images/chromatic-portrait.avif', alt: 'Chromatic portrait', caption: 'Chromatic portrait' },
   { src: '/images/ante-doorway.avif', alt: 'Stone archway from ANTE', caption: 'Ante' },
-  { src: '/images/noctem-staircase.avif', alt: 'Noctem staircase scene', caption: 'Noctem' },
   { src: '/images/sn-street-1.avif', alt: 'VESPERA street scene', caption: 'Vespera' },
+  { src: '/images/noctem-staircase.avif', alt: 'Noctem staircase scene', caption: 'Noctem' },
   { src: '/images/continuity.avif', alt: 'The Armor — Alpinestars jacket against vine wall', caption: 'The Armor' },
   { src: '/images/bokeh-night.jpg', alt: 'Bokeh night photography', caption: 'Bokeh night' },
 ]
@@ -81,11 +81,8 @@ export default function SineNoctisSection() {
           <p className="font-sans text-2xl md:text-3xl italic leading-relaxed text-[#e8e8e8]/90 mb-8">
             Without the night, there is nothing.
           </p>
-          <p className="font-sans text-sm md:text-base leading-[1.8] text-[#d0d0d0]/60 max-w-[65ch] mb-6">
-            SINE NOCTIS &mdash; &lsquo;Without the night&rsquo; &mdash; is a three-track EP built from the other side of the experience. Where FINExME was instinct and accident, this is measured and deliberate. Van Gogh and Thin Ice Freestyle were written and recorded back to back in a single session overseas &mdash; conceived not as experiments but as declarations, each one a response to what FINExME left unfinished. The tone is colder, the framing tighter, and the intent unmistakable.
-          </p>
           <p className="font-sans text-sm md:text-base leading-[1.8] text-[#d0d0d0]/60 max-w-[65ch]">
-            The visual language shifts accordingly. Color is stripped entirely. The architecture, street corners, and amber-lit corridors become the only set &mdash; monochrome, repeating, voyeuristic. The Alpinestars jacket replaces the BMW as the protective shell. This is the world after reincarnation: familiar geography, different rules.
+            Three tracks from the other side. Colder. Deliberate. Same place, different territory.
           </p>
         </FadeInView>
 
@@ -97,7 +94,7 @@ export default function SineNoctisSection() {
             </p>
             <div className="space-y-4 text-sm md:text-base leading-[1.9]">
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/40 not-italic mr-3">Voice</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">You&rsquo;re late again.</span>
               </p>
               <p>
@@ -105,7 +102,7 @@ export default function SineNoctisSection() {
                 <span className="font-sans italic text-[#d0d0d0]/40">I didn&rsquo;t know there was still a clock running.</span>
               </p>
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/40 not-italic mr-3">Voice</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">It never stopped. You did.</span>
               </p>
             </div>
@@ -118,7 +115,7 @@ export default function SineNoctisSection() {
                 <span className="font-sans italic text-[#d0d0d0]/40">These don&rsquo;t feel like mine.</span>
               </p>
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/40 not-italic mr-3">Voice</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">They weren&rsquo;t, for a while.</span>
               </p>
             </div>
@@ -131,7 +128,7 @@ export default function SineNoctisSection() {
                 <span className="font-sans italic text-[#d0d0d0]/40">It smells like rain.</span>
               </p>
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/40 not-italic mr-3">Voice</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">Or what&rsquo;s left of it.</span>
               </p>
             </div>

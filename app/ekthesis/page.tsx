@@ -211,6 +211,7 @@ export default function EkthesisPage() {
               <div className="flex gap-4 mt-4">
                 <a href="https://open.spotify.com/album/7qa4temn9cmuwiSPTwbf8c" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-[0.15em] uppercase text-white/40 hover:text-accent transition-colors">Spotify</a>
                 <a href="https://music.apple.com/us/album/finexme/1724039694" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-[0.15em] uppercase text-white/40 hover:text-accent transition-colors">Apple Music</a>
+                <a href="https://tidal.com/album/338087351" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-[0.15em] uppercase text-white/40 hover:text-accent transition-colors">TIDAL</a>
               </div>
             </div>
           </AnimatedElement>
@@ -770,6 +771,14 @@ export default function EkthesisPage() {
               className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
             >
               Apple Music
+            </a>
+            <a
+              href="https://tidal.com/artist/45010274"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
+            >
+              TIDAL
             </a>
             <a
               href="https://www.youtube.com/@OWJV/videos"
