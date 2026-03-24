@@ -155,7 +155,7 @@ export default function SineNoctisSection() {
           ))}
         </div>
         <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
-          BTS photography by Khalil Copeland · Wardrobe by Kohl Fergerson for apt.315
+          Photography by Khalil Copeland · Wardrobe by Kohl DePaul for apt.315
         </p>
 
         {/* Tracklist */}

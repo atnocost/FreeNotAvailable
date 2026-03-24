@@ -159,7 +159,7 @@ export default function FineXMeSection() {
             ))}
           </div>
           <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
-            BTS photography by Khalil Copeland
+            Photography by Khalil Copeland · Wardrobe by Juulius Juul for Heliot Emil
           </p>
 
           {/* Tracklist + Back cover */}

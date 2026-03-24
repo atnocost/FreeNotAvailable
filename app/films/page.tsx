@@ -40,7 +40,7 @@ const SINENOCTIS_FILMS = [
     role: 'Teaser',
     description:
       'A dark doorway. Grayscale. What\u2019s on the other side doesn\u2019t have a name yet.',
-    credit: 'codenameblanco',
+    credit: 'Blanco',
     image: '/images/ante-doorway.avif',
     alt: 'Stone archway doorway from ANTE teaser',
     videoUrl: 'https://www.youtube.com/watch?v=0MZYQ8p_QEU',
@@ -51,7 +51,7 @@ const SINENOCTIS_FILMS = [
     role: 'Teaser II',
     description:
       'First evening in the new world. No urgency \u2014 just weight, and the slow return of feeling.',
-    credit: 'codenameblanco',
+    credit: 'Blanco',
     image: '/images/vespera-cover.avif',
     alt: 'European architecture at night from VESPERA',
     videoUrl: 'https://www.youtube.com/watch?v=UHIgUJa2fI4',
@@ -62,7 +62,7 @@ const SINENOCTIS_FILMS = [
     role: 'Trailer',
     description:
       'The night sharpens. He stops drifting and starts choosing.',
-    credit: 'codenameblanco',
+    credit: 'Blanco',
     image: '/images/noctem-cover.avif',
     alt: 'Bokeh night photography from NOCTEM trailer',
     videoUrl: 'https://www.youtube.com/watch?v=PSIpF980ZAE',
@@ -73,7 +73,7 @@ const SINENOCTIS_FILMS = [
     role: 'Full Visual',
     description:
       'Van Gogh and Thin Ice Freestyle. One jacket. One night. Every corridor leads somewhere he\u2019s already been.',
-    credit: 'codenameblanco',
+    credit: 'Blanco',
     image: '/images/sinenoctis-visual-cover.avif',
     alt: 'Alpinestars jacket portrait from SINE NOCTIS visual',
   },

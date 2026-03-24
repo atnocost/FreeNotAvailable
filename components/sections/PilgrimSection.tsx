@@ -55,7 +55,7 @@ export default function PilgrimSection() {
         </FadeInView>
 
         {/* Gallery grid */}
-        <div className="grid grid-cols-2 gap-3 md:gap-4 mb-20 md:mb-28">
+        <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6">
           {GALLERY.map(({ src, alt, caption }) => (
             <div key={src} className="gallery-item aspect-[3/4]">
               <Image
@@ -73,6 +73,9 @@ export default function PilgrimSection() {
             </div>
           ))}
         </div>
+        <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
+          Photography by Brandon Brown · Wardrobe by Raf Simons, Nike NOCTA, Heliot Emil
+        </p>
 
         {/* Continue */}
         <div className="flex justify-between items-center">
