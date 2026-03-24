@@ -14,7 +14,7 @@ const FINEXME_FILMS = [
     slug: 'at-no-cost',
     role: 'First Trailer',
     description:
-      'The prologue. Full-color, high-intensity reds and blacks. FREE\u2019s face is completely concealed. The Lady In Black is present as the unnamed counterpart, already framed as omen rather than love interest.',
+      'Full color. Face concealed. She appears before her name does.',
     image: '/images/red-portrait.avif',
     alt: 'Red-lit portrait from AT NO COST trailer',
     videoUrl: 'https://www.youtube.com/watch?v=Bpc8srzl8jA',
@@ -24,7 +24,7 @@ const FINEXME_FILMS = [
     slug: 'fine-by-me',
     role: 'Film',
     description:
-      'The first visual from the Other World. Shot on a gravel lot near the bridge, Fine By Me establishes FREE as The Faceless Man and The Lady In Black as the executor of consequence. The white BMW is his chariot through this night-world. The camera is a spy \u2014 long lenses, over-the-shoulder angles, and partial occlusions make every frame feel like a stolen moment.',
+      'Gravel lot. The bridge. A white BMW cutting through night. Every frame feels stolen \u2014 long glass, partial glimpses, two figures circling something they won\u2019t name.',
     image: '/images/dusk-silhouette-two.avif',
     alt: 'Dusk silhouette from Fine By Me',
     videoUrl: 'https://www.youtube.com/watch?v=hNwNaHOud-U',
@@ -37,7 +37,7 @@ const SINENOCTIS_FILMS = [
     slug: 'ante',
     role: 'Teaser',
     description:
-      'The liminal corridor between worlds. FREE emerging from a dark doorway, face still obscured. The footage is tight, grayscale, intimate. The doorway is his portal into the new world \u2014 the threshold between death and reincarnation.',
+      'A dark doorway. Grayscale. What\u2019s on the other side doesn\u2019t have a name yet.',
     image: '/images/ante-doorway.avif',
     alt: 'Stone archway doorway from ANTE teaser',
     videoUrl: 'https://www.youtube.com/watch?v=0MZYQ8p_QEU',
@@ -47,7 +47,7 @@ const SINENOCTIS_FILMS = [
     slug: 'vespera',
     role: 'Teaser II',
     description:
-      'Evening/dusk/evening star. FREE\u2019s first evening wandering this new world. Less shock, more numb, heavy melancholy. He drifts before the next set of temptations draws him in.',
+      'First evening in the new world. No urgency \u2014 just weight, and the slow return of feeling.',
     image: '/images/vespera-cover.avif',
     alt: 'European architecture at night from VESPERA',
     videoUrl: 'https://www.youtube.com/watch?v=UHIgUJa2fI4',
@@ -57,7 +57,7 @@ const SINENOCTIS_FILMS = [
     slug: 'noctem',
     role: 'Trailer',
     description:
-      'The plunge into the new night. This is where FREE begins to actively participate in this incarnation \u2014 making choices, setting up for what comes next.',
+      'The night sharpens. He stops drifting and starts choosing.',
     image: '/images/noctem-cover.avif',
     alt: 'Bokeh night photography from NOCTEM trailer',
     videoUrl: 'https://www.youtube.com/watch?v=PSIpF980ZAE',
@@ -67,7 +67,7 @@ const SINENOCTIS_FILMS = [
     slug: 'sine-noctis',
     role: 'Full Visual',
     description:
-      'A double visual for Van Gogh and Thin Ice Freestyle. The jacket replaces the BMW as the protective shell. FREE\u2019s face remains partially obscured through the corridors, streets, and stairwells of a single voyeuristic night.',
+      'Van Gogh and Thin Ice Freestyle. One jacket. One night. Every corridor leads somewhere he\u2019s already been.',
     image: '/images/sinenoctis-visual-cover.avif',
     alt: 'Alpinestars jacket portrait from SINE NOCTIS visual',
   },

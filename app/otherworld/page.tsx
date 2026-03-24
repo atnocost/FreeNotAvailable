@@ -37,7 +37,7 @@ export default function OtherworldPage() {
     <ScrollController>
       <GrainOverlay />
       <main className="pt-20">
-        <section className="relative section-padding" aria-label="Otherworld">
+        <section className="relative section-padding" aria-label="Other World">
           <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-10">
             {/* Heading */}
             <div className="mb-16 md:mb-24">
@@ -45,10 +45,10 @@ export default function OtherworldPage() {
                 Other World Mythos
               </span>
               <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#f2ede8] leading-[0.95] mb-6">
-                The Otherworld
+                The Other World
               </h1>
               <p className="font-sans text-sm md:text-base leading-[1.8] text-white/45 max-w-[55ch]">
-                Two acts. One universe. One destination. Everything inside the Other World Mythos lives here.
+                Everything lives here.
               </p>
             </div>
 

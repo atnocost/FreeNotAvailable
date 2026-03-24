@@ -69,7 +69,7 @@ export default function HeroSection() {
               href="/otherworld"
               className="text-[9px] tracking-[0.16em] uppercase py-2.5 px-7 bg-transparent text-white/52 border border-white/20 rounded-[2px] font-sans hover:text-white/80 hover:border-white/40 transition-all"
             >
-              Visit the Otherworld
+              Visit the Other World
             </Link>
           </div>
         </FadeInView>
