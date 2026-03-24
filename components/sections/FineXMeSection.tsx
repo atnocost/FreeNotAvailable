@@ -13,7 +13,7 @@ const TRACKLIST = [
 
 const GALLERY = [
   { src: '/images/red-portrait.avif', alt: 'Red-lit portrait', caption: 'Red-lit portrait' },
-  { src: '/images/bmw-red-wheel.avif', alt: 'BMW red wheel detail', caption: 'BMW wheel detail' },
+  { src: '/images/bmw-red-wheel.avif', alt: 'The Chariot — BMW through the night-world', caption: 'The Chariot' },
   { src: '/images/fine-by-me-still.avif', alt: 'Fine By Me visual still', caption: 'Fine By Me' },
   { src: '/images/dusk-silhouette-two.avif', alt: 'Sunset silhouette with two figures', caption: 'Sunset' },
   { src: '/images/dusk-silhouette.avif', alt: 'Dusk silhouette at the lot', caption: 'Dusk silhouette' },
@@ -91,6 +91,49 @@ export default function FineXMeSection() {
               <div className="absolute inset-0 vignette" />
             </div>
           </div>
+
+          {/* Manuscript excerpt */}
+          <FadeInView className="max-w-2xl mb-20 md:mb-28">
+            <div className="border-l border-[#c0392b]/20 pl-6 space-y-6">
+              <p className="font-sans text-sm md:text-base leading-[1.9] text-[#f5e6e0]/50 italic">
+                Streetlight smear drags across glass. Engine purr. Their reflection doubles in the window, two phantoms sharing one blur.
+              </p>
+              <div className="space-y-4 text-sm md:text-base leading-[1.9]">
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-[#c0392b]/40 not-italic mr-3">Her</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">You always drive like it&rsquo;s the last night on earth.</span>
+                </p>
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">Maybe it is. You&rsquo;d tell me if it wasn&rsquo;t, right?</span>
+                </p>
+                <p className="font-sans text-sm md:text-base leading-[1.9] text-[#f5e6e0]/35 italic">
+                  She smiles. Not warmth. A dare.
+                </p>
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-[#c0392b]/40 not-italic mr-3">Her</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">Would you slow down if I did?</span>
+                </p>
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">No. But I&rsquo;d think about it.</span>
+                </p>
+              </div>
+              <p className="font-sans text-sm md:text-base leading-[1.9] text-[#f5e6e0]/50 italic">
+                A turn. The world outside bleeds&mdash;red, gold, ghost-light. Her hand finds his throat; pulse meets pulse. Neither breaks gaze.
+              </p>
+              <div className="space-y-4 text-sm md:text-base leading-[1.9]">
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-[#c0392b]/40 not-italic mr-3">Her</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">You look different in the dark.</span>
+                </p>
+                <p className="text-[#f5e6e0]/35">
+                  <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
+                  <span className="font-sans italic text-[#f5e6e0]/50">That&rsquo;s the only time I&rsquo;m honest.</span>
+                </p>
+              </div>
+            </div>
+          </FadeInView>
 
           {/* Gallery grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-20 md:mb-28">

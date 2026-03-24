@@ -256,6 +256,44 @@ export default function EkthesisPage() {
           </div>
         </AnimatedElement>
 
+        {/* Mythology — the archetype key */}
+        <AnimatedElement custom={5}>
+          <details className="group border border-white/10 mb-16">
+            <summary className="list-none flex items-center gap-2 cursor-pointer p-6 md:p-10 select-none hover:text-white/60 focus-visible:ring-1 focus-visible:ring-accent/50 focus-visible:outline-none">
+              <span
+                className="text-accent text-xs transition-transform duration-200 group-open:rotate-90"
+                aria-hidden="true"
+              >&#9654;</span>
+              <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/40">
+                The Mythology &mdash; click to expand
+              </span>
+            </summary>
+            <div className="px-6 md:px-10 pb-6 md:pb-10 font-sans text-sm leading-[1.8] text-muted max-w-[60ch] space-y-5">
+              <p>
+                Every FREE project is a Greek vignette dressed in modern skin.
+                FREE is Prometheus&mdash;the one who steals fire not for the sake of
+                mankind, but to burn through every intimate encounter without
+                restraint. He overindulges, gives too much of himself, and gets
+                punished for it. Then he reincarnates and does it again.
+              </p>
+              <p>
+                The Lady In Black is the Eagle. She is consequence personified&mdash;the
+                figure who arrives when the bill comes due. She doesn&rsquo;t speak. She
+                doesn&rsquo;t negotiate. She executes. In every era she wears a
+                different face but the same intent: to collect what FREE owes
+                for loving recklessly.
+              </p>
+              <p>
+                The visual law follows accordingly. Voyeuristic framing, faces
+                partially obscured, intimacy shot from a distance that feels like
+                surveillance. Each project moves through a color logic&mdash;FINExME in
+                hot reds, SINE NOCTIS in strict monochrome&mdash;as if reincarnation
+                resets the palette along with the protagonist.
+              </p>
+            </div>
+          </details>
+        </AnimatedElement>
+
         {/* Future roadmap */}
         <AnimatedElement custom={5}>
           <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30 block mb-6">What comes next</span>

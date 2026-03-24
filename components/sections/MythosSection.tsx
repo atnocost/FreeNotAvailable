@@ -20,28 +20,22 @@ export default function MythosSection() {
           </h2>
         </div>
 
-        {/* Mythology explanation */}
-        <FadeInView className="max-w-2xl mb-20 md:mb-28 space-y-8">
-          <p className="font-sans text-sm md:text-base leading-[1.8] text-[#b5afa5] max-w-[65ch]">
-            Every FREE project is a Greek vignette dressed in modern skin.
-            FREE is <span className="text-warm">Prometheus</span>&mdash;the one who steals fire not for the sake of
-            mankind, but to burn through every intimate encounter without
-            restraint. He overindulges, gives too much of himself, and gets
-            punished for it. Then he reincarnates and does it again.
+        {/* Manuscript excerpt */}
+        <FadeInView className="max-w-2xl mb-20 md:mb-28 space-y-6">
+          <p className="font-sans text-sm md:text-base leading-[1.9] text-[#b5afa5]/70 italic max-w-[65ch]">
+            He crosses the same streets, carrying light that doesn&rsquo;t belong to him.
+            Puts it to skin. Watches it spread.
           </p>
-          <p className="font-sans text-sm md:text-base leading-[1.8] text-[#b5afa5] max-w-[65ch]">
-            The Lady In Black is the <span className="text-warm">Eagle</span>. She is consequence personified&mdash;the
-            figure who arrives when the bill comes due. She doesn&rsquo;t speak. She
-            doesn&rsquo;t negotiate. She executes. In every era she wears a
-            different face but the same intent: to collect what FREE owes
-            for loving recklessly.
+          <p className="font-sans text-sm md:text-base leading-[1.9] text-[#b5afa5]/70 italic max-w-[65ch]">
+            Until she&rsquo;s there. At the edge. Silent. Certain.
+            Face borrowed from another time.
           </p>
-          <p className="font-sans text-sm md:text-base leading-[1.8] text-[#b5afa5] max-w-[65ch]">
-            The visual law follows accordingly. Voyeuristic framing, faces
-            partially obscured, intimacy shot from a distance that feels like
-            surveillance. Each project moves through a color logic&mdash;FINExME in
-            hot reds, SINE NOCTIS in strict monochrome&mdash;as if reincarnation
-            resets the palette along with the protagonist.
+          <p className="font-sans text-sm md:text-base leading-[1.9] text-[#b5afa5]/70 italic max-w-[65ch]">
+            Eyes stay half-shut. Moments stolen through glass, shadow, distance.
+            Red bleeds in. White fades out. Black holds.
+          </p>
+          <p className="font-sans text-sm md:text-base leading-[1.9] text-[#b5afa5]/50 italic max-w-[65ch]">
+            What breaks once&hellip; waits only for the next hand to reach.
           </p>
         </FadeInView>
 

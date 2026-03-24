@@ -13,7 +13,7 @@ const GALLERY = [
   { src: '/images/ante-doorway.avif', alt: 'Stone archway from ANTE', caption: 'Ante' },
   { src: '/images/noctem-staircase.avif', alt: 'Noctem staircase scene', caption: 'Noctem' },
   { src: '/images/sn-street-1.avif', alt: 'VESPERA street scene', caption: 'Vespera' },
-  { src: '/images/continuity.avif', alt: 'Continuity - figure against vine wall', caption: 'Continuity' },
+  { src: '/images/continuity.avif', alt: 'The Armor — Alpinestars jacket against vine wall', caption: 'The Armor' },
   { src: '/images/bokeh-night.jpg', alt: 'Bokeh night photography', caption: 'Bokeh night' },
 ]
 
@@ -87,6 +87,55 @@ export default function SineNoctisSection() {
           <p className="font-sans text-sm md:text-base leading-[1.8] text-[#d0d0d0]/60 max-w-[65ch]">
             The visual language shifts accordingly. Color is stripped entirely. The architecture, street corners, and amber-lit corridors become the only set &mdash; monochrome, repeating, voyeuristic. The Alpinestars jacket replaces the BMW as the protective shell. This is the world after reincarnation: familiar geography, different rules.
           </p>
+        </FadeInView>
+
+        {/* Manuscript excerpt */}
+        <FadeInView className="max-w-2xl mb-20 md:mb-28">
+          <div className="border-l border-white/10 pl-6 space-y-6">
+            <p className="font-sans text-sm md:text-base leading-[1.9] text-[#d0d0d0]/40 italic">
+              Flickering light. Concrete breathes. A discarded lighter, a half-burnt photograph. A shape in the periphery. FREE&rsquo;s outline, barely.
+            </p>
+            <div className="space-y-4 text-sm md:text-base leading-[1.9]">
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">You&rsquo;re late again.</span>
+              </p>
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">I didn&rsquo;t know there was still a clock running.</span>
+              </p>
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">It never stopped. You did.</span>
+              </p>
+            </div>
+            <p className="font-sans text-sm md:text-base leading-[1.9] text-[#d0d0d0]/35 italic">
+              He studies his hands&mdash;pale, unfamiliar. A tremor runs through the silence.
+            </p>
+            <div className="space-y-4 text-sm md:text-base leading-[1.9]">
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">These don&rsquo;t feel like mine.</span>
+              </p>
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">They weren&rsquo;t, for a while.</span>
+              </p>
+            </div>
+            <p className="font-sans text-sm md:text-base leading-[1.9] text-[#d0d0d0]/35 italic">
+              The light gutters. Shadows drag across the walls. He looks up&mdash;a ceiling, maybe sky.
+            </p>
+            <div className="space-y-4 text-sm md:text-base leading-[1.9]">
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">It smells like rain.</span>
+              </p>
+              <p>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/20 not-italic mr-3">Voice</span>
+                <span className="font-sans italic text-[#d0d0d0]/40">Or what&rsquo;s left of it.</span>
+              </p>
+            </div>
+          </div>
         </FadeInView>
 
         {/* Gallery grid — all grayscale */}
