@@ -72,6 +72,7 @@ export default function SineNoctisSection() {
               className="object-cover grayscale"
               sizes="(max-width: 768px) 100vw, 448px"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
             <div className="absolute inset-0 vignette" />
           </div>
         </div>
