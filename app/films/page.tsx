@@ -15,6 +15,7 @@ const FINEXME_FILMS = [
     role: 'First Trailer',
     description:
       'Full color. Face concealed. She appears before her name does.',
+    credit: 'gotakemedia',
     image: '/images/red-portrait.avif',
     alt: 'Red-lit portrait from AT NO COST trailer',
     videoUrl: 'https://www.youtube.com/watch?v=Bpc8srzl8jA',
@@ -25,6 +26,7 @@ const FINEXME_FILMS = [
     role: 'Film',
     description:
       'Gravel lot. The bridge. A white BMW cutting through night. Every frame feels stolen \u2014 long glass, partial glimpses, two figures circling something they won\u2019t name.',
+    credit: 'gotakemedia · Wardrobe by Juulius Juul for Heliot Emil',
     image: '/images/dusk-silhouette-two.avif',
     alt: 'Dusk silhouette from Fine By Me',
     videoUrl: 'https://www.youtube.com/watch?v=hNwNaHOud-U',
@@ -38,6 +40,7 @@ const SINENOCTIS_FILMS = [
     role: 'Teaser',
     description:
       'A dark doorway. Grayscale. What\u2019s on the other side doesn\u2019t have a name yet.',
+    credit: 'codenameblanco',
     image: '/images/ante-doorway.avif',
     alt: 'Stone archway doorway from ANTE teaser',
     videoUrl: 'https://www.youtube.com/watch?v=0MZYQ8p_QEU',
@@ -48,6 +51,7 @@ const SINENOCTIS_FILMS = [
     role: 'Teaser II',
     description:
       'First evening in the new world. No urgency \u2014 just weight, and the slow return of feeling.',
+    credit: 'codenameblanco',
     image: '/images/vespera-cover.avif',
     alt: 'European architecture at night from VESPERA',
     videoUrl: 'https://www.youtube.com/watch?v=UHIgUJa2fI4',
@@ -58,6 +62,7 @@ const SINENOCTIS_FILMS = [
     role: 'Trailer',
     description:
       'The night sharpens. He stops drifting and starts choosing.',
+    credit: 'codenameblanco',
     image: '/images/noctem-cover.avif',
     alt: 'Bokeh night photography from NOCTEM trailer',
     videoUrl: 'https://www.youtube.com/watch?v=PSIpF980ZAE',
@@ -68,6 +73,7 @@ const SINENOCTIS_FILMS = [
     role: 'Full Visual',
     description:
       'Van Gogh and Thin Ice Freestyle. One jacket. One night. Every corridor leads somewhere he\u2019s already been.',
+    credit: 'codenameblanco',
     image: '/images/sinenoctis-visual-cover.avif',
     alt: 'Alpinestars jacket portrait from SINE NOCTIS visual',
   },
@@ -111,6 +117,7 @@ function FilmCard({
   title,
   role,
   description,
+  credit,
   image,
   alt,
   videoUrl,
@@ -122,6 +129,7 @@ function FilmCard({
   title: string
   role: string
   description: string
+  credit?: string
   image: string
   alt: string
   videoUrl?: string
@@ -227,6 +235,11 @@ function FilmCard({
         <p className="font-sans text-sm md:text-base leading-[1.85] text-muted max-w-[55ch]">
           {description}
         </p>
+        {credit && (
+          <p className="mt-3 text-[9px] tracking-[0.2em] uppercase text-white/20 font-sans">
+            {credit}
+          </p>
+        )}
         {videoUrl && (
           playing ? (
             <a
@@ -325,6 +338,7 @@ export default function FilmsPage() {
               title={film.title}
               role={film.role}
               description={film.description}
+              credit={film.credit}
               image={film.image}
               alt={film.alt}
               videoUrl={film.videoUrl}
@@ -381,6 +395,7 @@ export default function FilmsPage() {
               title={film.title}
               role={film.role}
               description={film.description}
+              credit={film.credit}
               image={film.image}
               alt={film.alt}
               videoUrl={'videoUrl' in film ? film.videoUrl : undefined}

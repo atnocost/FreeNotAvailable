@@ -140,7 +140,7 @@ export default function FineXMeSection() {
           </FadeInView>
 
           {/* Gallery grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-20 md:mb-28">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-6">
             {GALLERY.map(({ src, alt, caption }) => (
               <div key={src} className="gallery-item aspect-[3/4]">
                 <Image
@@ -158,6 +158,9 @@ export default function FineXMeSection() {
               </div>
             ))}
           </div>
+          <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
+            BTS photography by Khalil Copeland
+          </p>
 
           {/* Tracklist + Back cover */}
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start mb-20 md:mb-28">
