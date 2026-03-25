@@ -55,18 +55,6 @@ const comparables = [
     achievement: 'Endless visual album fulfilled Def Jam contract. Blonde Platinum on Boys Don\'t Cry label. Limited-edition magazine.',
     relevance: 'Used the visual album as a strategic business move. FREE\'s creative bible parallels Ocean\'s magazine.',
   },
-  {
-    name: 'EMPIRE Distribution',
-    category: 'franchise',
-    achievement: 'Independent distributor (SF). Roster includes Shaboozey, Larry June. Expanded into Web3. Competes with majors.',
-    relevance: 'Infrastructure comp. The indie distribution tier that could carry FREE\'s releases.',
-  },
-  {
-    name: 'Detroit Sound Conservancy',
-    category: 'franchise',
-    achievement: '501(c)(3) nonprofit preserving Detroit\'s musical heritage. Operates Graystone Jazz Museum. Blues, Jazz, Techno, Soul programs.',
-    relevance: 'The Detroit creative scene FREE comes out of. Heritage anchor for the brand.',
-  },
 ] as const satisfies readonly ComparableArtist[]
 
 const categoryLabel: Record<ComparableArtist['category'], string> = {

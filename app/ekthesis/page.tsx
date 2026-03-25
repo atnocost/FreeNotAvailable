@@ -138,6 +138,21 @@ export default function EkthesisPage() {
               <span className="font-sans text-xs text-muted mt-1 block">planned projects in the Other World arc</span>
             </div>
           </AnimatedElement>
+
+          <AnimatedElement custom={4} className="mt-12 border border-white/5 p-6">
+            <span className="text-[9px] font-sans tracking-[0.15em] uppercase text-white/25 block mb-3">Infrastructure &amp; Heritage</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-sans text-xs text-muted leading-relaxed">
+              <div>
+                <span className="text-heading">EMPIRE Distribution</span> &mdash; Independent distributor (SF).
+                Roster includes Shaboozey, Larry June. Competes with majors. The indie distribution tier
+                positioned to carry releases at this scale.
+              </div>
+              <div>
+                <span className="text-heading">Detroit Sound Conservancy</span> &mdash; 501(c)(3) preserving
+                Detroit&rsquo;s musical heritage. Blues, Jazz, Techno, Soul. The creative lineage FREE comes out of.
+              </div>
+            </div>
+          </AnimatedElement>
         </div>
       </AnimatedSection>
 
@@ -671,7 +686,7 @@ export default function EkthesisPage() {
           <details className="group" open>
             <summary className="cursor-pointer text-xs font-sans tracking-[0.15em] uppercase text-white/40 hover:text-white/60 transition-colors mb-6 list-none flex items-center gap-2">
               <span className="text-accent group-open:rotate-90 transition-transform inline-block">&#9654;</span>
-              11 comparables &mdash; click to collapse
+              9 comparables &mdash; click to collapse
             </summary>
             <ComparablesTable />
           </details>
@@ -826,7 +841,7 @@ export default function EkthesisPage() {
               <Image src="/images/owjv-cherub-transparent.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
             </div>
             <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30">
-              &copy; 2024&ndash;2026 Creative Minds Coalition &times; OWJV &mdash; Detroit, MI
+              &copy; 2024&ndash;2026 Creative Minds Coalition &times; OWJV
             </span>
           </AnimatedElement>
         </div>

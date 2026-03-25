@@ -24,6 +24,7 @@ const REVENUE: Record<YearPeriod, Record<string, StreamData>> = {
     'Sync licensing':   { conservative: 0,     base: 2500,   aggressive: 10000 },
     'Brand deals':      { conservative: 0,     base: 1500,   aggressive: 5000 },
     'Patreon / direct': { conservative: 200,   base: 1000,   aggressive: 4000 },
+    'Physical / vinyl': { conservative: 0,     base: 1500,   aggressive: 5000 },
   },
   year23: {
     'Streaming':        { conservative: 2000,  base: 10000,  aggressive: 50000 },
@@ -35,6 +36,7 @@ const REVENUE: Record<YearPeriod, Record<string, StreamData>> = {
     'Brand deals':      { conservative: 2000,  base: 10000,  aggressive: 50000 },
     'Patreon / direct': { conservative: 1000,  base: 5000,   aggressive: 20000 },
     'Film festival':    { conservative: 500,   base: 2000,   aggressive: 10000 },
+    'Physical / vinyl': { conservative: 3000,  base: 15000,  aggressive: 50000 },
   },
 }
 
