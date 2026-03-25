@@ -24,7 +24,7 @@ export default function HeroParallax() {
         transition={{ duration: 1.5 }}
         className="relative w-10 h-10 mb-12"
       >
-        <Image src="/images/owjv-cherub.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
+        <Image src="/images/owjv-cherub-transparent.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 20 }}

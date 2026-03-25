@@ -115,9 +115,8 @@ export default function EkthesisPage() {
           </AnimatedElement>
           <AnimatedElement custom={2} className="font-sans text-sm md:text-base leading-[1.8] text-muted max-w-[60ch] space-y-5 mb-12">
             <p>
-              FREE is a songwriter in the space where deflection meets self-reflection.
-              His sound draws from early 2010s R&amp;B: a cold croon. Product of the 90s, shaped
-              by the Jodeci era, filtered through a millennial viewpoint. Based in Detroit.
+              FREE is an R&amp;B songwriter out of Detroit, currently based in Atlanta. His sound draws from the Jodeci era,
+              filtered through a millennial lens&mdash;a cold croon built on vulnerability, not bravado. The work moves where he does.
             </p>
             <p>
               The creative universe is called Other World. Two copyright-holding entities
@@ -131,8 +130,8 @@ export default function EkthesisPage() {
               <span className="font-sans text-xs text-muted mt-1 block">released tracks across 2 projects</span>
             </div>
             <div>
-              <span className="font-display text-5xl md:text-6xl text-heading block">2</span>
-              <span className="font-sans text-xs text-muted mt-1 block">film assets (Fine By Me Film + SINE NOCTIS trailers)</span>
+              <span className="font-display text-5xl md:text-6xl text-heading block">5</span>
+              <span className="font-sans text-xs text-muted mt-1 block">visual works (1 short film, 3 teasers, 1 full visual)</span>
             </div>
             <div>
               <span className="font-display text-5xl md:text-6xl text-heading block">5</span>
@@ -201,12 +200,9 @@ export default function EkthesisPage() {
                 <span className="font-sans text-xs tracking-[0.15em] uppercase text-accent">Act I &mdash; 2024</span>
               </div>
               <p className="font-sans text-sm leading-[1.8] text-muted mb-3">
-                A collection of demos, sequenced into a cohesive narrative. 7 tracks. Vibrant reds
-                and neon accents against shadow work. Passion and rawness, unpolished on purpose.
-                An exercise in romantic fatalism&mdash;tracks that circle the drain of a relationship
-                with the kind of quiet obsession that makes you check your phone at 2AM knowing
-                nothing good is coming. The production breathes in warm reds and amber, every beat
-                a slow pulse in a room where someone just left.
+                7 tracks. A collection of demos sequenced into a cohesive narrative. Warm reds,
+                shadow work, romantic fatalism. Unpolished on purpose. Accompanied by a short film
+                (Fine By Me) and a trailer (At No Cost).
               </p>
               <div className="font-mono text-xs text-white/30 space-y-1">
                 <div>Production: Mookie Magnolia, Ashton Woods, Worst Choice, Brando Heat</div>
@@ -230,13 +226,9 @@ export default function EkthesisPage() {
                 <span className="font-sans text-xs tracking-[0.15em] uppercase text-white/40">Act II &mdash; 2026</span>
               </div>
               <p className="font-sans text-sm leading-[1.8] text-muted mb-3">
-                The icy follow-up. Three tracks. Grayscale. Alone this time. Stillness on the
-                surface, something heavier underneath. Where FINExME was instinct and accident,
-                this is measured and deliberate. Van Gogh and Thin Ice Freestyle were written and
-                recorded back to back in a single session overseas&mdash;conceived not as experiments
-                but as declarations. Color is stripped entirely. The architecture, street corners,
-                and amber-lit corridors become the only set&mdash;monochrome, repeating, voyeuristic.
-                The Alpinestars jacket replaces the BMW as the protective shell.
+                3 tracks. Grayscale. Where FINExME was instinct, this is deliberate. Written and
+                recorded in a single session overseas. Accompanied by a three-part teaser series
+                (ANTE, VESPERA, NOCTEM) and a full visual.
               </p>
               <div className="font-mono text-xs text-white/30 space-y-1">
                 <div>Production: FREE, HNMadeThisOne, Eli Myles</div>
@@ -307,7 +299,7 @@ export default function EkthesisPage() {
         {/* Future roadmap */}
         <AnimatedElement custom={5}>
           <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30 block mb-6">What comes next</span>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 gap-8 mb-8">
             {[
               { alt: 'SINE NOCTIS 2', status: 'In Progress', desc: 'In final stages of completion and a companion piece to SINE NOCTIS sonically, narratively and visually.' },
               { alt: 'OTHERLAND', status: 'In Development', desc: 'Next full-length album.' },
@@ -324,6 +316,11 @@ export default function EkthesisPage() {
               </div>
             ))}
           </div>
+          <p className="font-sans text-xs text-white/25 leading-relaxed max-w-[60ch]">
+            Shorter EPs (2&ndash;4 tracks) may release between phases. These live inside the overarching
+            narrative&mdash;side chapters that push the story forward&mdash;but don&rsquo;t demand their own phase.
+            Complete works. Different scale, same world.
+          </p>
         </AnimatedElement>
       </AnimatedSection>
 
@@ -620,6 +617,42 @@ export default function EkthesisPage() {
                   Sources: Patreon About page 2025, bandcamp.com/about.
                 </p>
               </div>
+
+              {/* Physical & collectible media */}
+              <div>
+                <h4 className="text-xs font-sans tracking-[0.15em] uppercase text-white/30 mb-4">Physical &amp; Collectible Media</h4>
+                <p className="font-sans text-xs text-muted leading-relaxed mb-4">
+                  Vinyl is the fastest-growing physical format in music. US vinyl revenue hit $1.4B in 2023&mdash;the
+                  18th consecutive year of growth. Limited pressings create scarcity, drive resale value, and convert
+                  casual listeners into collectors. For independent artists, physical releases carry higher per-unit
+                  margins than any streaming platform.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-sans text-xs text-muted leading-relaxed">
+                  <div className="border border-white/5 p-4">
+                    <span className="text-heading block mb-1">Vinyl unit economics</span>
+                    $3-$6 per unit to press (500+ run). Retail at $28-$40. 70-85% margin on D2C sales.
+                  </div>
+                  <div className="border border-white/5 p-4">
+                    <span className="text-heading block mb-1">Limited press scarcity</span>
+                    Short runs (300-500 units) sell out faster, build waitlist demand, and appreciate on resale.
+                    Frank Ocean&rsquo;s Blonde magazine: $80 retail, $300-$500+ resale.
+                  </div>
+                  <div className="border border-white/5 p-4">
+                    <span className="text-heading block mb-1">Collectible packaging</span>
+                    Gatefold jackets, liner notes, custom labels. Each release becomes a physical artifact
+                    of the Other World&mdash;not just a record, but a narrative object.
+                  </div>
+                  <div className="border border-white/5 p-4">
+                    <span className="text-heading block mb-1">OTHER WORLD plan</span>
+                    Two 12&quot; LPs planned: FINExME (P206 Translucent Red) and SINE NOCTIS (Cool Gray 8 Opaque).
+                    OWJV cherub label, both sides. Waitlist is live. Additional collectible formats
+                    in development.
+                  </div>
+                </div>
+                <p className="font-mono text-[10px] text-white/20 mt-4">
+                  Sources: RIAA 2023 Year-End Revenue Statistics, Discogs marketplace data.
+                </p>
+              </div>
             </div>
           </details>
         </AnimatedElement>
@@ -705,13 +738,13 @@ export default function EkthesisPage() {
         <SectionTitle>Opportunities</SectionTitle>
         <AnimatedElement custom={2} className="font-sans text-sm leading-[1.8] text-muted max-w-[60ch] space-y-5 mb-16">
           <p>
-            Film Independent&rsquo;s Sony Music Vision Fellowship &mdash; a $10K grant
-            for filmmakers with music-driven projects &mdash; is the first institutional
-            target for this body of work.
+            The film work opens doors that music alone doesn&rsquo;t. These are the institutional
+            targets as the visual catalog grows:
           </p>
           <p>
-            Sundance, SXSW, and Tribeca form the submission pipeline for the
-            completed short films as they leave development.
+            Film Independent&rsquo;s Sony Music Vision Fellowship &mdash; a $10K grant
+            for filmmakers with music-driven projects. Sundance, SXSW, and Tribeca
+            as the submission pipeline for completed short films.
           </p>
         </AnimatedElement>
         <AnimatedElement custom={3} className="border border-white/10 p-6 text-center">
@@ -752,89 +785,49 @@ export default function EkthesisPage() {
             The fire is already lit.
           </AnimatedElement>
           <AnimatedElement as="p" custom={5} className="font-sans text-sm text-muted mb-16 max-w-[40ch] mx-auto">
-            FREE is building in public. The visual universe is live. The music is written.
+            The visual universe is live. The music is written. The infrastructure exists.
             This is about funding what is already working.
           </AnimatedElement>
 
-          <AnimatedElement custom={6} className="flex flex-wrap justify-center gap-4 md:gap-6 mb-16">
-            <a
-              href="https://www.instagram.com/freenotavailable/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 border border-accent/40 text-xs font-sans tracking-[0.15em] uppercase text-accent hover:bg-accent/10 transition-all duration-300 min-w-[160px]"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://open.spotify.com/artist/13Z1MsZ0A9Ddox3DZcu9zk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
-            >
-              Spotify
-            </a>
-            <a
-              href="https://music.apple.com/us/artist/free/1715333809"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
-            >
-              Apple Music
-            </a>
-            <a
-              href="https://tidal.com/artist/45010274"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
-            >
-              TIDAL
-            </a>
-            <a
-              href="https://www.youtube.com/@OWJV/videos"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 border border-white/15 text-xs font-sans tracking-[0.15em] uppercase text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all duration-300 min-w-[160px]"
-            >
-              YouTube
-            </a>
-          </AnimatedElement>
-
-          <AnimatedElement custom={7} className="flex flex-col items-center gap-6 pt-8 border-t border-white/5">
-            <div className="relative w-10 h-10 opacity-30">
-              <Image src="/images/owjv-cherub-transparent.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
-            </div>
-            <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30">
-              &copy; 2024&ndash;2026 Creative Minds Coalition &times; OWJV &mdash; Detroit, MI
-            </span>
-          </AnimatedElement>
-        </div>
-      </AnimatedSection>
-
-      {/* ── Contact Block ── */}
-      <AnimatedSection id="contact" className="relative py-24 md:py-32 border-t border-white/5">
-        <div className="max-w-2xl mx-auto px-6 md:px-10 text-center">
-          <AnimatedElement custom={0}>
-            <span className="text-xs font-sans tracking-[0.2em] uppercase text-white/40 block mb-6">
-              Contact
-            </span>
-          </AnimatedElement>
-          <AnimatedElement custom={1}>
-            <h2 className="font-sans text-3xl md:text-4xl italic text-heading mb-4 tracking-wide">
-              Get in Touch
-            </h2>
-          </AnimatedElement>
-          <AnimatedElement custom={2}>
-            <p className="font-sans text-sm text-muted leading-relaxed mb-10 max-w-[50ch] mx-auto">
+          <AnimatedElement custom={6} className="mb-16">
+            <p className="font-sans text-xs text-white/30 mb-6">
               For press, editorial, booking, sync licensing, and brand partnerships.
             </p>
-          </AnimatedElement>
-          <AnimatedElement custom={3}>
             <a
               href="mailto:freeisavailable@atnocost.cc"
               className="inline-flex items-center justify-center px-10 py-3.5 border border-white/20 text-xs font-sans tracking-[0.18em] uppercase text-white/80 hover:text-white hover:border-white/50 hover:bg-white/5 transition-all duration-300"
             >
               freeisavailable@atnocost.cc
             </a>
+          </AnimatedElement>
+
+          <AnimatedElement custom={7} className="flex flex-wrap justify-center gap-4 md:gap-5 mb-16">
+            {[
+              { label: 'Spotify', href: 'https://open.spotify.com/artist/13Z1MsZ0A9Ddox3DZcu9zk' },
+              { label: 'Apple Music', href: 'https://music.apple.com/us/artist/free/1715333809' },
+              { label: 'TIDAL', href: 'https://tidal.com/artist/45010274' },
+              { label: 'YouTube', href: 'https://www.youtube.com/@OWJV/videos' },
+              { label: 'Instagram', href: 'https://www.instagram.com/freenotavailable/' },
+            ].map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-sans tracking-[0.15em] uppercase text-white/30 hover:text-white/60 transition-colors"
+              >
+                {label}
+              </a>
+            ))}
+          </AnimatedElement>
+
+          <AnimatedElement custom={8} className="flex flex-col items-center gap-6 pt-8 border-t border-white/5">
+            <div className="relative w-10 h-10 opacity-30">
+              <Image src="/images/owjv-cherub-transparent.png" alt="OWJV emblem" fill className="object-contain" sizes="40px" />
+            </div>
+            <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30">
+              &copy; 2024&ndash;2026 Creative Minds Coalition &times; OWJV &mdash; Detroit, MI
+            </span>
           </AnimatedElement>
         </div>
       </AnimatedSection>
