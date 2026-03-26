@@ -1,8 +1,9 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
+import LunarOverlay from '@/components/ui/LunarOverlay'
 
 /* ------------------------------------------------------------------ */
 /*  Nav links — reduced to 3 per audit                                 */
@@ -25,6 +26,8 @@ export default function Nav() {
   const isHome = pathname === '/'
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [lunarOpen, setLunarOpen] = useState(false)
+  const closeLunar = useCallback(() => setLunarOpen(false), [])
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60)
@@ -52,8 +55,12 @@ export default function Nav() {
           : 'border-white/7'
       }`}
     >
-      {/* OWJV cherub logo */}
-      <Link href="/" className="relative w-11 h-11">
+      {/* OWJV cherub logo — opens lunar phase nav */}
+      <button
+        onClick={() => setLunarOpen(true)}
+        className="relative w-11 h-11 cursor-pointer"
+        aria-label="Open phase navigation"
+      >
         <Image
           src="/images/owjv-logo.png"
           alt="OWJV"
@@ -62,7 +69,7 @@ export default function Nav() {
           sizes="44px"
           priority
         />
-      </Link>
+      </button>
 
       {/* Desktop nav links */}
       <div className="hidden md:flex items-center gap-[30px]">
@@ -145,6 +152,8 @@ export default function Nav() {
           </ul>
         </div>
       )}
+
+      <LunarOverlay open={lunarOpen} onClose={closeLunar} />
     </nav>
   )
 }

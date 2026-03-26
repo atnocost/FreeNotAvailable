@@ -20,7 +20,7 @@ export default function Footer() {
           <p className="text-xs font-sans tracking-[0.15em] uppercase text-white/30">
             Creative Minds Coalition
           </p>
-          <p className="text-xs font-sans tracking-[0.2em] uppercase text-white/20">
+          <p className="text-xs font-sans tracking-[0.2em] uppercase text-white/25">
             OWJV
           </p>
         </div>
@@ -28,13 +28,13 @@ export default function Footer() {
         {/* Proposition */}
         <a
           href="/ekthesis"
-          className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/15 hover:text-white/30 transition-colors"
+          className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/25 hover:text-white/35 transition-colors"
         >
           Proposition
         </a>
 
         {/* Copyright */}
-        <p className="text-[10px] font-sans tracking-[0.1em] text-white/15">
+        <p className="text-[10px] font-sans tracking-[0.1em] text-white/25">
           &copy; 2026 Other Worldly, Just Visiting. All Rights Reserved.
         </p>
       </div>

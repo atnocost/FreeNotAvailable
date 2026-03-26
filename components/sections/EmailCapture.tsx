@@ -40,7 +40,7 @@ export default function EmailCapture() {
               Join
             </button>
           </form>
-          <p className="text-[9px] text-white/14 mt-3">
+          <p className="text-[9px] text-white/25 mt-3">
             No noise. First access only. Unsubscribe anytime.
           </p>
         </FadeInView>

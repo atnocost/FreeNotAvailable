@@ -159,7 +159,7 @@ export default function FineXMeSection() {
               </div>
             ))}
           </div>
-          <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
+          <p className="text-[9px] tracking-[0.2em] uppercase text-white/25 font-sans mb-20 md:mb-28">
             Photography by Khalil Copeland · Wardrobe by Juulius Juul for Heliot Emil
           </p>
 
@@ -225,7 +225,7 @@ export default function FineXMeSection() {
               </ol>
               {/* THIS IS A COLLECTION OF DEMOS dedication */}
               <div className="mt-16 pt-10 border-t border-white/8 text-center">
-                <p className="text-[10px] tracking-[0.35em] uppercase text-white/18 font-sans font-light">
+                <p className="text-[10px] tracking-[0.35em] uppercase text-white/25 font-sans font-light">
                   This Is a Collection of Demos
                 </p>
               </div>
@@ -255,7 +255,7 @@ export default function FineXMeSection() {
           <div className="text-center">
             <Link
               href="/sinenoctis"
-              className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+              className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 hover:text-white/40 transition-colors"
             >
               Act II &mdash; SINE NOCTIS
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">

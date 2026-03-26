@@ -73,7 +73,7 @@ export default function PilgrimSection() {
             </div>
           ))}
         </div>
-        <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
+        <p className="text-[9px] tracking-[0.2em] uppercase text-white/25 font-sans mb-20 md:mb-28">
           Photography by Brandon Brown · Wardrobe by Raf Simons, Nike NOCTA, Heliot Emil
         </p>
 
@@ -81,7 +81,7 @@ export default function PilgrimSection() {
         <div className="flex justify-between items-center">
           <Link
             href="/finexme"
-            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 hover:text-white/40 transition-colors"
           >
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
               <path d="M10 6H2M5 3L2 6l3 3" />
@@ -90,7 +90,7 @@ export default function PilgrimSection() {
           </Link>
           <Link
             href="/films"
-            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/20 hover:text-white/40 transition-colors"
+            className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 hover:text-white/40 transition-colors"
           >
             Films
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">

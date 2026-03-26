@@ -46,19 +46,19 @@ export default function MythosSection() {
           <div className="max-w-2xl mx-auto text-center pointer-events-none select-none">
             <div className="flex items-center gap-4 mb-10">
               <div className="flex-1 h-px bg-white/10" />
-              <span className="text-[9px] tracking-[0.3em] uppercase text-white/20 font-sans">
+              <span className="text-[9px] tracking-[0.3em] uppercase text-white/25 font-sans">
                 What Comes Next
               </span>
               <div className="flex-1 h-px bg-white/10" />
             </div>
             <div className="flex flex-wrap justify-center gap-6 md:gap-10">
-              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/25">
                 SINENOCTIS 2
               </h3>
-              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/25">
                 OTHERLAND
               </h3>
-              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/15">
+              <h3 className="font-big-caesar text-2xl md:text-3xl lg:text-4xl tracking-wide text-white/25">
                 SEX SYMBOL
               </h3>
             </div>

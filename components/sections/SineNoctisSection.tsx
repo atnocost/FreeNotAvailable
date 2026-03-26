@@ -99,7 +99,7 @@ export default function SineNoctisSection() {
                 <span className="font-sans italic text-[#d0d0d0]/40">You&rsquo;re late again.</span>
               </p>
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">I didn&rsquo;t know there was still a clock running.</span>
               </p>
               <p>
@@ -112,7 +112,7 @@ export default function SineNoctisSection() {
             </p>
             <div className="space-y-4 text-sm md:text-base leading-[1.9]">
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">These don&rsquo;t feel like mine.</span>
               </p>
               <p>
@@ -125,7 +125,7 @@ export default function SineNoctisSection() {
             </p>
             <div className="space-y-4 text-sm md:text-base leading-[1.9]">
               <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/15 not-italic mr-3">Free</span>
+                <span className="text-[9px] tracking-[0.2em] uppercase text-white/25 not-italic mr-3">Free</span>
                 <span className="font-sans italic text-[#d0d0d0]/40">It smells like rain.</span>
               </p>
               <p>
@@ -155,7 +155,7 @@ export default function SineNoctisSection() {
             </div>
           ))}
         </div>
-        <p className="text-[9px] tracking-[0.2em] uppercase text-white/15 font-sans mb-20 md:mb-28">
+        <p className="text-[9px] tracking-[0.2em] uppercase text-white/25 font-sans mb-20 md:mb-28">
           Photography by Khalil Copeland · Wardrobe by Kohl DePaul for apt.315
         </p>
 
@@ -207,7 +207,7 @@ export default function SineNoctisSection() {
 
           {/* LONG LIVE WORST CHOICE dedication */}
           <div className="mt-16 pt-10 border-t border-white/8 text-center">
-            <p className="text-[10px] tracking-[0.35em] uppercase text-white/18 font-sans font-light">
+            <p className="text-[10px] tracking-[0.35em] uppercase text-white/25 font-sans font-light">
               Long Live Worst Choice
             </p>
           </div>
@@ -229,7 +229,7 @@ export default function SineNoctisSection() {
 
         {/* Credits */}
         <div className="text-center">
-          <p className="text-xs font-sans tracking-[0.15em] uppercase text-white/20">
+          <p className="text-xs font-sans tracking-[0.15em] uppercase text-white/25">
             Creative Minds Coalition 2026 / OWJV 2026
           </p>
         </div>

@@ -60,10 +60,10 @@ export default function OtherMediaSection() {
         </p>
 
         {/* Interaction hint */}
-        <p className="md:hidden text-center text-[8px] tracking-[0.18em] uppercase text-white/12 mb-7">
+        <p className="md:hidden text-center text-[8px] tracking-[0.18em] uppercase text-white/25 mb-7">
           Tap each record to see what&rsquo;s inside
         </p>
-        <p className="hidden md:block text-center text-[8px] tracking-[0.18em] uppercase text-white/12 mb-7">
+        <p className="hidden md:block text-center text-[8px] tracking-[0.18em] uppercase text-white/25 mb-7">
           Hover each record to see what&rsquo;s inside
         </p>
 
@@ -123,7 +123,7 @@ export default function OtherMediaSection() {
                         key={item}
                         className="text-[10px] text-white/45 tracking-[0.03em] flex items-center gap-2"
                       >
-                        <span className="text-[9px] text-white/18 shrink-0">&mdash;</span>
+                        <span className="text-[9px] text-white/25 shrink-0">&mdash;</span>
                         {item}
                       </span>
                     ))}
@@ -161,7 +161,7 @@ export default function OtherMediaSection() {
                   </div>
                   {/* Info */}
                   <div className="flex-1 flex flex-col justify-center px-5 py-4">
-                    <span className="text-[8px] tracking-[0.14em] uppercase text-white/20 mb-1">
+                    <span className="text-[8px] tracking-[0.14em] uppercase text-white/25 mb-1">
                       {p.act}
                     </span>
                     <span className="font-big-caesar text-xl tracking-[0.06em] text-white/88 mb-0.5">
@@ -191,7 +191,7 @@ export default function OtherMediaSection() {
                   <p className="font-big-caesar text-base text-white/55 tracking-[0.04em]">
                     {s.num}
                   </p>
-                  <p className="text-[8px] tracking-[0.1em] uppercase text-white/20 mt-0.5">
+                  <p className="text-[8px] tracking-[0.1em] uppercase text-white/25 mt-0.5">
                     {s.label}
                   </p>
                 </div>
@@ -213,7 +213,7 @@ export default function OtherMediaSection() {
             <input
               type="email"
               placeholder="your email"
-              className="w-full py-2.5 px-3.5 bg-transparent border border-white/10 text-white/65 text-[11px] placeholder:text-white/18 outline-none mb-2.5"
+              className="w-full py-2.5 px-3.5 bg-transparent border border-white/10 text-white/65 text-[11px] placeholder:text-white/25 outline-none mb-2.5"
             />
             <p className="text-[8px] tracking-[0.14em] uppercase text-white/22 mb-2">
               I want

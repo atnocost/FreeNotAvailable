@@ -236,7 +236,7 @@ function FilmCard({
           {description}
         </p>
         {credit && (
-          <p className="mt-3 text-[9px] tracking-[0.2em] uppercase text-white/20 font-sans">
+          <p className="mt-3 text-[9px] tracking-[0.2em] uppercase text-white/25 font-sans">
             {credit}
           </p>
         )}
