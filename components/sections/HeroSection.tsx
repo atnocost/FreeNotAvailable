@@ -42,7 +42,7 @@ export default function HeroSection() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 557 214"
-            className="w-[200px] md:w-[320px] h-auto mb-[-4px]"
+            className="w-[180px] md:w-[290px] h-auto mb-[-4px]"
             fill="white"
             aria-label="FREE"
             role="img"

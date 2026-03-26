@@ -25,13 +25,21 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Proposition */}
-        <a
-          href="/ekthesis"
-          className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/25 hover:text-white/35 transition-colors"
-        >
-          Proposition
-        </a>
+        {/* Links */}
+        <div className="flex gap-5">
+          <a
+            href="/epk"
+            className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/25 hover:text-white/35 transition-colors"
+          >
+            Press
+          </a>
+          <a
+            href="/ekthesis"
+            className="text-[9px] font-sans tracking-[0.2em] uppercase text-white/25 hover:text-white/35 transition-colors"
+          >
+            Proposition
+          </a>
+        </div>
 
         {/* Copyright */}
         <p className="text-[10px] font-sans tracking-[0.1em] text-white/25">
