@@ -32,19 +32,19 @@ export default function HeroSection() {
       <div className="relative z-10 mt-auto px-6 md:px-8 pb-10 md:pb-11 max-w-[960px]">
         {/* Eyebrow */}
         <FadeInView>
-          <p className="text-[8px] tracking-[0.24em] uppercase text-[#c35f23]/90 mb-3">
+          <p className="text-[8px] tracking-[0.24em] uppercase text-[#c35f23]/90 mb-0">
             Other Worldly, Just Visiting
           </p>
         </FadeInView>
 
         {/* FREE logo — forced white */}
         <FadeInView delay={0.15}>
-          <div className="relative h-[72px] md:h-[160px] w-auto mb-3.5">
+          <div className="relative h-[72px] md:h-[84px] w-auto mb-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/free-logotype.svg"
               alt="FREE"
-              className="h-full w-auto object-contain object-left origin-left scale-[1.8] md:scale-[1.6] [filter:brightness(0)_invert(1)]"
+              className="h-full w-auto object-contain object-left [filter:brightness(0)_invert(1)]"
             />
           </div>
         </FadeInView>
