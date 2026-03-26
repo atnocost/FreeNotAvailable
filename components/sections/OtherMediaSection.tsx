@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, FormEvent } from 'react'
 import Image from 'next/image'
 import FadeInView from '@/components/ui/FadeInView'
 
@@ -45,6 +45,14 @@ const PRODUCTS = [
 export default function OtherMediaSection() {
   const [tapped, setTapped] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
+  const [waitlistEmail, setWaitlistEmail] = useState('')
+  const [waitlistSubmitted, setWaitlistSubmitted] = useState(false)
+
+  const handleWaitlist = (e: FormEvent) => {
+    e.preventDefault()
+    if (!waitlistEmail || !selected) return
+    setWaitlistSubmitted(true)
+  }
 
   return (
     <section
@@ -84,16 +92,18 @@ export default function OtherMediaSection() {
                     src={p.src}
                     alt={`${p.title} vinyl record`}
                     fill
-                    className="object-contain transition-all duration-[600ms] ease-[cubic-bezier(0.25,0,0,1)] md:group-hover:scale-[1.02] md:group-hover:-translate-y-1 md:group-hover:brightness-[0.45]"
-                    data-tapped={isOpen || undefined}
+                    className={`object-contain transition-all duration-[600ms] ease-[cubic-bezier(0.25,0,0,1)] md:group-hover:scale-[1.02] md:group-hover:-translate-y-1 md:group-hover:brightness-[0.45] ${
+                      isOpen ? 'scale-[1.02] -translate-y-1 brightness-[0.45]' : ''
+                    }`}
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
 
                 {/* Hover/tap overlay */}
                 <div
-                  className="absolute inset-0 flex flex-col justify-end p-7 md:p-8 transition-all duration-400 ease-[cubic-bezier(0.25,0,0,1)] pointer-events-none opacity-0 translate-y-2.5 md:group-hover:opacity-100 md:group-hover:translate-y-0"
-                  data-tapped={isOpen || undefined}
+                  className={`absolute inset-0 flex flex-col justify-end p-7 md:p-8 transition-all duration-400 ease-[cubic-bezier(0.25,0,0,1)] pointer-events-none md:group-hover:opacity-100 md:group-hover:translate-y-0 ${
+                    isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2.5'
+                  }`}
                 >
                   <p className="text-[8px] tracking-[0.22em] uppercase text-white/40 mb-1">
                     {p.act}
@@ -225,41 +235,62 @@ export default function OtherMediaSection() {
 
           {/* Right — waitlist panel */}
           <div className="border border-white/8 bg-white/[0.018] p-8">
-            <p className="text-[8px] tracking-[0.2em] uppercase text-[#c85a23]/85 mb-2.5">
-              Vinyl Waitlist
-            </p>
-            <p className="font-serif text-xl italic font-light text-white/82 leading-[1.45] mb-2">
-              &ldquo;Be The First Visitor.&rdquo;
-            </p>
-            <p className="text-[11px] text-white/28 leading-[1.75] mb-6">
-              Not yet pressed. Claim yours before it exists.
-            </p>
-            <input
-              type="email"
-              placeholder="your email"
-              className="w-full py-2.5 px-3.5 bg-transparent border border-white/10 text-white/65 text-[11px] placeholder:text-white/25 outline-none mb-2.5"
-            />
-            <p className="text-[8px] tracking-[0.14em] uppercase text-white/22 mb-2">
-              I want
-            </p>
-            <div className="flex gap-1.5 mb-5">
-              {['FINExME', 'SINE NOCTIS', 'Both'].map((opt) => (
+            {waitlistSubmitted ? (
+              <div className="text-center py-6">
+                <p className="font-serif text-xl italic font-light text-white/82 leading-[1.45] mb-3">
+                  You&rsquo;re on the list.
+                </p>
+                <p className="text-[11px] text-white/28 leading-[1.75]">
+                  We&rsquo;ll reach out when it&rsquo;s time.
+                </p>
+              </div>
+            ) : (
+              <form onSubmit={handleWaitlist}>
+                <p className="text-[8px] tracking-[0.2em] uppercase text-[#c85a23]/85 mb-2.5">
+                  Vinyl Waitlist
+                </p>
+                <p className="font-serif text-xl italic font-light text-white/82 leading-[1.45] mb-2">
+                  &ldquo;Be The First Visitor.&rdquo;
+                </p>
+                <p className="text-[11px] text-white/28 leading-[1.75] mb-6">
+                  Not yet pressed. Claim yours before it exists.
+                </p>
+                <input
+                  type="email"
+                  value={waitlistEmail}
+                  onChange={(e) => setWaitlistEmail(e.target.value)}
+                  placeholder="your email"
+                  required
+                  className="w-full py-2.5 px-3.5 bg-transparent border border-white/10 text-white/65 text-[11px] placeholder:text-white/25 outline-none focus:border-white/30 transition-colors mb-2.5"
+                />
+                <p className="text-[8px] tracking-[0.14em] uppercase text-white/22 mb-2">
+                  I want
+                </p>
+                <div className="flex gap-1.5 mb-5">
+                  {['FINExME', 'SINE NOCTIS', 'Both'].map((opt) => (
+                    <button
+                      key={opt}
+                      type="button"
+                      onClick={() => setSelected(selected === opt ? null : opt)}
+                      className={`py-1.5 px-3.5 border text-[8px] tracking-[0.12em] uppercase transition-all cursor-pointer ${
+                        selected === opt
+                          ? 'border-white/50 text-white/90 bg-white/[0.08]'
+                          : 'border-white/10 text-white/28 hover:border-white/35 hover:text-white/70 hover:bg-white/[0.04]'
+                      }`}
+                    >
+                      {opt}
+                    </button>
+                  ))}
+                </div>
                 <button
-                  key={opt}
-                  onClick={() => setSelected(selected === opt ? null : opt)}
-                  className={`py-1.5 px-3.5 border text-[8px] tracking-[0.12em] uppercase transition-all cursor-pointer ${
-                    selected === opt
-                      ? 'border-white/50 text-white/90 bg-white/[0.08]'
-                      : 'border-white/10 text-white/28 hover:border-white/35 hover:text-white/70 hover:bg-white/[0.04]'
-                  }`}
+                  type="submit"
+                  disabled={!selected}
+                  className="w-full py-3 bg-white text-black text-[9px] tracking-[0.16em] uppercase border-none cursor-pointer hover:bg-white/90 transition-colors disabled:opacity-30 disabled:cursor-default"
                 >
-                  {opt}
+                  Join the Waitlist
                 </button>
-              ))}
-            </div>
-            <button className="w-full py-3 bg-white text-black text-[9px] tracking-[0.16em] uppercase border-none cursor-pointer hover:bg-white/90 transition-colors">
-              Join the Waitlist
-            </button>
+              </form>
+            )}
           </div>
         </div>
       </div>

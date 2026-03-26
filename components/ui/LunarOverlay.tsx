@@ -1,65 +1,10 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
-
-type Moon = {
-  id: string
-  label: string
-  displayTitle?: string
-  desc: string
-  src: string
-  href?: string
-  locked?: boolean
-}
-
-const MOONS: Moon[] = [
-  {
-    id: 'owjv',
-    label: 'OWJV',
-    desc: 'The container for every project, every phase, every chapter.',
-    src: '/images/moon-owjv.png',
-    href: '/',
-  },
-  {
-    id: 'finexme',
-    label: 'FINExME',
-    desc: 'Blood moon. The collision of craft and self.',
-    src: '/images/moon-finexme.png',
-    href: '/finexme',
-  },
-  {
-    id: 'sinenoctis',
-    label: 'SINE NOCTIS',
-    displayTitle: 'SINENOCTIS',
-    desc: 'Without night. Light through the dark.',
-    src: '/images/moon-sinenoctis.png',
-    href: '/sinenoctis',
-  },
-  {
-    id: 'sn2',
-    label: 'SN2',
-    desc: 'The golden continuation. A second orbit.',
-    src: '/images/moon-sn2.png',
-    locked: true,
-  },
-  {
-    id: 'otherland',
-    label: 'OTHERLAND',
-    desc: 'A world seen from elsewhere.',
-    src: '/images/moon-otherland.png',
-    locked: true,
-  },
-  {
-    id: 'sexsymbol',
-    label: 'SEX SYMBOL',
-    desc: 'Steel and night. The blue hour.',
-    src: '/images/moon-sexsymbol.png',
-    locked: true,
-  },
-]
+import { MOONS } from '@/lib/data/moons'
 
 function getMoonForPath(pathname: string): string {
   if (pathname === '/') return 'owjv'
@@ -78,6 +23,7 @@ export default function LunarOverlay({
   const pathname = usePathname()
   const activeMoonId = getMoonForPath(pathname)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const panelRef = useRef<HTMLDivElement>(null)
 
   const displayMoon = MOONS.find((m) => m.id === (hoveredId ?? activeMoonId)) ?? MOONS[0]
 
@@ -101,6 +47,37 @@ export default function LunarOverlay({
     return () => { document.body.style.overflow = '' }
   }, [open])
 
+  // Focus trap
+  useEffect(() => {
+    if (!open || !panelRef.current) return
+    const panel = panelRef.current
+    const focusable = panel.querySelectorAll<HTMLElement>(
+      'a[href], button, input, [tabindex]:not([tabindex="-1"])'
+    )
+    if (focusable.length === 0) return
+
+    const first = focusable[0]
+    const last = focusable[focusable.length - 1]
+    first.focus()
+
+    const trapFocus = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab') return
+      if (e.shiftKey) {
+        if (document.activeElement === first) {
+          e.preventDefault()
+          last.focus()
+        }
+      } else {
+        if (document.activeElement === last) {
+          e.preventDefault()
+          first.focus()
+        }
+      }
+    }
+    panel.addEventListener('keydown', trapFocus)
+    return () => panel.removeEventListener('keydown', trapFocus)
+  }, [open])
+
   const handleNavigate = useCallback(() => {
     onClose()
   }, [onClose])
@@ -118,6 +95,7 @@ export default function LunarOverlay({
 
       {/* Panel */}
       <div
+        ref={panelRef}
         role="dialog"
         aria-label="Phase navigation"
         aria-modal="true"
@@ -135,7 +113,7 @@ export default function LunarOverlay({
             </span>
             <button
               onClick={onClose}
-              className="text-white/30 hover:text-white/60 transition-colors p-1"
+              className="text-white/30 hover:text-white/60 transition-colors p-3 -m-2"
               aria-label="Close navigation"
             >
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">

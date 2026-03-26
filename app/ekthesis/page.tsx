@@ -140,16 +140,17 @@ export default function EkthesisPage() {
           </AnimatedElement>
 
           <AnimatedElement custom={4} className="mt-12 border border-white/5 p-6">
-            <span className="text-[9px] font-sans tracking-[0.15em] uppercase text-white/25 block mb-3">Infrastructure &amp; Heritage</span>
+            <span className="text-[9px] font-sans tracking-[0.15em] uppercase text-white/25 block mb-3">Target Infrastructure</span>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-sans text-xs text-muted leading-relaxed">
               <div>
                 <span className="text-heading">EMPIRE Distribution</span> &mdash; Independent distributor (SF).
-                Roster includes Shaboozey, Larry June. Competes with majors. The indie distribution tier
+                Roster includes Shaboozey, Larry June. The indie distribution tier
                 positioned to carry releases at this scale.
               </div>
               <div>
-                <span className="text-heading">Detroit Sound Conservancy</span> &mdash; 501(c)(3) preserving
-                Detroit&rsquo;s musical heritage. Blues, Jazz, Techno, Soul. The creative lineage FREE comes out of.
+                <span className="text-heading">Great Day Records</span> &mdash; Independent, artist-first label built on
+                full-service development: marketing, brand partnerships, campaign strategy.
+                The infrastructure model where emerging catalogs are grown, not just distributed.
               </div>
             </div>
           </AnimatedElement>
