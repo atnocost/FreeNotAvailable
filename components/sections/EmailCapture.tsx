@@ -7,42 +7,35 @@ export default function EmailCapture() {
 
   return (
     <section className="relative py-20 md:py-28 border-t border-white/5">
-      <div className="relative z-10 max-w-lg mx-auto px-6 md:px-10 text-center">
+      <div className="relative z-10 max-w-md mx-auto px-6 md:px-10">
         <FadeInView>
-          <p className="text-[9px] tracking-[0.26em] uppercase text-[#c85a23]/80 mb-4">
-            Stay
-          </p>
-          <h2 className="font-serif text-2xl md:text-3xl italic font-light text-white/85 leading-[1.35] mb-3">
-            Don&rsquo;t Just Visit, Stay.
-          </h2>
-          <p className="font-sans text-xs md:text-sm text-white/35 leading-[1.75] mb-8 max-w-[42ch] mx-auto">
-            Every phase. Every chapter. You get there first.
-          </p>
-          <form
-            onSubmit={(e) => {
-              e.preventDefault()
-              // Beehiiv embed will replace this
-            }}
-            className="flex flex-col sm:flex-row gap-2.5 max-w-sm mx-auto"
-          >
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="your email"
-              required
-              className="flex-1 py-2.5 px-4 bg-transparent border border-white/12 text-white/65 text-[11px] placeholder:text-white/20 outline-none focus:border-white/30 transition-colors"
-            />
-            <button
-              type="submit"
-              className="py-2.5 px-6 bg-white text-black text-[9px] tracking-[0.16em] uppercase border-none cursor-pointer hover:bg-white/90 transition-colors whitespace-nowrap"
+          <div className="border border-white/8 p-8 md:p-10 text-center">
+            <h2 className="font-serif text-2xl md:text-3xl italic font-light text-white/85 leading-[1.35] mb-8">
+              Don&rsquo;t Just Visit, Stay.
+            </h2>
+            <form
+              onSubmit={(e) => {
+                e.preventDefault()
+                // Beehiiv embed will replace this
+              }}
+              className="flex flex-col sm:flex-row gap-2.5"
             >
-              Join
-            </button>
-          </form>
-          <p className="text-[9px] text-white/25 mt-3">
-            No noise. First access only. Unsubscribe anytime.
-          </p>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="your email"
+                required
+                className="flex-1 py-2.5 px-4 bg-transparent border border-white/10 text-white/65 text-[11px] placeholder:text-white/20 outline-none focus:border-white/30 transition-colors"
+              />
+              <button
+                type="submit"
+                className="py-2.5 px-6 bg-white text-black text-[9px] tracking-[0.16em] uppercase border-none cursor-pointer hover:bg-white/90 transition-colors whitespace-nowrap"
+              >
+                Enter
+              </button>
+            </form>
+          </div>
         </FadeInView>
       </div>
     </section>

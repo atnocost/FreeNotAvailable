@@ -33,7 +33,7 @@ export default function HeroSection() {
         {/* Eyebrow */}
         <FadeInView>
           <p className="text-[8px] tracking-[0.24em] uppercase text-[#c35f23]/90 mb-3">
-            OWJV
+            Other Worldly, Just Visiting
           </p>
         </FadeInView>
 

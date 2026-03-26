@@ -48,6 +48,7 @@ export default function Nav() {
   }
 
   return (
+    <>
     <nav
       className={`fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 md:px-8 py-5 transition-all duration-300 border-b ${
         scrolled
@@ -153,7 +154,8 @@ export default function Nav() {
         </div>
       )}
 
-      <LunarOverlay open={lunarOpen} onClose={closeLunar} />
     </nav>
+    <LunarOverlay open={lunarOpen} onClose={closeLunar} />
+    </>
   )
 }
