@@ -14,12 +14,12 @@ const STREAMING = [
 ]
 
 const PRESS_PHOTOS = [
-  { src: '/images/sinenoctis-portrait.jpg', alt: 'FREE — SINE NOCTIS', era: 'Act II' },
-  { src: '/images/noctem-gallery.avif', alt: 'FREE — NOCTEM', era: 'Act II' },
-  { src: '/images/jacket-portrait.avif', alt: 'FREE — portrait', era: 'Act II' },
-  { src: '/images/red-portrait.avif', alt: 'FREE — Act I', era: 'Act I' },
-  { src: '/images/chromatic-portrait.avif', alt: 'FREE — portrait', era: 'Act I' },
-  { src: '/images/pilgrim-snow-1.avif', alt: 'FREE — Pilgrim', era: 'Interlude' },
+  { src: '/images/epk-act1-1.jpg', alt: 'FREE — Act I', era: 'Act I' },
+  { src: '/images/epk-interlude-1.jpg', alt: 'FREE — Interlude', era: 'Interlude' },
+  { src: '/images/epk-act2-1.jpg', alt: 'FREE — Act II', era: 'Act II' },
+  { src: '/images/epk-act1-2.jpg', alt: 'FREE — Act I', era: 'Act I' },
+  { src: '/images/epk-interlude-2.jpg', alt: 'FREE — Interlude', era: 'Interlude' },
+  { src: '/images/epk-act2-2.jpg', alt: 'FREE — Act II', era: 'Act II' },
 ]
 
 export default function EPKPage() {
