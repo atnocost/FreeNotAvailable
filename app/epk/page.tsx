@@ -11,6 +11,7 @@ const STREAMING = [
   { label: 'Spotify', href: 'https://open.spotify.com/artist/13Z1MsZ0A9Ddox3DZcu9zk' },
   { label: 'Apple Music', href: 'https://music.apple.com/us/artist/free/1724039693' },
   { label: 'TIDAL', href: 'https://tidal.com/artist/45010274' },
+  { label: 'YouTube', href: 'https://www.youtube.com/@OWJV/videos' },
 ]
 
 const PRESS_PHOTOS = [
@@ -39,6 +40,9 @@ export default function EPKPage() {
           />
         </div>
         <p className="text-[10px] tracking-[0.2em] uppercase text-white/30">
+          R&amp;B &middot; Songwriter &middot; Atlanta
+        </p>
+        <p className="text-[10px] tracking-[0.2em] uppercase text-white/22 mt-1">
           atnocost.cc
         </p>
       </section>
@@ -81,8 +85,7 @@ export default function EPKPage() {
         </div>
 
         <p className="text-[13px] font-light leading-[1.75] text-white/38 max-w-[540px] mt-6">
-          Short, concise, and deliberate. SINE NOCTIS is the score to its accompanying short film
-          and only the beginning of what comes next.
+          The cold counterpart to FINExME. Three movements. One descent.
         </p>
       </section>
 
@@ -148,6 +151,11 @@ export default function EPKPage() {
           </div>
         </div>
 
+        <p className="text-[13px] font-light leading-[1.75] text-white/38 max-w-[540px] mt-6">
+          The debut. Seven tracks of deflection and duality — love songs written from the grey area
+          between longing and letting go.
+        </p>
+
         {/* Streaming row */}
         <div className="flex gap-5 mt-8 pt-6 border-t border-white/6">
           {STREAMING.map((s) => (
@@ -172,6 +180,10 @@ export default function EPKPage() {
           Visual Works
         </p>
         <div className="flex flex-col gap-3">
+          <div className="flex items-baseline gap-3">
+            <span className="font-big-caesar text-lg text-white/55">At No Cost</span>
+            <span className="text-[9px] text-white/22">Trailer &middot; 2024</span>
+          </div>
           <div className="flex items-baseline gap-3">
             <span className="font-big-caesar text-lg text-white/55">Fine By Me</span>
             <span className="text-[9px] text-white/22">Film &middot; 2024</span>
@@ -233,7 +245,14 @@ export default function EPKPage() {
         </p>
         <div className="flex flex-col gap-4">
           <div>
-            <span className="text-[13px] text-white/50">Norbu Magazine</span>
+            <a
+              href="https://instagram.com/p/C3WMr7zR6xO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[13px] text-white/50 hover:text-white/70 transition-colors"
+            >
+              Norbu Magazine
+            </a>
             <span className="text-[11px] text-white/22 ml-2">&middot; Feature</span>
           </div>
           <div>
@@ -285,9 +304,15 @@ export default function EPKPage() {
             </div>
             <div>
               <p className="text-[8px] tracking-[0.14em] uppercase text-white/22 mb-1">Label</p>
-              <p className="text-[13px] text-white/50">
-                OWJV
-              </p>
+              <div className="relative w-[36px] h-[36px] opacity-50">
+                <Image
+                  src="/images/owjv-cherub-transparent.png"
+                  alt="OWJV"
+                  fill
+                  className="object-contain"
+                  sizes="36px"
+                />
+              </div>
             </div>
           </div>
         </div>
