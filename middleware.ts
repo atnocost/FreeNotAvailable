@@ -5,6 +5,10 @@ const VALID_TOKENS = new Set(
   (process.env.EKTHESIS_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
 )
 
+const BRIEF_TOKENS = new Set(
+  (process.env.BRIEF_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
+)
+
 export function middleware(req: NextRequest) {
   /* ── Internal auth (existing) ── */
   if (req.nextUrl.pathname.startsWith('/internal')) {
@@ -36,9 +40,24 @@ export function middleware(req: NextRequest) {
     return NextResponse.rewrite(new URL('/ekthesis/gate', req.url))
   }
 
+  /* ── Brief token gate ── */
+  if (req.nextUrl.pathname.startsWith('/brief')) {
+    if (req.nextUrl.pathname === '/brief/gate') {
+      return NextResponse.next()
+    }
+
+    const token = req.nextUrl.searchParams.get('token')
+
+    if (token && BRIEF_TOKENS.has(token)) {
+      return NextResponse.next()
+    }
+
+    return NextResponse.rewrite(new URL('/brief/gate', req.url))
+  }
+
   return NextResponse.next()
 }
 
 export const config = {
-  matcher: ['/internal/((?!login).*)', '/ekthesis/:path*'],
+  matcher: ['/internal/((?!login).*)', '/ekthesis/:path*', '/brief/:path*'],
 }
