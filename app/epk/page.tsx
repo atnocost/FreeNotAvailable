@@ -86,7 +86,7 @@ export default function EPKPage() {
               SINENOCTIS
             </h3>
             <p className="text-[10px] text-white/30 mb-3">
-              3 tracks &middot; The second project &middot; First installment of a series
+              3 tracks &middot; A short film in three movements
             </p>
             <Link
               href="/sinenoctis"
@@ -98,7 +98,7 @@ export default function EPKPage() {
         </div>
 
         <p className="text-[13px] font-light leading-[1.75] text-white/38 max-w-[540px] mt-6">
-          The cold counterpart to FINExME. Three movements. One descent.
+          The cold counterpart to FINExME. Three movements. One descent. Scored, subtitled.
         </p>
       </section>
 
@@ -202,8 +202,12 @@ export default function EPKPage() {
             <span className="text-[9px] text-white/22">Film &middot; 2024</span>
           </div>
           <div className="flex items-baseline gap-3">
-            <span className="font-big-caesar text-lg text-white/55">ANTE &middot; VESPERA &middot; NOCTEM</span>
+            <span className="font-big-caesar text-lg text-white/55">ANTE &middot; VESPERA</span>
             <span className="text-[9px] text-white/22">Teasers &middot; 2025</span>
+          </div>
+          <div className="flex items-baseline gap-3">
+            <span className="font-big-caesar text-lg text-white/55">NOCTEM</span>
+            <span className="text-[9px] text-white/22">Trailer &middot; 2025</span>
           </div>
         </div>
         <Link
@@ -313,6 +317,17 @@ export default function EPKPage() {
                 className="text-[13px] text-white/50 hover:text-white/70 transition-colors"
               >
                 @freenotavailable
+              </a>
+            </div>
+            <div>
+              <p className="text-[8px] tracking-[0.14em] uppercase text-white/22 mb-1">X</p>
+              <a
+                href="https://x.com/unavailablefree"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[13px] text-white/50 hover:text-white/70 transition-colors"
+              >
+                @unavailablefree
               </a>
             </div>
             <div>
