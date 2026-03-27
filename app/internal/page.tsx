@@ -108,15 +108,57 @@ function InternalContent() {
   return (
     <div className="min-h-screen bg-canvas text-body">
       {/* ---- Hero ---- */}
-      <section className="relative min-h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative py-20 flex flex-col items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-canvas" />
         <div className="relative z-10 text-center px-6">
-          <h1 className="font-pixel text-[clamp(3rem,8vw,7rem)] text-heading tracking-[0.04em] leading-none">
+          <p className="text-[7px] tracking-[0.4em] uppercase text-white/20 mb-4">OWJV</p>
+          <h1 className="font-pixel text-[clamp(2.5rem,6vw,5rem)] text-heading tracking-[0.04em] leading-none">
             INTERNAL
           </h1>
-          <p className="mt-4 font-sans text-lg md:text-xl italic text-white/30 tracking-wide">
-            Private reference &mdash; not for public distribution
+          <p className="mt-3 font-sans text-sm text-white/25 tracking-wide">
+            Private reference &mdash; not for distribution
           </p>
+        </div>
+      </section>
+
+      {/* ---- Tools ---- */}
+      <section className="border-t border-white/5 py-10">
+        <div className="max-w-4xl mx-auto px-6 md:px-10">
+          <span className="text-[8px] font-sans tracking-[0.25em] uppercase text-white/20 block mb-6">
+            Tools
+          </span>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <a
+              href="/internal/outreach"
+              className="border border-white/8 hover:border-white/20 px-5 py-4 transition-colors group"
+            >
+              <span className="text-[10px] tracking-[0.15em] uppercase text-white/50 group-hover:text-white/70 transition-colors block mb-1">
+                Press Outreach
+              </span>
+              <span className="text-[11px] text-white/25">
+                Compose emails with auto-generated tokens &middot; 88 contacts
+              </span>
+            </a>
+            <a
+              href="/internal/tokens"
+              className="border border-white/8 hover:border-white/20 px-5 py-4 transition-colors group"
+            >
+              <span className="text-[10px] tracking-[0.15em] uppercase text-white/50 group-hover:text-white/70 transition-colors block mb-1">
+                Token Generator
+              </span>
+              <span className="text-[11px] text-white/25">
+                Create &amp; revoke access tokens for ekthesis and brief gates
+              </span>
+            </a>
+            <div className="border border-white/5 px-5 py-4 opacity-40">
+              <span className="text-[10px] tracking-[0.15em] uppercase text-white/50 block mb-1">
+                Analytics
+              </span>
+              <span className="text-[11px] text-white/25">
+                View on Vercel Dashboard
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 

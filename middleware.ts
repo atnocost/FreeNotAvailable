@@ -1,15 +1,39 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-const VALID_TOKENS = new Set(
+/* ── Env-var fallback tokens (still work if KV isn't set up) ── */
+const ENV_EKTHESIS = new Set(
   (process.env.EKTHESIS_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
 )
-
-const BRIEF_TOKENS = new Set(
+const ENV_BRIEF = new Set(
   (process.env.BRIEF_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
 )
 
-export function middleware(req: NextRequest) {
+/* ── KV token check ── */
+async function kvHasToken(gate: string, token: string): Promise<boolean> {
+  const url = process.env.KV_REST_API_URL
+  const kvToken = process.env.KV_REST_API_TOKEN
+  if (!url || !kvToken) return false
+
+  try {
+    const res = await fetch(`${url}/hexists/gate:${gate}/${encodeURIComponent(token)}`, {
+      headers: { Authorization: `Bearer ${kvToken}` },
+    })
+    const data = await res.json()
+    return data.result === 1
+  } catch {
+    return false
+  }
+}
+
+/* ── Validate token: KV first, then env vars ── */
+async function isValidToken(gate: 'ekthesis' | 'brief', token: string): Promise<boolean> {
+  const envSet = gate === 'ekthesis' ? ENV_EKTHESIS : ENV_BRIEF
+  if (envSet.has(token)) return true
+  return kvHasToken(gate, token)
+}
+
+export async function middleware(req: NextRequest) {
   /* ── Internal auth (existing) ── */
   if (req.nextUrl.pathname.startsWith('/internal')) {
     const token = req.cookies.get('internal_auth')?.value
@@ -25,18 +49,16 @@ export function middleware(req: NextRequest) {
 
   /* ── Ekthesis token gate ── */
   if (req.nextUrl.pathname.startsWith('/ekthesis')) {
-    // Gate page is always accessible
     if (req.nextUrl.pathname === '/ekthesis/gate') {
       return NextResponse.next()
     }
 
     const token = req.nextUrl.searchParams.get('token')
 
-    if (token && VALID_TOKENS.has(token)) {
+    if (token && await isValidToken('ekthesis', token)) {
       return NextResponse.next()
     }
 
-    // No token or invalid token — show the gate page
     return NextResponse.rewrite(new URL('/ekthesis/gate', req.url))
   }
 
@@ -48,7 +70,7 @@ export function middleware(req: NextRequest) {
 
     const token = req.nextUrl.searchParams.get('token')
 
-    if (token && BRIEF_TOKENS.has(token)) {
+    if (token && await isValidToken('brief', token)) {
       return NextResponse.next()
     }
 

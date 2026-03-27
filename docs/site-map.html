@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Map — atnocost.cc</title>
+<style>
+  @page { size: letter; margin: 0.75in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.72);
+    font-size: 11px;
+    line-height: 1.7;
+    padding: 48px 56px;
+    max-width: 840px;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .doc-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-bottom: 28px;
+    margin-bottom: 36px;
+  }
+  .doc-header .label {
+    font-size: 7px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+    margin-bottom: 6px;
+  }
+  .doc-header h1 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 4px;
+  }
+  .doc-header .subtitle {
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.02em;
+  }
+
+  .section {
+    margin-bottom: 32px;
+  }
+  .section-title {
+    font-size: 8px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .route-card {
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 14px 18px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 170px 1fr 120px;
+    gap: 16px;
+    align-items: start;
+  }
+  .route-card:hover {
+    border-color: rgba(255,255,255,0.12);
+  }
+  .route-path {
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+  }
+  .route-desc {
+    font-size: 10px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.6;
+  }
+  .route-access {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 1px;
+  }
+  .access-public { color: rgba(255,255,255,0.3); }
+  .access-token { color: rgba(180,140,60,0.7); }
+  .access-password { color: rgba(192,57,43,0.6); }
+  .access-local { color: rgba(100,160,220,0.6); }
+
+  .badge {
+    display: inline-block;
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 2px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .badge-coming { background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.25); }
+  .badge-gated { background: rgba(180,140,60,0.1); color: rgba(180,140,60,0.6); }
+  .badge-private { background: rgba(192,57,43,0.1); color: rgba(192,57,43,0.5); }
+
+  code {
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 10px;
+    background: rgba(255,255,255,0.05);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.55);
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin: 28px 0;
+  }
+
+  .callout {
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(255,255,255,0.15);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+  }
+  .callout strong { color: rgba(255,255,255,0.7); font-weight: 500; }
+
+  .email-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    font-size: 10px;
+  }
+  .email-addr {
+    font-family: 'SF Mono', 'Menlo', monospace;
+    color: rgba(255,255,255,0.55);
+  }
+  .email-use { color: rgba(255,255,255,0.35); }
+
+  h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+  p { margin-bottom: 10px; color: rgba(255,255,255,0.45); font-size: 10px; }
+
+  .doc-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 9px;
+    color: rgba(255,255,255,0.15);
+    letter-spacing: 0.05em;
+  }
+
+  strong { color: rgba(255,255,255,0.65); font-weight: 500; }
+
+  @media print {
+    body { background: #0a0a0a; padding: 0; }
+    .section { break-inside: avoid; }
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 24px 20px; }
+    .route-card {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .route-access { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <p class="label">Internal Documentation &middot; Confidential</p>
+  <h1>Site Map &amp; Access Guide</h1>
+  <p class="subtitle">atnocost.cc &middot; Updated March 2026</p>
+</div>
+
+<!-- PUBLIC PAGES -->
+<div class="section">
+  <p class="section-title">Public Pages</p>
+
+  <div class="route-card">
+    <span class="route-path">/</span>
+    <span class="route-desc">Homepage &mdash; Hero, catalog grid, links, email capture, mythos, other media</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/finexme</span>
+    <span class="route-desc">Act I &mdash; FINExME project page. Red palette, streaming links, manuscript excerpt</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/sinenoctis</span>
+    <span class="route-desc">Act II &mdash; SINE NOCTIS project page. Monochrome palette, Pilgrim interlude</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/films</span>
+    <span class="route-desc">Visual works &mdash; Film cards with YouTube embeds, Pilgrim divider</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/otherworld</span>
+    <span class="route-desc">Hub page &mdash; Links to each act + explore navigation</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/timeline</span>
+    <span class="route-desc">Horizontal scrolling chronological timeline of releases and milestones</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/clips</span>
+    <span class="route-desc">Short-form content &mdash; 60% disabled, placeholder state <span class="badge badge-coming">Coming Soon</span></span>
+    <span class="route-access access-public">Public</span>
+  </div>
+
+  <div class="route-card">
+    <span class="route-path">/epk</span>
+    <span class="route-desc">Electronic press kit &mdash; Bio, catalog, visual works, press photos, contact info. Public-facing, shareable</span>
+    <span class="route-access access-public">Public</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- TOKEN-GATED PAGES -->
+<div class="section">
+  <p class="section-title">Token-Gated Pages</p>
+
+  <p>Access requires a <code>?token=</code> parameter in the URL. Tokens are generated at <code>/internal/tokens</code>. Without a valid token, visitors see a gate page.</p>
+
+  <div class="route-card" style="border-color: rgba(180,140,60,0.15);">
+    <span class="route-path">/ekthesis <span class="badge badge-gated">Gated</span></span>
+    <span class="route-desc">
+      Business case / investor deck. Share with press, partners, and potential collaborators via generated token links.
+      <br><br>
+      <strong>URL format:</strong> <code>atnocost.cc/ekthesis?token=XXXX</code><br>
+      <strong>Gate page:</strong> <code>/ekthesis/gate</code><br>
+      <strong>Fallback token (env var):</strong> <code>6958</code>
+    </span>
+    <span class="route-access access-token">Token</span>
+  </div>
+
+  <div class="route-card" style="border-color: rgba(180,140,60,0.15);">
+    <span class="route-path">/brief <span class="badge badge-gated">Gated</span></span>
+    <span class="route-desc">
+      Creative brief &mdash; <strong>team use only</strong>. Internal reference for collaborators, not for external distribution.
+      <br><br>
+      <strong>URL format:</strong> <code>atnocost.cc/brief?token=XXXX</code><br>
+      <strong>Gate page:</strong> <code>/brief/gate</code>
+    </span>
+    <span class="route-access access-token">Token &middot; Team</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- PASSWORD-PROTECTED PAGES -->
+<div class="section">
+  <p class="section-title">Password-Protected Pages</p>
+
+  <p>Access requires the <code>INTERNAL_AUTH_TOKEN</code> password, entered at the login page.</p>
+
+  <div class="route-card" style="border-color: rgba(192,57,43,0.15);">
+    <span class="route-path">/internal <span class="badge badge-private">Private</span></span>
+    <span class="route-desc">
+      Internal hub &mdash; Tools dashboard (links to outreach + token gen), rollout overview, artist one-sheet, Other World Mythos visual bible, production standards, design system
+    </span>
+    <span class="route-access access-password">Password</span>
+  </div>
+
+  <div class="route-card" style="border-color: rgba(192,57,43,0.15);">
+    <span class="route-path">/internal/outreach <span class="badge badge-private">Private</span></span>
+    <span class="route-desc">
+      Press outreach tool &mdash; 142 contacts across 5 tiers (VIP + T1&ndash;T4). Emails link to public EPK (<code>atnocost.cc/epk</code>) by default. Optional per-contact ekthesis token attachment for individuals who need the full deck. Track sent/bounced status.
+      <br><br>
+      <strong>From address (T1&ndash;T3):</strong> <code>free@atnocost.cc</code> (artist voice)<br>
+      <strong>From address (T4):</strong> <code>freeisavailable@atnocost.cc</code> (label voice)<br>
+      <strong>To update contacts:</strong> Request edit to <code>lib/press-contacts.ts</code> + redeploy
+    </span>
+    <span class="route-access access-password">Password</span>
+  </div>
+
+  <div class="route-card" style="border-color: rgba(192,57,43,0.15);">
+    <span class="route-path">/internal/tokens <span class="badge badge-private">Private</span></span>
+    <span class="route-desc">
+      Token generator &mdash; Create, view, copy, and revoke access tokens for ekthesis and brief gates. For manual token creation outside of press outreach (partners, investors, collaborators).
+    </span>
+    <span class="route-access access-password">Password</span>
+  </div>
+
+  <div class="route-card" style="border-color: rgba(192,57,43,0.15);">
+    <span class="route-path">/internal/login</span>
+    <span class="route-desc">Login page for /internal section</span>
+    <span class="route-access access-public">Public (entry)</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- EMAILS -->
+<div class="section">
+  <p class="section-title">Email Addresses</p>
+
+  <div class="email-row">
+    <span class="email-addr">free@atnocost.cc</span>
+    <span class="email-use">Artist voice &mdash; used in T1&ndash;T3 press outreach (editorial, blogs, playlists)</span>
+  </div>
+  <div class="email-row">
+    <span class="email-addr">freeisavailable@atnocost.cc</span>
+    <span class="email-use">Press / booking &mdash; T4 industry outreach, EPK contact, general inquiries</span>
+  </div>
+  <div class="email-row">
+    <span class="email-addr">entry@atnocost.cc</span>
+    <span class="email-use">Ekthesis gate page &mdash; visitors request access here</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- SOCIALS -->
+<div class="section">
+  <p class="section-title">Linked Profiles</p>
+
+  <div class="email-row">
+    <span class="email-addr">@unavailablefree</span>
+    <span class="email-use">X (Twitter) &mdash; listed on EPK</span>
+  </div>
+  <div class="email-row">
+    <span class="email-addr">Instagram</span>
+    <span class="email-use">Listed on EPK and homepage links</span>
+  </div>
+  <div class="email-row">
+    <span class="email-addr">Spotify / Apple / TIDAL</span>
+    <span class="email-use">Streaming links on all applicable pages</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- QUICK REFERENCE -->
+<div class="section">
+  <p class="section-title">Quick Reference</p>
+
+  <div class="callout">
+    <strong>Deploy:</strong> <code>npx vercel deploy --prod</code> from project root
+  </div>
+  <div class="callout">
+    <strong>Internal password:</strong> Set via <code>INTERNAL_AUTH_TOKEN</code> in Vercel env vars
+  </div>
+  <div class="callout">
+    <strong>Token generator:</strong> <code>atnocost.cc/internal/tokens</code> &rarr; log in &rarr; select gate &rarr; generate
+  </div>
+  <div class="callout">
+    <strong>Press outreach:</strong> <code>atnocost.cc/internal/outreach</code> &rarr; click contact &rarr; copy email &rarr; mark sent
+  </div>
+</div>
+
+<div class="doc-footer">
+  OWJV &middot; atnocost.cc &middot; Internal use only
+</div>
+
+</body>
+</html>

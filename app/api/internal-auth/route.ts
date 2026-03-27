@@ -2,12 +2,15 @@ import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   const { password } = await req.json()
-  const validPassword = process.env.INTERNAL_PASSWORD || 'free'
+  const secret = process.env.INTERNAL_AUTH_TOKEN
 
-  if (password === validPassword) {
-    const token = process.env.INTERNAL_AUTH_TOKEN || crypto.randomUUID()
+  if (!secret) {
+    return NextResponse.json({ error: 'not configured' }, { status: 500 })
+  }
+
+  if (password === secret) {
     const res = NextResponse.json({ success: true })
-    res.cookies.set('internal_auth', token, {
+    res.cookies.set('internal_auth', secret, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'strict',

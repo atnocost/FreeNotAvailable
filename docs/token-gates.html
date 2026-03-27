@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Token Gate System — atnocost.cc</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.75in;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.72);
+    font-size: 11px;
+    line-height: 1.7;
+    padding: 48px 56px;
+    max-width: 800px;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Header */
+  .doc-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-bottom: 28px;
+    margin-bottom: 36px;
+  }
+  .doc-header .label {
+    font-size: 7px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+    margin-bottom: 6px;
+  }
+  .doc-header h1 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 4px;
+  }
+  .doc-header .subtitle {
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.02em;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 32px;
+  }
+  .section-title {
+    font-size: 8px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.55);
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+  th {
+    text-align: left;
+    font-size: 8px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-weight: 500;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    color: rgba(255,255,255,0.55);
+    vertical-align: top;
+  }
+
+  /* Code */
+  code {
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 10px;
+    background: rgba(255,255,255,0.05);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.6);
+  }
+  pre {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 3px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    overflow-x: auto;
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 10px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.5);
+  }
+
+  /* Steps */
+  .steps {
+    list-style: none;
+    counter-reset: step;
+    padding-left: 0;
+    margin-bottom: 14px;
+  }
+  .steps li {
+    counter-increment: step;
+    padding: 6px 0 6px 28px;
+    position: relative;
+    color: rgba(255,255,255,0.55);
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.12);
+    text-align: center;
+    line-height: 17px;
+    font-size: 9px;
+    color: rgba(255,255,255,0.3);
+    top: 7px;
+  }
+
+  /* Bullets */
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 14px;
+  }
+  ul li {
+    padding: 3px 0 3px 16px;
+    position: relative;
+    color: rgba(255,255,255,0.55);
+  }
+  ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+  }
+
+  /* Callout */
+  .callout {
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(255,255,255,0.15);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+  .callout strong {
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+  }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin: 28px 0;
+  }
+
+  /* Footer */
+  .doc-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 9px;
+    color: rgba(255,255,255,0.15);
+    letter-spacing: 0.05em;
+  }
+
+  strong { color: rgba(255,255,255,0.7); font-weight: 500; }
+
+  @media print {
+    body { background: #0a0a0a; padding: 0; }
+    .section { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <p class="label">Internal Documentation &middot; Confidential</p>
+  <h1>Token Gate System</h1>
+  <p class="subtitle">atnocost.cc &middot; Updated March 2026</p>
+</div>
+
+<!-- OVERVIEW -->
+<div class="section">
+  <p class="section-title">Overview</p>
+  <p>The site uses token-gated access for private content. Visitors need a valid token appended to the URL to view protected pages. Without one, they see a gate page.</p>
+
+  <table>
+    <thead>
+      <tr><th>Gate</th><th>URL</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Ekthesis</strong></td>
+        <td><code>atnocost.cc/ekthesis?token=XXXX</code></td>
+        <td>Business case / investor deck</td>
+      </tr>
+      <tr>
+        <td><strong>Brief</strong></td>
+        <td><code>atnocost.cc/brief?token=XXXX</code></td>
+        <td>Creative brief (future use)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="divider">
+
+<!-- HOW IT WORKS -->
+<div class="section">
+  <p class="section-title">How Token Validation Works</p>
+  <ol class="steps">
+    <li>Visitor hits <code>/ekthesis</code> or <code>/brief</code></li>
+    <li>Middleware checks the <code>?token=</code> query parameter</li>
+    <li>Token is validated against <strong>Vercel KV</strong> (Redis) first, then <strong>environment variables</strong> as fallback</li>
+    <li>Valid token &rarr; content loads. Invalid or missing &rarr; gate page</li>
+  </ol>
+</div>
+
+<hr class="divider">
+
+<!-- ADMIN UI -->
+<div class="section">
+  <p class="section-title">Token Generator &mdash; Admin UI</p>
+
+  <div class="callout">
+    <strong>URL:</strong> <code>https://atnocost.cc/internal/tokens</code>
+  </div>
+
+  <h3>Logging In</h3>
+  <ol class="steps">
+    <li>Navigate to <code>atnocost.cc/internal/tokens</code></li>
+    <li>You'll be redirected to the login page</li>
+    <li>Enter your password (the value of <code>INTERNAL_AUTH_TOKEN</code>)</li>
+    <li>Once authenticated, the token dashboard loads</li>
+  </ol>
+
+  <h3>Generating Tokens</h3>
+  <ul>
+    <li><strong>Select a gate</strong> &mdash; toggle between ekthesis and brief</li>
+    <li><strong>Enter contact name</strong> &mdash; e.g., "Alphonse Pierre" (for your reference only)</li>
+    <li><strong>Click Generate</strong> &mdash; creates a unique 12-character token</li>
+    <li><strong>Copy URL</strong> &mdash; copies the full shareable link to your clipboard</li>
+    <li><strong>Revoke</strong> &mdash; permanently deletes the token; the link stops working immediately</li>
+  </ul>
+
+  <h3>Shareable URL Format</h3>
+  <pre>https://atnocost.cc/ekthesis?token=abc123def456
+https://atnocost.cc/brief?token=abc123def456</pre>
+</div>
+
+<hr class="divider">
+
+<!-- PASSWORD -->
+<div class="section">
+  <p class="section-title">Internal Password Setup</p>
+
+  <p>The <code>/internal</code> section (token generator, future admin tools) is protected by a single password stored as an environment variable in Vercel.</p>
+
+  <h3>Setting or Changing the Password</h3>
+  <ol class="steps">
+    <li>Go to <strong>Vercel Dashboard</strong> &rarr; Project &rarr; Settings &rarr; Environment Variables</li>
+    <li>Set <code>INTERNAL_AUTH_TOKEN</code> to your chosen password</li>
+    <li>Apply to <strong>Production</strong>, <strong>Preview</strong>, and <strong>Development</strong></li>
+    <li>Redeploy: <code>npx vercel deploy --prod</code></li>
+  </ol>
+
+  <div class="callout">
+    Whatever value you set for <code>INTERNAL_AUTH_TOKEN</code> is the password you enter on the login page.
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ENV VARS -->
+<div class="section">
+  <p class="section-title">Environment Variables</p>
+
+  <table>
+    <thead>
+      <tr><th>Variable</th><th>Purpose</th><th>Required</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>INTERNAL_AUTH_TOKEN</code></td>
+        <td>Password for /internal admin pages</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><code>KV_REST_API_URL</code></td>
+        <td>Vercel KV Redis endpoint (auto-set when KV is linked)</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><code>KV_REST_API_TOKEN</code></td>
+        <td>Vercel KV auth token (auto-set when KV is linked)</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><code>EKTHESIS_TOKENS</code></td>
+        <td>Comma-separated fallback tokens</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td><code>BRIEF_TOKENS</code></td>
+        <td>Comma-separated fallback tokens</td>
+        <td>Optional</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Fallback Tokens</h3>
+  <p>Static tokens set via <code>EKTHESIS_TOKENS</code> or <code>BRIEF_TOKENS</code> always work alongside KV-generated tokens. These don't appear in the admin UI and can't be revoked from it &mdash; they're managed directly in Vercel's environment variable settings.</p>
+  <p>Current env var token for ekthesis: <code>6958</code></p>
+</div>
+
+<hr class="divider">
+
+<!-- ARCHITECTURE -->
+<div class="section">
+  <p class="section-title">Technical Architecture</p>
+
+  <pre>Visitor &rarr; middleware.ts
+              |&mdash; Check ?token= param
+              |&mdash; Validate against env vars (instant)
+              |&mdash; Validate against Vercel KV via REST API
+              |&mdash; Rewrite to /gate if invalid
+
+Admin &rarr; /internal/tokens (React UI)
+              |&mdash; GET  /api/tokens?gate=ekthesis  &rarr; list tokens
+              |&mdash; POST /api/tokens {gate, contact} &rarr; create token
+              |&mdash; DELETE /api/tokens {gate, token} &rarr; revoke token
+
+Storage: Vercel KV (Redis)
+  Key: gate:ekthesis  &rarr; Hash of { token: JSON metadata }
+  Key: gate:brief     &rarr; Hash of { token: JSON metadata }</pre>
+
+  <h3>Key Files</h3>
+  <table>
+    <thead>
+      <tr><th>File</th><th>Role</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>middleware.ts</code></td><td>Intercepts requests, validates tokens</td></tr>
+      <tr><td><code>lib/tokens.ts</code></td><td>Token CRUD operations (KV + env var fallback)</td></tr>
+      <tr><td><code>app/api/tokens/route.ts</code></td><td>REST API for admin UI</td></tr>
+      <tr><td><code>app/internal/tokens/page.tsx</code></td><td>Admin token dashboard</td></tr>
+      <tr><td><code>app/internal/login/page.tsx</code></td><td>Login page</td></tr>
+      <tr><td><code>app/api/internal-auth/route.ts</code></td><td>Login authentication endpoint</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="divider">
+
+<!-- QUICK START -->
+<div class="section">
+  <p class="section-title">Quick Start</p>
+  <ol class="steps">
+    <li>Ensure <code>INTERNAL_AUTH_TOKEN</code> is set in Vercel env vars</li>
+    <li>Go to <code>atnocost.cc/internal/tokens</code></li>
+    <li>Log in with your password</li>
+    <li>Select gate, enter contact name, click Generate</li>
+    <li>Share the copied URL with your contact</li>
+    <li>Revoke anytime to kill access instantly</li>
+  </ol>
+</div>
+
+<div class="doc-footer">
+  OWJV &middot; atnocost.cc &middot; Internal use only
+</div>
+
+</body>
+</html>

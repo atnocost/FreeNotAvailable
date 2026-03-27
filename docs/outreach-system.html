@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach System — atnocost.cc</title>
+<style>
+  @page { size: letter; margin: 0.75in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.72);
+    font-size: 11px;
+    line-height: 1.7;
+    padding: 48px 56px;
+    max-width: 800px;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .doc-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-bottom: 28px;
+    margin-bottom: 36px;
+  }
+  .doc-header .label {
+    font-size: 7px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+    margin-bottom: 6px;
+  }
+  .doc-header h1 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 4px;
+  }
+  .doc-header .subtitle {
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+  }
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-size: 8px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 8px;
+  }
+  p { margin-bottom: 10px; color: rgba(255,255,255,0.55); }
+  code {
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 10px;
+    background: rgba(255,255,255,0.05);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.6);
+  }
+  pre {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 3px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 10px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.5);
+  }
+  .steps {
+    list-style: none;
+    counter-reset: step;
+    padding-left: 0;
+    margin-bottom: 14px;
+  }
+  .steps li {
+    counter-increment: step;
+    padding: 6px 0 6px 28px;
+    position: relative;
+    color: rgba(255,255,255,0.55);
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.12);
+    text-align: center;
+    line-height: 17px;
+    font-size: 9px;
+    color: rgba(255,255,255,0.3);
+    top: 7px;
+  }
+  .callout {
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(255,255,255,0.15);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+  .callout strong { color: rgba(255,255,255,0.7); font-weight: 500; }
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin: 28px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+  th {
+    text-align: left;
+    font-size: 8px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-weight: 500;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    color: rgba(255,255,255,0.55);
+    vertical-align: top;
+  }
+  strong { color: rgba(255,255,255,0.7); font-weight: 500; }
+  .doc-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 9px;
+    color: rgba(255,255,255,0.15);
+    letter-spacing: 0.05em;
+  }
+  @media print {
+    body { background: #0a0a0a; padding: 0; }
+    .section { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <p class="label">Internal Documentation &middot; Confidential</p>
+  <h1>Press Outreach &amp; Email System</h1>
+  <p class="subtitle">atnocost.cc &middot; Updated March 2026</p>
+</div>
+
+<!-- OVERVIEW -->
+<div class="section">
+  <p class="section-title">Overview</p>
+  <p>The outreach system sends press emails directly from <code>atnocost.cc/internal/outreach</code>. Emails are delivered via <strong>Resend</strong> (SMTP relay) from <code>@atnocost.cc</code> addresses. No copy-paste required &mdash; click Send, confirm, delivered.</p>
+
+  <pre>You (outreach tool) &rarr; Resend API &rarr; Recipient inbox
+Recipient replies &rarr; Cloudflare Email Routing &rarr; Gmail (sound.otherworld@gmail.com)</pre>
+</div>
+
+<hr class="divider">
+
+<!-- SEND FLOW -->
+<div class="section">
+  <p class="section-title">How to Send</p>
+
+  <ol class="steps">
+    <li>Go to <code>atnocost.cc/internal/outreach</code></li>
+    <li>Find or search for a contact</li>
+    <li>Click to expand &mdash; review From, To, Subject, Body</li>
+    <li>Click <strong>Send</strong></li>
+    <li>Confirmation modal shows the full email &mdash; review one more time</li>
+    <li>Click <strong>Send Email</strong> to deliver</li>
+    <li>Status auto-updates to "sent"</li>
+  </ol>
+
+  <div class="callout">
+    <strong>Copy buttons</strong> are still available on every contact if you ever need to send manually through Gmail instead.
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- FROM ADDRESSES -->
+<div class="section">
+  <p class="section-title">From Addresses</p>
+
+  <table>
+    <thead>
+      <tr><th>Tier</th><th>From Address</th><th>Voice</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>VIP + Tier 1&ndash;3</td>
+        <td><code>FREE &lt;free@atnocost.cc&gt;</code></td>
+        <td>Artist &mdash; first person, personal</td>
+      </tr>
+      <tr>
+        <td>Tier 4</td>
+        <td><code>FREE / OWJV &lt;freeisavailable@atnocost.cc&gt;</code></td>
+        <td>Label &mdash; industry, professional</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>The system selects the correct From address automatically based on the contact's tier.</p>
+</div>
+
+<hr class="divider">
+
+<!-- CONTACT MANAGEMENT -->
+<div class="section">
+  <p class="section-title">Contact List</p>
+
+  <p>142 contacts across 5 tiers. Stored in <code>lib/press-contacts.ts</code>.</p>
+
+  <table>
+    <thead>
+      <tr><th>Tier</th><th>Count</th><th>Audience</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>VIP</td><td>1</td><td>Patu Ong &mdash; first access, send before all others</td></tr>
+      <tr><td>Tier 1</td><td>32</td><td>Pitchfork, Rolling Stone, Billboard, The Fader, Complex, NPR</td></tr>
+      <tr><td>Tier 2</td><td>27</td><td>UPROXX, XXL, VIBE, Okayplayer, HuffPost, Stereogum, freelancers</td></tr>
+      <tr><td>Tier 3</td><td>18</td><td>HearingThings, ThisIsRNB, STRAPPED, Lyrical Lemonade, blogs</td></tr>
+      <tr><td>Tier 4</td><td>64</td><td>Spotify editorial, Colors, A&amp;R, distribution, industry</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Updating Contacts</h3>
+  <p>To add, remove, or edit a contact: request the change (e.g., "add X from Y to tier Z with email W"). One file edit + redeploy. No database migration, no complex process.</p>
+</div>
+
+<hr class="divider">
+
+<!-- EKTHESIS ATTACHMENT -->
+<div class="section">
+  <p class="section-title">Ekthesis Token Attachment</p>
+
+  <p>By default, all emails link to the public EPK at <code>atnocost.cc/epk</code>. For specific contacts who need the full business case:</p>
+
+  <ol class="steps">
+    <li>Expand the contact in the outreach tool</li>
+    <li>Click <strong>Attach Ekthesis</strong></li>
+    <li>A unique token is generated and the ekthesis link is added to the email body</li>
+    <li>Send as normal &mdash; the link is included automatically</li>
+    <li><strong>Revoke</strong> anytime to kill that contact's ekthesis access</li>
+  </ol>
+
+  <p>Ekthesis tokens generated here also appear in the standalone Token Generator at <code>/internal/tokens</code>.</p>
+</div>
+
+<hr class="divider">
+
+<!-- SEND ORDER -->
+<div class="section">
+  <p class="section-title">Recommended Send Order</p>
+
+  <ol class="steps">
+    <li><strong>Patu Ong (VIP)</strong> &mdash; send first. Wait 48&ndash;72 hours before anything else.</li>
+    <li><strong>Tier 1</strong> &mdash; Pitchfork, Rolling Stone, Billboard, Fader, Complex, NPR. One by one.</li>
+    <li><strong>Tier 2</strong> &mdash; UPROXX, XXL, VIBE, Okayplayer, freelancers.</li>
+    <li><strong>Tier 3</strong> &mdash; Indie blogs, submission inboxes, playlists.</li>
+    <li><strong>Tier 4</strong> &mdash; Industry, A&amp;R, Spotify editorial, Colors. Different pitch angle.</li>
+  </ol>
+</div>
+
+<hr class="divider">
+
+<!-- INFRASTRUCTURE -->
+<div class="section">
+  <p class="section-title">Infrastructure</p>
+
+  <h3>Email Delivery: Resend</h3>
+  <p>Emails are sent via the Resend API. Domain <code>atnocost.cc</code> is verified with DKIM/SPF records in Cloudflare DNS.</p>
+
+  <div class="callout">
+    <strong>Resend API Key:</strong> stored as <code>RESEND_API_KEY</code> in Vercel env vars. If the key is rotated, update it there and redeploy.
+  </div>
+
+  <h3>Email Receiving: Cloudflare Email Routing</h3>
+  <p>Inbound mail to <code>@atnocost.cc</code> is forwarded to <code>sound.otherworld@gmail.com</code> via Cloudflare Email Routing. Replies to outreach emails land here.</p>
+
+  <h3>Gmail Alias (Backup)</h3>
+  <p><code>free@atnocost.cc</code> is also configured as a "Send mail as" alias in Gmail using Resend SMTP. This allows manual sending from Gmail if the outreach tool is unavailable.</p>
+
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Role</th><th>Config Location</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Resend</td><td>Outbound email delivery (SMTP/API)</td><td>resend.com dashboard + <code>RESEND_API_KEY</code> env var</td></tr>
+      <tr><td>Cloudflare</td><td>DNS + inbound email forwarding</td><td>Cloudflare dashboard &rarr; Email Routing</td></tr>
+      <tr><td>Gmail</td><td>Inbox for replies + backup manual sending</td><td>Gmail Settings &rarr; Accounts &rarr; Send mail as</td></tr>
+      <tr><td>Vercel KV</td><td>Outreach status tracking (sent/pending/bounced)</td><td>Auto-configured via Vercel</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="divider">
+
+<!-- ENV VARS -->
+<div class="section">
+  <p class="section-title">Environment Variables</p>
+
+  <table>
+    <thead>
+      <tr><th>Variable</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>RESEND_API_KEY</code></td><td>Resend API key for sending emails</td></tr>
+      <tr><td><code>INTERNAL_AUTH_TOKEN</code></td><td>Password for /internal admin pages</td></tr>
+      <tr><td><code>KV_REST_API_URL</code></td><td>Vercel KV endpoint (auto-set)</td></tr>
+      <tr><td><code>KV_REST_API_TOKEN</code></td><td>Vercel KV auth (auto-set)</td></tr>
+      <tr><td><code>EKTHESIS_TOKENS</code></td><td>Fallback ekthesis tokens (e.g., <code>6958</code>)</td></tr>
+      <tr><td><code>BRIEF_TOKENS</code></td><td>Fallback brief tokens</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="divider">
+
+<!-- TROUBLESHOOTING -->
+<div class="section">
+  <p class="section-title">Troubleshooting</p>
+
+  <h3>Send button says "RESEND_API_KEY not configured"</h3>
+  <p>Add the API key in Vercel Dashboard &rarr; Settings &rarr; Environment Variables &rarr; redeploy.</p>
+
+  <h3>Email lands in spam</h3>
+  <p>Check that DKIM and SPF records are present in Cloudflare DNS (added during Resend domain verification). Resend dashboard &rarr; Domains &rarr; should show green "Verified."</p>
+
+  <h3>Replies not arriving</h3>
+  <p>Check Cloudflare Email Routing is active and forwarding to the correct Gmail address.</p>
+
+  <h3>Can't log in to /internal</h3>
+  <p>Verify <code>INTERNAL_AUTH_TOKEN</code> is set in Vercel env vars. The value you set is the password.</p>
+</div>
+
+<div class="doc-footer">
+  OWJV &middot; atnocost.cc &middot; Internal use only
+</div>
+
+</body>
+</html>
