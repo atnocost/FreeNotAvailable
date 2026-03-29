@@ -15,9 +15,9 @@ function checkAuth(req: NextRequest): boolean {
 export async function GET(req: NextRequest) {
   if (!checkAuth(req)) return unauthorized()
 
-  const gate = req.nextUrl.searchParams.get('gate') as 'ekthesis' | 'brief'
-  if (!gate || !['ekthesis', 'brief'].includes(gate)) {
-    return NextResponse.json({ error: 'gate must be ekthesis or brief' }, { status: 400 })
+  const gate = req.nextUrl.searchParams.get('gate') as 'ekthesis' | 'brief' | 'site'
+  if (!gate || !['ekthesis', 'brief', 'site'].includes(gate)) {
+    return NextResponse.json({ error: 'gate must be ekthesis, brief, or site' }, { status: 400 })
   }
 
   const tokens = await listTokens(gate)
@@ -31,8 +31,8 @@ export async function POST(req: NextRequest) {
   const body = await req.json()
   const { gate, contact } = body
 
-  if (!gate || !['ekthesis', 'brief'].includes(gate)) {
-    return NextResponse.json({ error: 'gate must be ekthesis or brief' }, { status: 400 })
+  if (!gate || !['ekthesis', 'brief', 'site'].includes(gate)) {
+    return NextResponse.json({ error: 'gate must be ekthesis, brief, or site' }, { status: 400 })
   }
   if (!contact || typeof contact !== 'string') {
     return NextResponse.json({ error: 'contact name required' }, { status: 400 })
@@ -49,7 +49,7 @@ export async function DELETE(req: NextRequest) {
   const body = await req.json()
   const { gate, token } = body
 
-  if (!gate || !['ekthesis', 'brief'].includes(gate)) {
+  if (!gate || !['ekthesis', 'brief', 'site'].includes(gate)) {
     return NextResponse.json({ error: 'gate must be ekthesis or brief' }, { status: 400 })
   }
   if (!token) {

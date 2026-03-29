@@ -4,19 +4,20 @@ import { useState, useEffect, useCallback } from 'react'
 
 type TokenMeta = {
   token: string
-  gate: 'ekthesis' | 'brief'
+  gate: 'ekthesis' | 'brief' | 'site'
   contact: string
   created: string
 }
 
-const GATES = ['ekthesis', 'brief'] as const
+const GATES = ['ekthesis', 'brief', 'site'] as const
 const BASE_URLS: Record<string, string> = {
   ekthesis: 'https://atnocost.cc/ekthesis?token=',
   brief: 'https://atnocost.cc/brief?token=',
+  site: 'https://atnocost.cc/?token=',
 }
 
 export default function TokensPage() {
-  const [gate, setGate] = useState<'ekthesis' | 'brief'>('ekthesis')
+  const [gate, setGate] = useState<'ekthesis' | 'brief' | 'site'>('ekthesis')
   const [tokens, setTokens] = useState<TokenMeta[]>([])
   const [contact, setContact] = useState('')
   const [loading, setLoading] = useState(false)

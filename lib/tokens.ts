@@ -2,7 +2,7 @@ import { kv } from '@vercel/kv'
 
 export type TokenMeta = {
   token: string
-  gate: 'ekthesis' | 'brief'
+  gate: 'ekthesis' | 'brief' | 'site'
   contact: string
   created: string
 }
@@ -11,7 +11,7 @@ export type TokenMeta = {
  * Check if a token is valid for a given gate.
  * Falls back to env vars if KV is not configured.
  */
-export async function isValidToken(gate: 'ekthesis' | 'brief', token: string): Promise<boolean> {
+export async function isValidToken(gate: 'ekthesis' | 'brief' | 'site', token: string): Promise<boolean> {
   try {
     const exists = await kv.hexists(`gate:${gate}`, token)
     if (exists) return true
@@ -20,7 +20,7 @@ export async function isValidToken(gate: 'ekthesis' | 'brief', token: string): P
   }
 
   // Fallback: check env vars
-  const envKey = gate === 'ekthesis' ? 'EKTHESIS_TOKENS' : 'BRIEF_TOKENS'
+  const envKey = gate === 'ekthesis' ? 'EKTHESIS_TOKENS' : gate === 'brief' ? 'BRIEF_TOKENS' : 'SITE_TOKENS'
   const envTokens = new Set(
     (process.env[envKey] ?? '').split(',').map((t) => t.trim()).filter(Boolean)
   )
@@ -38,7 +38,7 @@ export function generateToken(): string {
 }
 
 /** Create a token for a gate */
-export async function createToken(gate: 'ekthesis' | 'brief', contact: string): Promise<TokenMeta> {
+export async function createToken(gate: 'ekthesis' | 'brief' | 'site', contact: string): Promise<TokenMeta> {
   const token = generateToken()
   const meta: TokenMeta = { token, gate, contact, created: new Date().toISOString().split('T')[0] }
 
@@ -47,7 +47,7 @@ export async function createToken(gate: 'ekthesis' | 'brief', contact: string): 
 }
 
 /** List all tokens for a gate */
-export async function listTokens(gate: 'ekthesis' | 'brief'): Promise<TokenMeta[]> {
+export async function listTokens(gate: 'ekthesis' | 'brief' | 'site'): Promise<TokenMeta[]> {
   const data = await kv.hgetall(`gate:${gate}`) as Record<string, string> | null
   if (!data) return []
 
@@ -58,6 +58,6 @@ export async function listTokens(gate: 'ekthesis' | 'brief'): Promise<TokenMeta[
 }
 
 /** Revoke a token */
-export async function revokeToken(gate: 'ekthesis' | 'brief', token: string): Promise<void> {
+export async function revokeToken(gate: 'ekthesis' | 'brief' | 'site', token: string): Promise<void> {
   await kv.hdel(`gate:${gate}`, token)
 }
