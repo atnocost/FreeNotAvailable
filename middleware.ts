@@ -1,17 +1,6 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-/* ── Env-var fallback tokens (still work if KV isn't set up) ── */
-const ENV_EKTHESIS = new Set(
-  (process.env.EKTHESIS_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
-)
-const ENV_BRIEF = new Set(
-  (process.env.BRIEF_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
-)
-const ENV_SITE = new Set(
-  (process.env.SITE_TOKENS ?? '').split(',').map((t) => t.trim()).filter(Boolean)
-)
-
 /* ── KV token check ── */
 async function kvHasToken(gate: string, token: string): Promise<boolean> {
   const url = process.env.KV_REST_API_URL
@@ -29,10 +18,13 @@ async function kvHasToken(gate: string, token: string): Promise<boolean> {
   }
 }
 
-/* ── Validate token: KV first, then env vars ── */
+/* ── Validate token: env vars read at call time, then KV ── */
 async function isValidToken(gate: 'ekthesis' | 'brief' | 'site', token: string): Promise<boolean> {
-  const envSet = gate === 'ekthesis' ? ENV_EKTHESIS : gate === 'brief' ? ENV_BRIEF : ENV_SITE
-  if (envSet.has(token)) return true
+  const envKey = gate === 'ekthesis' ? 'EKTHESIS_TOKENS' : gate === 'brief' ? 'BRIEF_TOKENS' : 'SITE_TOKENS'
+  const envTokens = new Set(
+    (process.env[envKey] ?? '').split(',').map((t) => t.trim()).filter(Boolean)
+  )
+  if (envTokens.has(token)) return true
   return kvHasToken(gate, token)
 }
 
