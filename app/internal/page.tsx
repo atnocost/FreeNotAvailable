@@ -136,7 +136,7 @@ function InternalContent() {
                 Press Outreach
               </span>
               <span className="text-[11px] text-white/25">
-                Compose emails with auto-generated tokens &middot; 88 contacts
+                Send emails, track status, attach ekthesis tokens &middot; 142 contacts
               </span>
             </a>
             <a
@@ -216,8 +216,8 @@ function InternalContent() {
             </span>
 
             <Paragraph>
-              The icy follow-up to 2024&rsquo;s steamy FINExME the album. SINE NOCTIS is perfect
-              for the Fall/Winter season.
+              The cold counterpart to 2024&rsquo;s FINExME. SINE NOCTIS is a short film and EP &mdash;
+              three movements, one descent.
             </Paragraph>
 
             <div className="mt-8 inline-block border border-white/10 px-5 py-3">
@@ -298,8 +298,8 @@ function InternalContent() {
             <Paragraph>
               <strong className="text-heading/80">Project structure:</strong> Each release functions
               like a Greek vignette: emotionally and visually self-contained, but part of a larger
-              pantheon of FREE&rsquo;s mythos, similar to how The Weeknd reinvents his persona each
-              album while PND&rsquo;s projects act as time capsules that still fit a bigger myth.
+              pantheon of FREE&rsquo;s mythos &mdash; each entry accumulating into something bigger
+              over time.
             </Paragraph>
           </div>
         </div>
@@ -576,11 +576,12 @@ function InternalContent() {
 
           <SubTitle>ANTE &mdash; Teaser (&ldquo;Before&rdquo;)</SubTitle>
           <KeyValue label="Function">
-            The liminal corridor between worlds. ANTE is the moment right after death and right
-            before fully waking in the new life.
+            ANTE means &ldquo;before.&rdquo; The doorway is the entry point into the new Other World
+            of SINE NOCTIS &mdash; the threshold between the death of one incarnation and the first
+            breath of the next.
           </KeyValue>
           <KeyValue label="Visual Shift">
-            FREE emerging from a dark doorway in downtown Birmingham, face still obscured. The
+            FREE emerging from a dark doorway, face still obscured. The
             footage is tight, grayscale, intimate. FREE is alone this time.
           </KeyValue>
 
@@ -602,7 +603,7 @@ function InternalContent() {
 
           <VisualImage
             src="/images/ante-doorway.webp"
-            alt="ANTE — FREE emerging from a dark doorway in downtown Birmingham"
+            alt="ANTE — FREE emerging from a dark doorway"
             caption="Ante — The Doorway Between Worlds"
           />
 
@@ -935,9 +936,9 @@ function InternalContent() {
 
           <SubTitle>Back Cover / Tracklisting / Credits</SubTitle>
           <Paragraph>
-            Roy is currently recreating what Choice and I developed for the FINExME back cover, which
-            stands as the golden standard for all future releases. We will continue to commission Roy
-            for future efforts.
+            The FINExME back cover (designed by Choice) is the golden standard. SINE NOCTIS mirrors
+            it directly &mdash; Big Caesar font for the title, FREE logo and tracklist placement all
+            matching. This format carries forward into all future releases.
           </Paragraph>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -958,10 +959,7 @@ function InternalContent() {
                 SINE NOCTIS Back Cover
               </span>
               <p className="font-sans text-sm text-muted">
-                Still a WIP. Verbiage should be identical on both.
-              </p>
-              <p className="font-sans text-xs text-white/20 mt-2 italic">
-                (ex.) &ldquo;photography - rush hour / photography - silent k&rdquo;
+                Mirrors FINExME format &mdash; Big Caesar, FREE logo, matching layout.
               </p>
             </div>
           </div>
@@ -996,32 +994,33 @@ function InternalContent() {
 
           <div className="mt-6 mb-8">
             <span className="text-xs font-sans tracking-[0.15em] uppercase text-white/30 block mb-4">
-              Future Catalog &mdash; Naming Format &amp; Narrative Connections
+              Future Catalog &mdash; Named Projects
             </span>
+            <p className="font-sans text-xs text-white/25 mb-4">Smaller projects and releases will fill the gaps between these. Unnamed as of yet.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 {
                   title: 'SINE NOCTIS',
                   logo: '/images/logotype-sinenoctis.png',
                   description:
-                    'The current EP being presented, which will receive a sequel of the same name before the next album.',
+                    'The current EP. Three tracks, one short film covering two-thirds of the tracklist.',
                 },
                 {
                   title: 'OTHERLAND',
                   logo: '/images/logotype-otherland.png',
-                  description: 'The next full-length album we are building toward.',
+                  description: 'Planned full-length album.',
                 },
                 {
                   title: 'SINE NOCTIS 2',
                   logo: '/images/logotype-sinenoctis2.png',
                   description:
-                    'In final stages of completion and a companion piece to SINE NOCTIS sonically, narratively and visually.',
+                    'Planned EP — companion piece to SINE NOCTIS sonically, narratively, and visually.',
                 },
                 {
-                  title: 'SEX SYMBOL (THE ALBUM)',
+                  title: 'SEX SYMBOL',
                   logo: '/images/logotype-sexsymbol.png',
                   description:
-                    'The culmination of everything Choice and I have designed over the past seven years. The most important piece in the catalog, intentionally postponed. Entirely produced by Worst Choice.',
+                    'Planned album. The culmination of everything Choice and I have designed. The most important piece in the catalog, intentionally postponed. Entirely produced by Worst Choice.',
                 },
               ].map((item) => (
                 <div key={item.title} className="border border-white/5 p-5">
@@ -1043,8 +1042,8 @@ function InternalContent() {
             </div>
           </div>
           <Paragraph>
-            Continue using the original FREE logo (created by Choice). Although the PSD file is
-            missing, the available screenshot can be vectored.
+            Continue using the original FREE logo (created by Choice, vectored by Roy).
+            Both FREE and OWJV logos are in the codebase.
           </Paragraph>
 
           <SubTitle>Focal Motifs</SubTitle>
