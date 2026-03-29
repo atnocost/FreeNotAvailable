@@ -39,6 +39,8 @@ export async function middleware(req: NextRequest) {
 
   /* ── Internal auth ── */
   if (pathname.startsWith('/internal')) {
+    if (pathname === '/internal/login') return NextResponse.next()
+
     const token = req.cookies.get('internal_auth')?.value
     const validToken = process.env.INTERNAL_AUTH_TOKEN
 
