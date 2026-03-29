@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Site Map — atnocost.cc</title>
 <style>
-  @page { size: letter; margin: 0.75in; }
+  @page { size: letter; margin: 0.5in; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, 'Helvetica Neue', sans-serif;
@@ -166,8 +166,17 @@
   strong { color: rgba(255,255,255,0.65); font-weight: 500; }
 
   @media print {
-    body { background: #0a0a0a; padding: 0; }
+    body { background: #0a0a0a; padding: 24px 0; max-width: 100%; font-size: 10px; }
     .section { break-inside: avoid; }
+    .route-card { break-inside: avoid; }
+    .email-row { break-inside: avoid; }
+    .callout { break-inside: avoid; }
+    .divider { break-after: avoid; }
+    .route-card { grid-template-columns: 130px 1fr 90px; gap: 10px; padding: 10px 12px; }
+    .route-path { font-size: 10px; }
+    .route-desc { font-size: 9px; }
+    .doc-header h1 { font-size: 18px; }
+    code { font-size: 9px; }
   }
 
   @media (max-width: 640px) {

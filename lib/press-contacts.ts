@@ -31,12 +31,12 @@ I wanted you to have it first before anyone else. No embargo, no obligation. Jus
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
-Hi-res images cleared for editorial use: freeisavailable@hotmail.com
+Hi-res images cleared for editorial use: freeisavailable@atnocost.cc
 
 If you want to talk before anything goes out, I'm here.
 
 FREE
-OWJV / Creative Minds Coalition
+OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -50,19 +50,19 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026",
     body: `Hi Alphonse —
 
-In today's R&B landscape, men rarely make music that yearns anymore.
+SINE NOCTIS is cold. Not moody-for-the-aesthetic cold — the kind where the writing stays too long in one place and you feel it. Three movements. A short film that carries two-thirds of the tracklist. The descent half of a mythology I started with debut album FINExME in 2024.
 
-FREE is doing exactly that. SINE NOCTIS is Act II of the Other World Mythos — the cold counterpart to debut FINExME. Three movements. One descent. A record about the bruises that don't go away.
+Everything is self-written, self-directed, self-owned. No features. The sound lives somewhere between confession and atmosphere — honest about what it inherited from the early 2010s without trying to recreate it.
 
-The sound sits in that grey area where deflection meets self-reflection — not chasing old-school nostalgia, but the cold croon of the early 2010s, rendered through a cinematic world that FREE has been building track by track since 2024.
+Spring 2026. I'd like to share the film early if Pitchfork is interested.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now: Spotify · Apple Music · TIDAL · YouTube
-Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
+Films: atnocost.cc/films
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "mankapar",
@@ -73,20 +73,20 @@ atnocost.cc | @freenotavailable`,
     tier: 1,
     note: "Covers both RS and Pitchfork.",
     subject: "FREE \u2014 SINE NOCTIS | Act II, Spring 2026 (EPK)",
-    body: `Hi —
+    body: `Hi Mankaprr —
 
-SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos, a cinematic R&B universe built across music, film, and visual work since 2024.
+I made a film that covers two-thirds of my next project. Not a visual album — a short film called SINE NOCTIS that lives as its own thing, with the music woven through it. It's Act II of something I've been building called the Other World — a mythology across music, film, and visual work, all released independently through my imprint OWJV.
 
-Three movements. One descent. The cold counterpart to debut album FINExME. FREE operates in the space where male vulnerability goes unspoken — writing for the ones who still yearn.
+The debut album FINExME dropped in 2024 with its own visual series (ANTE, VESPERA, NOCTEM). SINE NOCTIS arrives Spring 2026.
 
-Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
+I'd love to share the film when it's ready — whether for a premiere, a write-up, or just to get it in front of you.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Films: atnocost.cc/films
+Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "charles",
@@ -97,20 +97,20 @@ atnocost.cc | @freenotavailable`,
     tier: 1,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | Act II, Spring 2026 (EPK)",
-    body: `Hi —
+    body: `Hi Charles —
 
-SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos, a cinematic R&B universe built across music, film, and visual work since 2024.
+I write R&B about the version of longing that men don't usually commit to on record — not the rebound track, not the "I'm healing" arc. The part where you're still in it and you know you shouldn't be.
 
-Three movements. One descent. The cold counterpart to debut album FINExME. FREE operates in the space where male vulnerability goes unspoken — writing for the ones who still yearn.
+SINE NOCTIS is a short film and EP — Act II of a mythology I've been building called the Other World. The film carries two-thirds of the tracklist. The debut album FINExME came out in 2024 — still streaming, six visual works released across both projects. Everything self-written, self-directed, self-owned through OWJV.
 
-Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
+SINE NOCTIS arrives Spring 2026. Would be glad to share the film early if you're interested.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Films: atnocost.cc/films
+Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "larisha",
@@ -131,9 +131,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -155,9 +155,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -179,9 +179,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -201,9 +201,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -223,9 +223,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -245,9 +245,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -267,9 +267,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -289,9 +289,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -311,9 +311,9 @@ Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -327,14 +327,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -348,14 +348,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -367,17 +367,19 @@ atnocost.cc | @freenotavailable`,
     tier: 1,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
-    body: `Hi —
+    body: `Hi Carl —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+I wrote, directed, and own everything — a debut album, an EP, six films, and a short film that carries two-thirds of the next project. All through my imprint OWJV. No distribution deal, no features, no co-writers.
 
-The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
+SINE NOCTIS (Act II) arrives Spring 2026. Debut album FINExME is streaming now. Previously featured in Norbu Magazine.
+
+I'm building this the long way and I think the craft story is worth a conversation. Happy to send the film ahead of release or connect directly.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "heran",
@@ -388,17 +390,19 @@ atnocost.cc | @freenotavailable`,
     tier: 1,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
-    body: `Hi —
+    body: `Hi Heran —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+I'm an independent R&B artist releasing an EP Spring 2026 — SINE NOCTIS, through my imprint OWJV. A debut album, six short films, a full mythology called the Other World, all self-owned. No major label, no features across any project.
 
-The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
+The anchor for this release is a short film covering two-thirds of the EP's tracklist. Debut album FINExME already streaming across all platforms.
+
+Would love to get on your radar for when the rollout begins — happy to share more or set up a conversation.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "michael_s",
@@ -411,14 +415,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -432,14 +436,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -453,14 +457,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -474,14 +478,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -495,14 +499,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -516,14 +520,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -537,14 +541,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -558,14 +562,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now across Spotify, Apple Music, TIDAL, and YouTube.
 
 The project is built around the thesis that male R&B stopped being honest about longing. SINE NOCTIS is the descent.
 
 EPK: https://atnocost.cc/epk
-Hi-res photography cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photography cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -585,9 +589,9 @@ The universe runs across music, film, and visual work. Everything lives at atnoc
 
 EPK: https://atnocost.cc/epk
 Visual works: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -607,9 +611,9 @@ The universe runs across music, film, and visual work. Everything lives at atnoc
 
 EPK: https://atnocost.cc/epk
 Visual works: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -629,9 +633,9 @@ The universe runs across music, film, and visual work. Everything lives at atnoc
 
 EPK: https://atnocost.cc/epk
 Visual works: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -651,9 +655,9 @@ The universe runs across music, film, and visual work. Everything lives at atnoc
 
 EPK: https://atnocost.cc/epk
 Visual works: atnocost.cc/films
-Hi-res: freeisavailable@hotmail.com
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -674,7 +678,7 @@ The project follows 2024 debut FINExME and extends a cinematic universe that run
 EPK: https://atnocost.cc/epk
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -686,13 +690,19 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Act II \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Aaron —
 
-SINE NOCTIS arrives Spring 2026 — FREE's Act II, the cold counterpart to 2024 debut FINExME. Three movements. One descent. R&B built around the bruises that don't go away.
+I built a short film that carries two-thirds of my next EP. Not a companion piece — the film is the structure. SINE NOCTIS, Act II of a mythology called the Other World. Three movements, one descent.
+
+Debut album FINExME came out in 2024 with its own visual series. Six films total across both projects, all self-directed. Everything runs through my imprint OWJV — no features, no outside infrastructure.
+
+SINE NOCTIS arrives Spring 2026. Happy to share the film early or connect directly.
 
 EPK: https://atnocost.cc/epk
-Streaming (FINExME): Spotify · Apple Music · TIDAL · YouTube
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "rachel_g",
@@ -703,13 +713,17 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Act II \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Rachel —
 
-SINE NOCTIS arrives Spring 2026 — FREE's Act II, the cold counterpart to 2024 debut FINExME. Three movements. One descent. R&B built around the bruises that don't go away.
+SINE NOCTIS arrives Spring 2026 — a short film and EP, Act II of a mythology I've been building called the Other World. The film carries two-thirds of the tracklist. The debut album FINExME came out in 2024 and is still streaming everywhere.
+
+Everything is self-written, self-directed, self-owned through my imprint OWJV. No features across any project.
 
 EPK: https://atnocost.cc/epk
-Streaming (FINExME): Spotify · Apple Music · TIDAL · YouTube
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "wongo",
@@ -720,13 +734,17 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Act II \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Wongo —
 
-SINE NOCTIS arrives Spring 2026 — FREE's Act II, the cold counterpart to 2024 debut FINExME. Three movements. One descent. R&B built around the bruises that don't go away.
+I've been building a cinematic mythology across music and film since 2024 — six short films, a debut album, and now an EP with its own standalone film. All independent through my imprint OWJV.
+
+SINE NOCTIS is the EP. The film covers two-thirds of it. Spring 2026. Happy to share early.
 
 EPK: https://atnocost.cc/epk
-Streaming (FINExME): Spotify · Apple Music · TIDAL · YouTube
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "jaelani",
@@ -737,13 +755,19 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "R&B at Okayplayer \u2014 good fit.",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Act II \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Jaelani —
 
-SINE NOCTIS arrives Spring 2026 — FREE's Act II, the cold counterpart to 2024 debut FINExME. Three movements. One descent. R&B built around the bruises that don't go away.
+I made a short film that carries two-thirds of my next EP — SINE NOCTIS, Act II of a mythology called the Other World. R&B that commits to the ache. Three movements, one descent.
+
+Debut album FINExME dropped in 2024. Six visual works released across both projects. Everything self-owned through my imprint OWJV. No features, no co-writers.
+
+Spring 2026. Would love to get it in front of Okayplayer.
 
 EPK: https://atnocost.cc/epk
-Streaming (FINExME): Spotify · Apple Music · TIDAL · YouTube
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "njera",
@@ -754,13 +778,19 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Act II \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Njera —
 
-SINE NOCTIS arrives Spring 2026 — FREE's Act II, the cold counterpart to 2024 debut FINExME. Three movements. One descent. R&B built around the bruises that don't go away.
+I'm releasing a short film and EP called SINE NOCTIS — Spring 2026. It's Act II of a mythology I've been building called the Other World, across music, film, and visual work since 2024.
+
+The film carries two-thirds of the tracklist. The debut album FINExME is streaming now. Everything self-written, self-directed, self-owned through my imprint OWJV.
+
+Would love to share the film when it's ready.
 
 EPK: https://atnocost.cc/epk
-Streaming (FINExME): Spotify · Apple Music · TIDAL · YouTube
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "mya",
@@ -771,13 +801,17 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "R&B Vibe \u2014 direct fit.",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Mya —
 
-FREE's SINE NOCTIS arrives Spring 2026. Three movements of R&B built around honest longing — the cold counterpart to 2024 debut FINExME.
+SINE NOCTIS is my next project — an EP and short film arriving Spring 2026. Three movements of R&B about the kind of longing that doesn't resolve. The film carries two-thirds of the tracklist.
+
+Debut album FINExME is streaming now. Everything independent through my imprint OWJV.
 
 EPK: https://atnocost.cc/epk
-Submit: freeisavailable@hotmail.com
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "demicia",
@@ -788,13 +822,17 @@ atnocost.cc | @freenotavailable`,
     tier: 2,
     note: "",
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Spring 2026",
-    body: `Hi —
+    body: `Hi Demicia —
 
-FREE's SINE NOCTIS arrives Spring 2026. Three movements of R&B built around honest longing — the cold counterpart to 2024 debut FINExME.
+I'm an R&B artist releasing a short film and EP called SINE NOCTIS — Spring 2026. Act II of a mythology I've been building since my debut album FINExME in 2024. The film covers two-thirds of the project.
+
+Six visual works out, no features, everything through my imprint OWJV. Happy to send the film early or connect.
 
 EPK: https://atnocost.cc/epk
-Submit: freeisavailable@hotmail.com
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "preezy",
@@ -807,7 +845,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -824,7 +862,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -841,7 +879,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -858,7 +896,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -875,7 +913,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -900,9 +938,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -916,7 +954,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
     body: `Hi —
 
-FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV / Creative Minds Coalition. Three movements following 2024 debut FINExME.
+FREE drops SINE NOCTIS Spring 2026 — Act II of the Other World Mythos on OWJV. Three movements following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
 FINExME: streaming now on all platforms
@@ -941,9 +979,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -965,9 +1003,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -998,11 +1036,15 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | R&B \u00b7 Spring 2026",
     body: `Hi —
 
-FREE's SINE NOCTIS arrives Spring 2026. Three movements of R&B built around honest longing — the cold counterpart to 2024 debut FINExME.
+I made a short film for two-thirds of my next EP. SINE NOCTIS — Act II of a mythology I've been building called the Other World. Debut album FINExME is streaming now. Six films out. All independent through my imprint OWJV.
+
+Spring 2026. Would love to share it.
 
 EPK: https://atnocost.cc/epk
-Submit: freeisavailable@hotmail.com
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "thomas_m",
@@ -1142,9 +1184,9 @@ Featured previously in Norbu Magazine. FINExME still streaming across all platfo
 
 EPK: https://atnocost.cc/epk
 Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
-Hi-res photos cleared for editorial use: freeisavailable@hotmail.com
+Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1156,13 +1198,19 @@ atnocost.cc | @freenotavailable`,
     tier: 3,
     note: "Lead writer.",
     subject: "FREE \u2014 SINE NOCTIS | Spring 2026 (EPK)",
-    body: `Hi —
+    body: `Hi Dylan —
 
-SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
+I made a film for two-thirds of my next EP and I think HearingThings would get it.
+
+SINE NOCTIS — Act II of a mythology I've been building called the Other World. A debut album, six films, all independent through OWJV. No features, no label, no shortcuts. FINExME is streaming now.
+
+Spring 2026. Would love to talk premiere or write-up when the time comes.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
-atnocost.cc | @freenotavailable`,
+Films: atnocost.cc/films
+
+FREE
+atnocost.cc`,
   },
   {
     id: "andy_c",
@@ -1214,11 +1262,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1271,11 +1318,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1294,11 +1340,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1317,11 +1362,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1374,11 +1418,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1414,11 +1457,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1437,11 +1479,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1460,11 +1501,10 @@ Submitting FREE's upcoming project SINE NOCTIS for your consideration.
 Artist: FREE
 Project: SINE NOCTIS (Act II · Other World Mythos)
 Release: Spring 2026
-Label: OWJV / Creative Minds Coalition
-
+Imprint: OWJV
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1481,7 +1521,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1495,12 +1535,12 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE / OWJV \u2014 SINE NOCTIS \u00b7 Editorial Consideration \u00b7 Spring 2026",
     body: `Hi —
 
-Reaching out regarding FREE's upcoming project SINE NOCTIS, arriving Spring 2026 on OWJV / Creative Minds Coalition.
+Reaching out regarding FREE's upcoming project SINE NOCTIS, arriving Spring 2026 on OWJV.
 
 FINExME (Act I) is streaming now. SINE NOCTIS is Act II — three movements, one descent. R&B built around honest longing in a landscape that's moved away from it.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1514,12 +1554,12 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE / OWJV \u2014 SINE NOCTIS \u00b7 Editorial Consideration \u00b7 Spring 2026",
     body: `Hi —
 
-Reaching out regarding FREE's upcoming project SINE NOCTIS, arriving Spring 2026 on OWJV / Creative Minds Coalition.
+Reaching out regarding FREE's upcoming project SINE NOCTIS, arriving Spring 2026 on OWJV.
 
 FINExME (Act I) is streaming now. SINE NOCTIS is Act II — three movements, one descent. R&B built around honest longing in a landscape that's moved away from it.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1537,7 +1577,7 @@ FREE builds cinematic worlds — SINE NOCTIS is Act II, arriving Spring 2026. Th
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1555,7 +1595,7 @@ FREE builds cinematic worlds — SINE NOCTIS is Act II, arriving Spring 2026. Th
 
 EPK: https://atnocost.cc/epk
 Films: atnocost.cc/films
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1572,7 +1612,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1589,7 +1629,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1606,7 +1646,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1623,7 +1663,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1640,7 +1680,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1657,7 +1697,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1674,7 +1714,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1691,7 +1731,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1708,7 +1748,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1725,7 +1765,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1742,7 +1782,7 @@ atnocost.cc | @freenotavailable`,
 Reaching out on behalf of FREE / OWJV (Other Worldly, Just Visiting). SINE NOCTIS arrives Spring 2026 — Act II of the Other World Mythos, following 2024 debut FINExME.
 
 EPK: https://atnocost.cc/epk
-Contact: freeisavailable@hotmail.com
+Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1756,16 +1796,18 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Visual R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi Grant —
 
-FREE builds worlds before he builds albums. The Other World Mythos is a multi-act cinematic universe — short films attached to every release, visual language locked before the first track dropped.
+I build the world before I build the music. The Other World is a mythology across short films, visual work, and R&B — visual language locked before the first track dropped. Six films out. Everything self-directed through my imprint OWJV.
 
-SINE NOCTIS is Act II. Three movements. One descent. The cold counterpart to 2024's FINExME.
+SINE NOCTIS is Act II — a short film and EP. The film carries two-thirds of the tracklist. Spring 2026. The debut album FINExME is streaming now.
+
+I'd love to share the film early if you're interested.
 
 EPK: https://atnocost.cc/epk
-Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
-FINExME streaming now · Hi-res: freeisavailable@atnocost.cc
+Films: atnocost.cc/films
+Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
-atnocost.cc | @freenotavailable`,
+FREE
+atnocost.cc`,
   },
   {
     id: "ilana_k",
@@ -1786,7 +1828,7 @@ EPK: https://atnocost.cc/epk
 Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
 FINExME streaming now · Hi-res: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1800,14 +1842,14 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026 (EPK)",
     body: `Hi Kristin —
 
-FREE's SINE NOCTIS arrives Spring 2026 on OWJV / Creative Minds Coalition. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now.
+FREE's SINE NOCTIS arrives Spring 2026 on OWJV. Act II of the Other World Mythos — three movements following 2024 debut FINExME, which is streaming now.
 
 Independent. Visual mythology built before the first track dropped. Each release tied to a short film.
 
 EPK: https://atnocost.cc/epk
 Hi-res cleared for editorial use: freeisavailable@atnocost.cc
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1857,7 +1899,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1865,7 +1907,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1879,7 +1921,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1887,7 +1929,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1901,7 +1943,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1909,7 +1951,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1923,7 +1965,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1931,7 +1973,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1945,7 +1987,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1953,7 +1995,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1967,7 +2009,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1975,7 +2017,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1989,7 +2031,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -1997,7 +2039,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2011,7 +2053,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2019,7 +2061,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2033,7 +2075,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2041,7 +2083,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2055,7 +2097,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2063,7 +2105,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2077,7 +2119,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2085,7 +2127,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2099,7 +2141,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2107,7 +2149,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2121,7 +2163,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2129,7 +2171,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2143,7 +2185,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2151,7 +2193,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2165,7 +2207,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2173,7 +2215,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2187,7 +2229,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2195,7 +2237,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2209,7 +2251,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2217,7 +2259,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2231,7 +2273,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2239,7 +2281,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2253,7 +2295,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2261,7 +2303,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2275,7 +2317,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2283,7 +2325,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2297,7 +2339,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2305,7 +2347,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2319,7 +2361,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2327,7 +2369,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2341,7 +2383,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2349,7 +2391,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2363,7 +2405,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2371,7 +2413,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2385,7 +2427,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2393,7 +2435,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2407,7 +2449,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2415,7 +2457,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2429,7 +2471,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2437,7 +2479,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2451,7 +2493,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2459,7 +2501,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2473,7 +2515,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2481,7 +2523,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2495,7 +2537,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2503,7 +2545,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2517,7 +2559,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2525,7 +2567,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2539,7 +2581,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2547,7 +2589,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2561,7 +2603,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2569,7 +2611,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2583,7 +2625,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2591,7 +2633,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2605,7 +2647,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2613,7 +2655,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2627,7 +2669,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2635,7 +2677,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2649,7 +2691,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2657,7 +2699,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2671,7 +2713,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2679,7 +2721,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2693,7 +2735,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2701,7 +2743,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2715,7 +2757,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2723,7 +2765,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2737,7 +2779,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2745,7 +2787,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2759,7 +2801,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2767,7 +2809,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2781,7 +2823,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2789,7 +2831,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2803,7 +2845,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2811,7 +2853,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2825,7 +2867,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2833,7 +2875,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2847,7 +2889,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2855,7 +2897,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2869,7 +2911,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2877,7 +2919,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2891,7 +2933,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2899,7 +2941,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -2913,7 +2955,7 @@ atnocost.cc | @freenotavailable`,
     subject: "FREE \u2014 SINE NOCTIS | Independent R&B \u00b7 Act II \u00b7 Spring 2026",
     body: `Hi —
 
-FREE is an independent R&B artist and songwriter on OWJV / Creative Minds Coalition. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
+FREE is an independent R&B artist and songwriter on OWJV. SINE NOCTIS is Act II of the Other World Mythos — three movements, Spring 2026. Follows 2024 debut FINExME.
 
 The project is cinematic in scope: each release accompanied by a short film, visual language locked before the first track drops.
 
@@ -2921,7 +2963,7 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
 Visual works: atnocost.cc/films
 
-FREE / OWJV / Creative Minds Coalition
+FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
 ]
