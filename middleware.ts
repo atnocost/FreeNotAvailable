@@ -83,23 +83,17 @@ export async function middleware(req: NextRequest) {
       pathname === '/sitemap.xml'
 
     if (!bypass) {
-      // Check cookie first (set on prior valid token visit)
-      const cookieToken = req.cookies.get('site_access')?.value
-      if (cookieToken && await isValidToken('site', cookieToken)) {
-        return NextResponse.next()
-      }
+      // Cookie set by /api/site-auth after server-side token validation
+      const cookie = req.cookies.get('site_access')?.value
+      if (cookie === 'granted') return NextResponse.next()
 
-      // Check URL param
+      // Token in URL — hand off to server-side API route for validation
       const urlToken = req.nextUrl.searchParams.get('token')
-      if (urlToken && await isValidToken('site', urlToken)) {
-        const res = NextResponse.next()
-        res.cookies.set('site_access', urlToken, {
-          httpOnly: true,
-          sameSite: 'lax',
-          maxAge: 60 * 60 * 24 * 365, // 1 year
-          path: '/',
-        })
-        return res
+      if (urlToken) {
+        const authUrl = new URL('/api/site-auth', req.url)
+        authUrl.searchParams.set('token', urlToken)
+        authUrl.searchParams.set('next', pathname)
+        return NextResponse.redirect(authUrl)
       }
 
       return NextResponse.rewrite(new URL('/gate', req.url))
