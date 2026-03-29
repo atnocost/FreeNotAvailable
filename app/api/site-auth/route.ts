@@ -9,7 +9,12 @@ export async function GET(req: NextRequest) {
   )
 
   if (!token || !validTokens.has(token)) {
-    return NextResponse.redirect(new URL('/gate', req.url))
+    return NextResponse.json({
+      error: 'invalid token',
+      received: token,
+      SITE_TOKENS: process.env.SITE_TOKENS ?? '(empty)',
+      validTokens: [...validTokens],
+    })
   }
 
   const res = NextResponse.redirect(new URL(next, req.url))
