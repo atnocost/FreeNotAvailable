@@ -20,10 +20,13 @@ async function kvHasToken(gate: string, token: string): Promise<boolean> {
 
 /* ── Validate token: env vars read at call time, then KV ── */
 async function isValidToken(gate: 'ekthesis' | 'brief' | 'site', token: string): Promise<boolean> {
-  const envKey = gate === 'ekthesis' ? 'EKTHESIS_TOKENS' : gate === 'brief' ? 'BRIEF_TOKENS' : 'SITE_TOKENS'
-  const envTokens = new Set(
-    (process.env[envKey] ?? '').split(',').map((t) => t.trim()).filter(Boolean)
-  )
+  const raw =
+    gate === 'ekthesis'
+      ? process.env.EKTHESIS_TOKENS
+      : gate === 'brief'
+      ? process.env.BRIEF_TOKENS
+      : process.env.SITE_TOKENS
+  const envTokens = new Set((raw ?? '').split(',').map((t) => t.trim()).filter(Boolean))
   if (envTokens.has(token)) return true
   return kvHasToken(gate, token)
 }
