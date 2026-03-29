@@ -3,6 +3,12 @@ import type { NextConfig } from 'next'
 const cspHeader = `default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self'; media-src 'self' blob: https://*.public.blob.vercel-storage.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;`.replace(/\n/g, '')
 
 const config: NextConfig = {
+  env: {
+    SITE_GATE_ENABLED: process.env.SITE_GATE_ENABLED ?? '',
+    SITE_TOKENS: process.env.SITE_TOKENS ?? '',
+    EKTHESIS_TOKENS: process.env.EKTHESIS_TOKENS ?? '',
+    BRIEF_TOKENS: process.env.BRIEF_TOKENS ?? '',
+  },
   turbopack: {
     root: process.cwd(),
   },
