@@ -34,6 +34,9 @@ async function isValidToken(gate: 'ekthesis' | 'brief' | 'site', token: string):
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
+  /* ── Always allow API routes ── */
+  if (pathname.startsWith('/api/')) return NextResponse.next()
+
   /* ── Internal auth ── */
   if (pathname.startsWith('/internal')) {
     const token = req.cookies.get('internal_auth')?.value
