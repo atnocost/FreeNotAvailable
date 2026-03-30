@@ -273,7 +273,12 @@ export default function EPKPage() {
             <span className="text-[11px] text-white/22 ml-2">&middot; Feature</span>
           </div>
           <div>
-            <span className="text-[13px] text-white/50">Tennessee Highlighter</span>
+            <a
+              href="https://tennesseehighlighter.com/meet-free-songwriter-creative-director/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[13px] text-white/50 hover:text-white/70 transition-colors"
+            >Tennessee Highlighter</a>
             <span className="text-[11px] text-white/22 ml-2">&middot; Coverage</span>
           </div>
         </div>
