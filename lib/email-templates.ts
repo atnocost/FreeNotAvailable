@@ -131,8 +131,8 @@ export function email1Welcome(email: string): { subject: string; html: string } 
         <td style="padding:0 28px 28px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
             ${unlockItem('the origin. FINE BY ME filmed during a tornado watch.', '001')}
-            ${unlockItem('BENE, the manuscript.', '002')}
-            ${unlockItem('FINExME digital booklet.', '003')}
+            ${unlockItem('FINExME digital booklet.', '002')}
+            ${unlockItem('BENE, the manuscript.', '003')}
             ${unlockItem('first access to all SINE NOCTIS drops.')}
           </table>
         </td>
