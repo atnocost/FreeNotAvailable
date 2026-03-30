@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FINExME — Digital Booklet</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:wght@400;700&display=swap');
+
+  @page { size: 1200px 1200px; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    font-family: 'Space Mono', monospace;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    page-break-after: always;
+    background: #000;
+  }
+
+  /* Default: square images fill the page */
+  .page img.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Uncropped: full image centered, black bars fill */
+  .page img.contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .page-number {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 2px;
+  }
+
+  /* --- Tracklist --- */
+  .page-tracklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px;
+  }
+
+  .page-tracklist .album-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 58px;
+    font-weight: 400;
+    color: #c0392b;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  .page-tracklist .album-artist {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.18);
+    margin-bottom: 80px;
+  }
+
+  .track-row {
+    display: flex;
+    align-items: baseline;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.035);
+  }
+
+  .track-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgba(192,57,43,0.3);
+    width: 64px;
+    flex-shrink: 0;
+  }
+
+  .track-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.5px;
+  }
+
+  /* --- Manuscript --- */
+  .page-manuscript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 140px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .manuscript-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    opacity: 0.08;
+    pointer-events: none;
+  }
+
+  .manuscript-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 4px;
+    margin-bottom: 36px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .manuscript-body {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 15.5px;
+    line-height: 1.9;
+    color: rgba(255,255,255,0.55);
+    position: relative;
+    z-index: 1;
+  }
+
+  .manuscript-body .break { height: 6px; }
+  .manuscript-body .break-lg { height: 16px; }
+
+  .manuscript-body .speaker {
+    font-style: normal;
+    font-size: 15.5px;
+    color: rgba(255,255,255,0.35);
+  }
+
+  .manuscript-body .speaker-her { color: rgba(192,57,43,0.45); }
+
+  .manuscript-footer {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(255,255,255,0.2);
+    margin-top: 48px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* --- Credits --- */
+  .page-credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px;
+    position: relative;
+  }
+
+  .credits-section { margin-bottom: 48px; }
+
+  .credits-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(192,57,43,0.35);
+    margin-bottom: 10px;
+  }
+
+  .credits-value {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.8;
+  }
+
+  .credits-footer {
+    margin-top: auto;
+    padding-top: 56px;
+    border-top: 1px solid rgba(255,255,255,0.035);
+  }
+
+  .credits-footer p {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: rgba(255,255,255,0.22);
+    text-transform: uppercase;
+    line-height: 2.4;
+  }
+
+  @media print {
+    body { background: #000; }
+    .page { break-after: page; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 01: Cover — The Chariot -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/01-cover-chariot.png" alt="FINExME" />
+</div>
+
+<!-- PAGE 02: FINE BY ME title card — UNCROPPED -->
+<div class="page">
+  <img class="contain" src="/images/booklet/final/02-fine-by-me-title.png" alt="" />
+</div>
+
+<!-- PAGE 03: Face portrait — purple sky -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/03-face-portrait-sky.jpg" alt="" />
+</div>
+
+<!-- PAGE 04: Lyric liner -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/04-lyric-liner.png" alt="" />
+</div>
+
+<!-- PAGE 05: Dashboard — inside Chariot -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/05-dashboard-chariot.png" alt="" />
+</div>
+
+<!-- PAGE 06: UV nails -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/06-uv-nails.png" alt="" />
+</div>
+
+<!-- PAGE 07: Bokeh close — red hand — UNCROPPED -->
+<div class="page">
+  <img class="contain" src="/images/booklet/final/07-bokeh-red-hand.jpg" alt="" />
+</div>
+
+<!-- PAGE 08: Red portrait — hands on face -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/08-red-portrait-hands.jpg" alt="" />
+</div>
+
+<!-- PAGE 09: Acknowledgments -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/09-acknowledgments.png" alt="" />
+</div>
+
+<!-- PAGE 10: Sunset — hand over face -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/10-sunset-hand-face.jpg" alt="" />
+</div>
+
+<!-- PAGE 11: TRACKLIST -->
+<div class="page page-tracklist">
+  <p class="album-title">FINExME</p>
+  <p class="album-artist">FREE</p>
+
+  <div class="track-row">
+    <span class="track-num">01</span>
+    <span class="track-title">fine by me</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">02</span>
+    <span class="track-title">twins</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">03</span>
+    <span class="track-title">chambers</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">04</span>
+    <span class="track-title">flo</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">05</span>
+    <span class="track-title">zodiac killer</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">06</span>
+    <span class="track-title">maybe</span>
+  </div>
+  <div class="track-row">
+    <span class="track-num">07</span>
+    <span class="track-title">pilgrim</span>
+  </div>
+  <span class="page-number">11</span>
+</div>
+
+<!-- PAGE 12: Sunset silhouette — fire sky -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/12-sunset-silhouette.jpg" alt="" />
+</div>
+
+<!-- PAGE 13: Backpack — turned away -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/13-backpack.jpg" alt="" />
+</div>
+
+<!-- PAGE 14: Otherworldly Just Visiting -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/15-owjv.png" alt="" />
+</div>
+
+<!-- PAGE 16: Car exterior — red taillight -->
+<div class="page">
+  <img class="cover" src="/images/booklet/final/16-car-taillight.png" alt="" />
+</div>
+
+<!-- PAGE 17: MANUSCRIPT — FLO excerpt from BENE -->
+<div class="page page-manuscript">
+  <img class="manuscript-watermark" src="/images/owjv-cherub-hires.png" alt="" />
+
+  <p class="manuscript-title">FLO</p>
+
+  <div class="manuscript-body">
+    <p>Dashboard glow. Highway hum.</p>
+    <div class="break"></div>
+    <p>The phone screen pulses white against the windshield &mdash; once, twice, three times.</p>
+    <div class="break"></div>
+    <p>He doesn&rsquo;t look. Then he looks.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> Where are you.</p>
+    <div class="break"></div>
+    <p>No question mark.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker">Free &mdash;</span> Close.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> You said that twenty minutes ago.</p>
+    <div class="break"></div>
+    <p>He sets the phone face-down. Picks it up again. The city is thinning out. Fewer lights. Longer shadows.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> I&rsquo;m not waiting past midnight.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker">Free &mdash;</span> Then don&rsquo;t.</p>
+    <div class="break"></div>
+    <p>Thirty seconds. A minute. The dots appear. Disappear. Appear again.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> You don&rsquo;t mean that.</p>
+    <div class="break"></div>
+    <p>He doesn&rsquo;t answer. Foot presses harder.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> I left the door open.</p>
+    <div class="break"></div>
+    <p>He reads it twice. Not because he didn&rsquo;t understand.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker">Free &mdash;</span> I&rsquo;m not coming to talk.</p>
+    <div class="break-lg"></div>
+    <p><span class="speaker speaker-her">Her &mdash;</span> I didn&rsquo;t open the door for conversation.</p>
+    <div class="break"></div>
+    <p>The phone goes dark. The rearview holds nothing.</p>
+    <div class="break"></div>
+    <p>Somewhere ahead, a light left on.</p>
+    <div class="break"></div>
+    <p>He takes the exit without signaling.</p>
+  </div>
+
+  <p class="manuscript-footer">an excerpt from BENE</p>
+  <span class="page-number">17</span>
+</div>
+
+<!-- PAGE 18: CREDITS -->
+<div class="page page-credits">
+  <div class="credits-section">
+    <p class="credits-label">Principle Production</p>
+    <p class="credits-value">Mookie Magnolia, Ashton Woods, Worst Choice, Brando Heat</p>
+  </div>
+  <div class="credits-section">
+    <p class="credits-label">Engineering &amp; Post Production</p>
+    <p class="credits-value">Ashton Woods</p>
+  </div>
+  <div class="credits-section">
+    <p class="credits-label">Art Direction &amp; Design</p>
+    <p class="credits-value">Worst Choice</p>
+  </div>
+  <div class="credits-section">
+    <p class="credits-label">Photography</p>
+    <p class="credits-value">Rush Hour</p>
+  </div>
+  <div class="credits-section">
+    <p class="credits-label">Film</p>
+    <p class="credits-value">gotakemedia</p>
+  </div>
+
+  <div class="credits-footer">
+    <p>OWJV 2024</p>
+    <p>This is a collection of demos and should be consumed as such</p>
+  </div>
+  <span class="page-number">18</span>
+</div>
+
+</body>
+</html>
