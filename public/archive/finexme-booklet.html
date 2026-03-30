@@ -5,13 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>FINExME — Digital Booklet</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:wght@400;700&display=swap');
+  @font-face {
+    font-family: 'Franklin Gothic M';
+    src: url('/fonts/FranklinGothicMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Big Caesar';
+    src: url('/fonts/BigCaesar_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 
   @page { size: 1200px 1200px; margin: 0; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #000;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
@@ -46,7 +59,7 @@
     position: absolute;
     bottom: 40px;
     right: 50px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 14px;
     color: rgba(255,255,255,0.25);
     letter-spacing: 2px;
@@ -61,16 +74,17 @@
   }
 
   .page-tracklist .album-title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Big Caesar', sans-serif;
     font-size: 58px;
-    font-weight: 400;
+    font-weight: normal;
     color: #c0392b;
     letter-spacing: 3px;
+    text-transform: uppercase;
     margin-bottom: 12px;
   }
 
   .page-tracklist .album-artist {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 14px;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -86,7 +100,7 @@
   }
 
   .track-num {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     color: rgba(192,57,43,0.3);
@@ -95,7 +109,7 @@
   }
 
   .track-title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 28px;
     color: rgba(255,255,255,0.6);
     letter-spacing: 0.5px;
@@ -124,7 +138,7 @@
   }
 
   .manuscript-title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 36px;
     font-weight: 400;
     color: rgba(255,255,255,0.85);
@@ -135,7 +149,7 @@
   }
 
   .manuscript-body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-style: italic;
     font-size: 15.5px;
     line-height: 1.9;
@@ -156,7 +170,7 @@
   .manuscript-body .speaker-her { color: rgba(192,57,43,0.45); }
 
   .manuscript-footer {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-style: italic;
     font-size: 14px;
     color: rgba(255,255,255,0.2);
@@ -177,7 +191,7 @@
   .credits-section { margin-bottom: 48px; }
 
   .credits-label {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 10px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -186,7 +200,7 @@
   }
 
   .credits-value {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 22px;
     color: rgba(255,255,255,0.35);
     line-height: 1.8;
@@ -199,7 +213,7 @@
   }
 
   .credits-footer p {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 10px;
     letter-spacing: 4px;
     color: rgba(255,255,255,0.22);
