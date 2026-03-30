@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ATNOCOST.CC — Site Brief</title>
+<style>
+  @font-face {
+    font-family: 'Franklin Gothic M';
+    src: url('/fonts/FranklinGothicMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Big Caesar';
+    src: url('/fonts/BigCaesar_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    color: #b8b4ac;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 20px 80px;
+  }
+
+  /* Header */
+  .doc-header {
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #1c1c1c;
+    margin-bottom: 60px;
+  }
+  .doc-header .owjv {
+    font-size: 8px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 32px;
+  }
+  .doc-header h1 {
+    font-family: 'Big Caesar', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    color: #e8e4dc;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .doc-header .subtitle {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #444;
+  }
+  .doc-header .date {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #333;
+    margin-top: 20px;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 56px;
+  }
+  .section-num {
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: rgba(192,57,43,0.4);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .section h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #e8e4dc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  .section h3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 28px 0 10px;
+  }
+  .section p {
+    margin-bottom: 12px;
+    color: #999;
+  }
+  .section .highlight {
+    color: #e8e4dc;
+  }
+  .section .dim {
+    color: #555;
+  }
+  .section .red {
+    color: rgba(192,57,43,0.6);
+  }
+
+  /* Route table */
+  .route-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 12px;
+  }
+  .route-table th {
+    text-align: left;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #444;
+    padding: 8px 10px;
+    border-bottom: 1px solid #1c1c1c;
+  }
+  .route-table td {
+    padding: 10px;
+    border-bottom: 1px solid #111;
+    vertical-align: top;
+    color: #888;
+  }
+  .route-table .path {
+    color: #e8e4dc;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  .route-table .gate-tag {
+    display: inline-block;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border: 1px solid #222;
+    color: #555;
+    margin-top: 4px;
+  }
+  .route-table .gate-tag.red {
+    border-color: rgba(192,57,43,0.3);
+    color: rgba(192,57,43,0.5);
+  }
+  .route-table .gate-tag.green {
+    border-color: rgba(46,125,50,0.3);
+    color: rgba(46,125,50,0.5);
+  }
+
+  /* List */
+  .list {
+    list-style: none;
+    margin: 12px 0;
+  }
+  .list li {
+    padding: 6px 0 6px 16px;
+    position: relative;
+    color: #888;
+    font-size: 13px;
+  }
+  .list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #333;
+  }
+  .list .label {
+    color: #555;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* Env table */
+  .env-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 11px;
+  }
+  .env-table th {
+    text-align: left;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #444;
+    padding: 8px 6px;
+    border-bottom: 1px solid #1c1c1c;
+  }
+  .env-table td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #111;
+    color: #666;
+    vertical-align: top;
+  }
+  .env-table .var {
+    color: #b8b4ac;
+    letter-spacing: 0.5px;
+  }
+
+  /* Drip flow */
+  .drip-card {
+    border: 1px solid #1c1c1c;
+    margin: 12px 0;
+    padding: 16px;
+  }
+  .drip-card .drip-num {
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgba(192,57,43,0.4);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .drip-card .drip-subj {
+    font-size: 13px;
+    color: #e8e4dc;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+  .drip-card .drip-desc {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* Status tags */
+  .status {
+    display: inline-block;
+    font-size: 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    margin-left: 8px;
+  }
+  .status.live {
+    border: 1px solid rgba(46,125,50,0.3);
+    color: rgba(46,125,50,0.5);
+  }
+  .status.pending {
+    border: 1px solid rgba(255,165,0,0.3);
+    color: rgba(255,165,0,0.4);
+  }
+  .status.disabled {
+    border: 1px solid #222;
+    color: #444;
+  }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid #1a1a1a;
+    margin: 48px 0;
+  }
+
+  /* Footer */
+  .doc-footer {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid #1c1c1c;
+    margin-top: 60px;
+  }
+  .doc-footer p {
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: #333;
+    text-transform: uppercase;
+    line-height: 2.4;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="doc-header">
+  <p class="owjv">OTHER WORLD &middot; JUST VISITING</p>
+  <h1>ATNOCOST.CC</h1>
+  <p class="subtitle">Team Site Brief &mdash; All Active Initiatives</p>
+  <p class="date">Updated March 30, 2026</p>
+</div>
+
+<!-- 01: OVERVIEW -->
+<div class="section">
+  <p class="section-num">01</p>
+  <h2>Overview</h2>
+  <p><span class="highlight">atnocost.cc</span> is the digital home for <span class="highlight">FREE</span>, an R&amp;B songwriter operating under the <span class="highlight">OWJV</span> (Other Worldly, Just Visiting) imprint. The site houses the full catalog, film library, fan engagement system, press outreach tools, and token-gated business documents.</p>
+  <p>Stack: <span class="highlight">Next.js 16 + Tailwind CSS v4</span>, deployed on <span class="highlight">Vercel</span>. Domain on <span class="highlight">Cloudflare</span> (DNS + email routing). Email via <span class="highlight">Resend</span>. State via <span class="highlight">Vercel KV</span>. Fan subscribers via <span class="highlight">Beehiiv</span> (pending integration).</p>
+  <p>Repo: <span class="highlight">github.com/atnocost/FreeNotAvailable</span></p>
+</div>
+
+<!-- 02: SITE MAP -->
+<div class="section">
+  <p class="section-num">02</p>
+  <h2>Site Map &amp; Page Directory</h2>
+
+  <h3>Public Pages</h3>
+  <table class="route-table">
+    <thead>
+      <tr><th>Route</th><th>Purpose</th><th>Access</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="path">/</span></td>
+        <td>Homepage. Hero, catalog grid, streaming links, email capture, mythos + lunar nav, other media, footer.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/finexme</span></td>
+        <td>Act I album page. FINExME (7 tracks, Jan 2024). Red palette, album-specific visuals.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/sinenoctis</span></td>
+        <td>Act II album page. SINE NOCTIS (3 tracks, Spring 2026). Monochrome palette + Pilgrim interlude.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/films</span></td>
+        <td>Film catalog. 6 films across both eras with YouTube embeds. AT NO COST, FINE BY ME, ANTE, VESPERA, NOCTEM, SINE NOCTIS visual.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/otherworld</span></td>
+        <td>Hub page. Links to both acts, mythos, timeline, films, clips.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/timeline</span></td>
+        <td>Horizontal scroll chronological timeline. Three eras: FINExME, SINE NOCTIS, Future.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/clips</span></td>
+        <td>Short-form content hub (TikTok, Reels, Shorts). 60% disabled &mdash; Coming Soon state.</td>
+        <td><span class="gate-tag green">public</span> <span class="status disabled">60% disabled</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/epk</span></td>
+        <td>Public Electronic Press Kit. Bio, catalog, visuals, press photos, contact info, PDF download.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Token-Gated Pages</h3>
+  <table class="route-table">
+    <thead>
+      <tr><th>Route</th><th>Purpose</th><th>Access</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="path">/ekthesis</span></td>
+        <td>12-section animated business case. Revenue model, market data, comparables, projections. Sent to press/industry with unique tokens.</td>
+        <td><span class="gate-tag red">token gate</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/ekthesis/gate</span></td>
+        <td>Landing page shown when no valid token. "This isn't public. You'd know if it were."</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/brief</span></td>
+        <td>SINE NOCTIS creative brief. Redirects to static HTML if valid token.</td>
+        <td><span class="gate-tag red">token gate</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/brief/gate</span></td>
+        <td>Landing page for brief access. "This document is internal."</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/gate</span></td>
+        <td>Site-wide email capture gate. Only active when SITE_GATE_ENABLED=true. Collects email, triggers fan drip.</td>
+        <td><span class="gate-tag">conditional</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Internal (Auth-Protected)</h3>
+  <table class="route-table">
+    <thead>
+      <tr><th>Route</th><th>Purpose</th><th>Access</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="path">/internal</span></td>
+        <td>One-sheet, visual bible, production standards, design guidelines. Full creative reference.</td>
+        <td><span class="gate-tag red">password</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/internal/login</span></td>
+        <td>Password entry. Sets 24hr auth cookie.</td>
+        <td><span class="gate-tag green">public</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/internal/outreach</span></td>
+        <td>Press campaign tool. 142 contacts across 5 tiers. Generate tokens, send pitches, track status.</td>
+        <td><span class="gate-tag red">password</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/internal/tokens</span></td>
+        <td>Token generator for ekthesis, brief, and site gates. Create, copy URL, revoke.</td>
+        <td><span class="gate-tag red">password</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Static Assets &amp; Archives</h3>
+  <table class="route-table">
+    <thead>
+      <tr><th>Route</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="path">/archive/finexme-booklet</span></td>
+        <td>Interactive 17-page digital booklet (1200&times;1200 square). Film stills, liners, tracklist, manuscript, credits.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/archive/tornado-report</span></td>
+        <td>Interactive tornado weather report. Procedural radar maps, narrative of June 2021 production disruption.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/archive/drip-mockup.html</span></td>
+        <td>Email drip preview. All 4 emails + booklet gallery. Team review only.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/downloads/finexme-booklet.pdf</span></td>
+        <td>PDF version of booklet (60MB). Generated via Puppeteer.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/downloads/bene-manuscript.pdf</span></td>
+        <td>BENE manuscript (7-10 pages). <span class="status pending">not yet created</span></td>
+      </tr>
+      <tr>
+        <td><span class="path">/archive/promo.mp4</span></td>
+        <td>Promotional video asset (96MB).</td>
+      </tr>
+      <tr>
+        <td><span class="path">/FREE-EPK-2026.pdf</span></td>
+        <td>Downloadable EPK PDF (1.5MB).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 03: AUTH & GATING -->
+<div class="section">
+  <p class="section-num">03</p>
+  <h2>Authentication &amp; Gating</h2>
+  <p>Three independent token systems protect different content tiers. All validated in middleware &mdash; env vars checked first, then Vercel KV for dynamically generated tokens.</p>
+
+  <h3>Token Gates</h3>
+  <ul class="list">
+    <li><span class="highlight">Ekthesis Gate</span> &mdash; Protects /ekthesis. Tokens generated per press contact via /internal/outreach or /internal/tokens. URL format: <span class="dim">atnocost.cc/ekthesis?token=XXXX</span></li>
+    <li><span class="highlight">Brief Gate</span> &mdash; Protects /brief. Same token system, separate namespace.</li>
+    <li><span class="highlight">Site Gate</span> &mdash; Optional site-wide lock. Activated by setting SITE_GATE_ENABLED=true. Visitors see email capture, then get access cookie (365 days).</li>
+  </ul>
+
+  <h3>Internal Auth</h3>
+  <ul class="list">
+    <li>Password login at /internal/login. Sets httpOnly cookie (24hr). Protects all /internal/* routes.</li>
+    <li>Password stored as INTERNAL_AUTH_TOKEN env var on Vercel.</li>
+  </ul>
+
+  <h3>Bypass Rules</h3>
+  <ul class="list">
+    <li>All /api/* routes &mdash; always allowed</li>
+    <li>Static assets (/images, /fonts, /textures, _next) &mdash; always allowed</li>
+    <li>favicon.ico, robots.txt, sitemap.xml &mdash; always allowed</li>
+  </ul>
+</div>
+
+<!-- 04: API ROUTES -->
+<div class="section">
+  <p class="section-num">04</p>
+  <h2>API Routes</h2>
+
+  <table class="route-table">
+    <thead>
+      <tr><th>Endpoint</th><th>Method</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="path">/api/subscribe</span></td>
+        <td>POST</td>
+        <td>Fan email signup. Validates email, forwards to freeisavailable@atnocost.cc via Resend. Beehiiv integration pending.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/api/internal-auth</span></td>
+        <td>POST</td>
+        <td>Admin login. Validates password, sets internal_auth cookie (24hr).</td>
+      </tr>
+      <tr>
+        <td><span class="path">/api/site-auth</span></td>
+        <td>GET</td>
+        <td>Site gate validator. Checks token, sets site_access cookie (1yr), redirects to destination.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/api/outreach</span></td>
+        <td>GET/POST/PATCH/DELETE</td>
+        <td>Outreach campaign management. Generate ekthesis tokens, update contact status (pending/sent/bounced/opened), revoke tokens. Stored in Vercel KV.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/api/outreach/send</span></td>
+        <td>POST</td>
+        <td>Send pitch emails. T1-T3 from free@atnocost.cc (artist voice), T4 from freeisavailable@atnocost.cc (imprint voice). Via Resend.</td>
+      </tr>
+      <tr>
+        <td><span class="path">/api/tokens</span></td>
+        <td>GET/POST/DELETE</td>
+        <td>General token CRUD for ekthesis, brief, and site gates. Stored in Vercel KV.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 05: FAN EMAIL DRIP -->
+<div class="section">
+  <p class="section-num">05</p>
+  <h2>Fan Email Drip Sequence</h2>
+  <p>4-email welcome sequence triggered by fan signup. Templates built in <span class="highlight">lib/email-templates.ts</span>. Beehiiv handles subscriber storage, drip scheduling, unsubscribe, and analytics. We provide the HTML templates + hosted assets.</p>
+
+  <div class="drip-card">
+    <p class="drip-num">Email 1 &mdash; Day 0</p>
+    <p class="drip-subj">you made it</p>
+    <p class="drip-desc">Welcome. Quote from WC. "u made it, hope it feels like something." Lunar nav showing SINE NOCTIS as current chapter. Unlock list previewing all 3 visits. Signature: &mdash; FREE</p>
+  </div>
+
+  <div class="drip-card">
+    <p class="drip-num">Email 2 &mdash; Day 3 &mdash; visit 001</p>
+    <p class="drip-subj">SINE NOCTIS / visit 001</p>
+    <p class="drip-desc">Origin story. June 2021 tornado watch. Tornado GIF loop. "look at the sky." Embedded weather report (EF-1, Wayne County, radar maps). Link to interactive report. Promo GIF. "nothing stops the visit."</p>
+  </div>
+
+  <div class="drip-card">
+    <p class="drip-num">Email 3 &mdash; Day 7 &mdash; visit 002</p>
+    <p class="drip-subj">SINE NOCTIS / visit 002</p>
+    <p class="drip-desc">FINExME digital booklet delivery. Prometheus/Mnemosyne setting. Two download links: interactive booklet + PDF. "visit FREE again in chapter ii."</p>
+  </div>
+
+  <div class="drip-card">
+    <p class="drip-num">Email 4 &mdash; Day 10 &mdash; visit 003</p>
+    <p class="drip-subj">SINE NOCTIS / visit 003</p>
+    <p class="drip-desc">BENE manuscript delivery. Cover image (cherub watermark). Manuscript PDF download. "nothing is owed. everything is given."</p>
+  </div>
+
+  <h3>Email Assets (Hosted)</h3>
+  <ul class="list">
+    <li>/images/tornado-loop.gif &mdash; tornado footage loop</li>
+    <li>/images/promo-loop.gif &mdash; FINExME album promo loop</li>
+    <li>/images/tornado-track-map.png, tornado-velocity.png, tornado-reflectivity.png &mdash; radar images</li>
+    <li>/images/moon-*.png &mdash; lunar nav phase icons (6 total)</li>
+    <li>/images/bene-cover.png &mdash; BENE manuscript cover with cherub</li>
+    <li>/images/owjv-cherub-hires.png &mdash; 1024&times;1024 cherub watermark</li>
+  </ul>
+
+  <h3>Drip Mockup</h3>
+  <p>Full visual preview of all 4 emails + booklet at <span class="highlight">/archive/drip-mockup.html</span></p>
+</div>
+
+<!-- 06: PRESS OUTREACH -->
+<div class="section">
+  <p class="section-num">06</p>
+  <h2>Press Outreach</h2>
+  <p><span class="highlight">142 contacts</span> across 5 tiers. Managed at /internal/outreach.</p>
+
+  <ul class="list">
+    <li><span class="highlight">Tier 0 (VIP)</span> &mdash; First access. Exclusive contacts (e.g., Patu Ong).</li>
+    <li><span class="highlight">Tier 1 (Major)</span> &mdash; Pitchfork, Rolling Stone senior writers.</li>
+    <li><span class="highlight">Tier 2 (Mid)</span> &mdash; Mid-tier indie publications.</li>
+    <li><span class="highlight">Tier 3 (Indie/Blogs)</span> &mdash; Independent music press.</li>
+    <li><span class="highlight">Tier 4 (Industry)</span> &mdash; Labels, distributors, A&amp;R.</li>
+  </ul>
+
+  <h3>Email Voices</h3>
+  <ul class="list">
+    <li><span class="highlight">free@atnocost.cc</span> &mdash; Artist voice. First-person. Used for T0-T3 (press contacts).</li>
+    <li><span class="highlight">freeisavailable@atnocost.cc</span> &mdash; Imprint voice. Third-person. Used for T4 (industry contacts).</li>
+    <li>Replies route to sound.otherworld@gmail.com via Cloudflare Email Routing.</li>
+  </ul>
+
+  <h3>Workflow</h3>
+  <ul class="list">
+    <li>Generate unique ekthesis token per contact at /internal/outreach</li>
+    <li>Send personalized pitch email with token link via Resend</li>
+    <li>Track status: pending &rarr; sent &rarr; opened/bounced</li>
+    <li>Revoke tokens as needed</li>
+  </ul>
+</div>
+
+<!-- 07: CATALOG -->
+<div class="section">
+  <p class="section-num">07</p>
+  <h2>Catalog</h2>
+
+  <h3>Released</h3>
+  <ul class="list">
+    <li><span class="highlight">FINExME</span> &mdash; 7-track album (Act I, Jan 2024). Red palette. Tracks: fine by me, twins, chambers, flo, zodiac killer, maybe, pilgrim.</li>
+    <li><span class="highlight">SINE NOCTIS</span> &mdash; 3-track EP (Act II, Spring 2026). Monochrome. Film is primary press draw.</li>
+  </ul>
+
+  <h3>Films</h3>
+  <ul class="list">
+    <li><span class="highlight">AT NO COST</span> &mdash; Trailer. Dir: gotakemedia.</li>
+    <li><span class="highlight">FINE BY ME</span> &mdash; Full film. Dir: gotakemedia. Filmed during tornado.</li>
+    <li><span class="highlight">ANTE</span> &mdash; Teaser ("before"). Dir: Blanco.</li>
+    <li><span class="highlight">VESPERA</span> &mdash; Teaser ("dusk"). Dir: Blanco.</li>
+    <li><span class="highlight">NOCTEM</span> &mdash; Teaser ("nightfall"). Dir: Blanco.</li>
+    <li><span class="highlight">SINE NOCTIS</span> &mdash; Full visual. Dir: Blanco.</li>
+  </ul>
+
+  <h3>Planned</h3>
+  <ul class="list">
+    <li><span class="dim">SN2</span> &mdash; EP</li>
+    <li><span class="dim">OTHERLAND</span> &mdash; Album</li>
+    <li><span class="dim">SEX SYMBOL</span> &mdash; Album (produced by Worst Choice)</li>
+    <li>Smaller unnamed projects between major releases</li>
+  </ul>
+</div>
+
+<!-- 08: CREDITS -->
+<div class="section">
+  <p class="section-num">08</p>
+  <h2>Key Collaborators</h2>
+  <ul class="list">
+    <li><span class="highlight">Mookie Magnolia, Ashton Woods, Worst Choice, Brando Heat</span> &mdash; Production</li>
+    <li><span class="highlight">Ashton Woods</span> &mdash; Engineering &amp; post-production</li>
+    <li><span class="highlight">Worst Choice</span> &mdash; Art direction &amp; design</li>
+    <li><span class="highlight">gotakemedia</span> &mdash; Film (AT NO COST, FINE BY ME)</li>
+    <li><span class="highlight">Blanco</span> &mdash; Film (ANTE, VESPERA, NOCTEM, SINE NOCTIS clips)</li>
+    <li><span class="highlight">Rush Hour / Khalil Copeland</span> &mdash; Photography</li>
+    <li><span class="highlight">Roy</span> &mdash; Vectored FREE logo and OWJV logo</li>
+    <li><span class="highlight">Kohl DePaul / apt.315</span> &mdash; Wardrobe (SINE NOCTIS)</li>
+    <li><span class="highlight">Juulius Juul / Heliot Emil</span> &mdash; Wardrobe (Fine By Me)</li>
+  </ul>
+</div>
+
+<!-- 09: ENV VARS -->
+<div class="section">
+  <p class="section-num">09</p>
+  <h2>Environment Variables</h2>
+  <p>All set on Vercel. Required for the site to function.</p>
+
+  <table class="env-table">
+    <thead>
+      <tr><th>Variable</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="var">INTERNAL_AUTH_TOKEN</td><td>Admin password for /internal routes</td></tr>
+      <tr><td class="var">RESEND_API_KEY</td><td>Outbound email (fan signup notifications, press pitches)</td></tr>
+      <tr><td class="var">KV_REST_API_URL</td><td>Vercel KV (Redis) endpoint for token + outreach state</td></tr>
+      <tr><td class="var">KV_REST_API_TOKEN</td><td>Vercel KV auth token</td></tr>
+      <tr><td class="var">EKTHESIS_TOKENS</td><td>Comma-separated static tokens for /ekthesis</td></tr>
+      <tr><td class="var">BRIEF_TOKENS</td><td>Comma-separated static tokens for /brief</td></tr>
+      <tr><td class="var">SITE_TOKENS</td><td>Comma-separated tokens for site-wide gate</td></tr>
+      <tr><td class="var">SITE_GATE_ENABLED</td><td>Master switch for site-wide gate (true/false)</td></tr>
+      <tr><td class="var">NEXT_PUBLIC_BASE_URL</td><td>Base URL for email templates (defaults to https://atnocost.cc)</td></tr>
+      <tr><td class="var">BEEHIIV_PUBLICATION_ID</td><td>Beehiiv subscriber list ID <span class="status pending">not yet connected</span></td></tr>
+      <tr><td class="var">BEEHIIV_API_KEY</td><td>Beehiiv API key <span class="status pending">not yet connected</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 10: OUTSTANDING -->
+<div class="section">
+  <p class="section-num">10</p>
+  <h2>Outstanding Items</h2>
+
+  <h3>Pending</h3>
+  <ul class="list">
+    <li><span class="highlight">Beehiiv Integration</span> &mdash; Connect email capture to Beehiiv API. Paste email HTML templates into Beehiiv automation builder. <span class="status pending">pending</span></li>
+    <li><span class="highlight">BENE Manuscript PDF</span> &mdash; 7-10 page manuscript. Needs full text written and designed as standalone PDF. Cover image done (bene-cover.png). <span class="status pending">pending</span></li>
+    <li><span class="highlight">Clips Page</span> &mdash; 60% disabled. Decide: finish or hide. <span class="status disabled">disabled</span></li>
+    <li><span class="highlight">Vinyl Waitlist</span> &mdash; No submission handler built. <span class="status pending">pending</span></li>
+    <li><span class="highlight">Projection Installations</span> &mdash; 3 paid projectionist installations in Detroit, post-SINE NOCTIS. Concept not fleshed out. <span class="status pending">concept</span></li>
+  </ul>
+
+  <h3>Live &amp; Working</h3>
+  <ul class="list">
+    <li>All public pages <span class="status live">live</span></li>
+    <li>Token gating (ekthesis, brief, site) <span class="status live">live</span></li>
+    <li>Press outreach tool (142 contacts) <span class="status live">live</span></li>
+    <li>Email templates (4 emails) <span class="status live">built</span></li>
+    <li>FINExME digital booklet (HTML + PDF) <span class="status live">live</span></li>
+    <li>Tornado interactive report <span class="status live">live</span></li>
+    <li>BENE cover image <span class="status live">live</span></li>
+    <li>EPK + PDF download <span class="status live">live</span></li>
+    <li>Internal one-sheet + visual bible <span class="status live">live</span></li>
+  </ul>
+</div>
+
+<!-- 11: DESIGN RULES -->
+<div class="section">
+  <p class="section-num">11</p>
+  <h2>Design Rules</h2>
+  <ul class="list">
+    <li><span class="highlight">Big Caesar</span> &mdash; Display font. Album logotypes. SINENOCTIS renders without space in this font.</li>
+    <li><span class="highlight">Franklin Gothic Medium</span> &mdash; Body/UI font for emails and documents.</li>
+    <li><span class="highlight">FREE logotype</span> &mdash; INLINED SVG everywhere (never img tag). Canonical size: 180px mobile, 290px desktop. Locked.</li>
+    <li><span class="highlight">Color: FINExME</span> &mdash; Hot reds (#c0392b). Act I.</li>
+    <li><span class="highlight">Color: SINE NOCTIS</span> &mdash; Monochrome/grayscale. Act II.</li>
+    <li><span class="highlight">Back cover format</span> &mdash; Big Caesar font, FREE logo, tracklist. Established by Choice on FINExME, carries forward to all projects.</li>
+    <li><span class="highlight">OWJV</span> &mdash; Always "imprint," never "label."</li>
+    <li><span class="highlight">CMC</span> &mdash; Silent partner. No public mention anywhere.</li>
+    <li><span class="highlight">Content voice</span> &mdash; Compressed, coy, poetic. Not explanatory.</li>
+    <li><span class="highlight">EPK structure</span> &mdash; Locked. Swap elements per cycle, don't restructure.</li>
+  </ul>
+</div>
+
+<!-- FOOTER -->
+<div class="doc-footer">
+  <p>OWJV 2026</p>
+  <p>INTERNAL &mdash; DO NOT DISTRIBUTE</p>
+</div>
+
+</div>
+</body>
+</html>

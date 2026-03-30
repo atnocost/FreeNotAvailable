@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BENE Cover</title>
+<style>
+  @font-face {
+    font-family: 'Franklin Gothic M';
+    src: url('file:///Users/not-available/FreeNotAvailable/public/fonts/FranklinGothicMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #000; }
+  .cover {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #0a0a0a;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .cherub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    opacity: 0.18;
+    pointer-events: none;
+  }
+  .title {
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.85);
+    position: relative;
+    z-index: 1;
+    text-indent: 18px;
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <img class="cherub" src="file:///Users/not-available/FreeNotAvailable/public/images/owjv-cherub-hires.png" alt="" />
+  <p class="title">BENE</p>
+</div>
+</body>
+</html>
