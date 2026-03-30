@@ -7,11 +7,19 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:wght@400;700&display=swap');
 
+  @font-face {
+    font-family: 'Franklin Gothic M';
+    src: url('/fonts/FranklinGothicMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
     background: #000;
-    font-family: 'SF Mono', 'Menlo', 'Courier New', monospace;
+    font-family: 'Franklin Gothic M', 'SF Mono', 'Menlo', 'Courier New', monospace;
     -webkit-text-size-adjust: 100%;
   }
 
@@ -69,7 +77,7 @@
   }
 
   .ow-header {
-    font-family: 'SF Mono', 'Menlo', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 8px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -89,7 +97,7 @@
     text-align: center;
   }
   .email-footer a {
-    font-family: 'SF Mono', 'Menlo', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: 8px;
     letter-spacing: 1.5px;
     color: #333;
@@ -104,8 +112,8 @@
   }
 
   /* ── Typography tokens ── */
-  .t-serif { font-family: Georgia, 'Times New Roman', serif; }
-  .t-mono { font-family: 'SF Mono', 'Menlo', 'Courier New', monospace; }
+  .t-serif { font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif; }
+  .t-mono { font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif; }
   .t-italic { font-style: italic; }
   .c-body { color: #b8b4ac; }
   .c-primary { color: #e8e4dc; }
@@ -424,7 +432,7 @@
     position: absolute;
     bottom: 3%;
     right: 4%;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(6px, 1.8vw, 10px);
     color: rgba(255,255,255,0.25);
     letter-spacing: 1px;
@@ -438,15 +446,16 @@
     padding: 10%;
   }
   .bp-track .at {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(18px, 5.5vw, 29px);
-    font-weight: 400;
+    font-weight: 500;
     color: #c0392b;
     letter-spacing: 2px;
     margin-bottom: 1%;
+    text-transform: uppercase;
   }
   .bp-track .aa {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(5px, 1.4vw, 7px);
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -460,7 +469,7 @@
     border-bottom: 1px solid rgba(255,255,255,0.035);
   }
   .bp-track .tn {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(5px, 1.4vw, 7px);
     letter-spacing: 1px;
     color: rgba(192,57,43,0.3);
@@ -468,10 +477,11 @@
     flex-shrink: 0;
   }
   .bp-track .tt {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(9px, 2.8vw, 14px);
     color: rgba(255,255,255,0.6);
     letter-spacing: 0.5px;
+    text-transform: uppercase;
   }
 
   /* Manuscript page */
@@ -493,16 +503,17 @@
     pointer-events: none;
   }
   .bp-ms .mt {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(11px, 3.4vw, 18px);
-    font-weight: 400;
+    font-weight: 500;
     color: rgba(255,255,255,0.85);
     letter-spacing: 2px;
     margin-bottom: 3%;
+    text-transform: uppercase;
     position: relative; z-index: 1;
   }
   .bp-ms .mb {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-style: italic;
     font-size: clamp(5.5px, 1.7vw, 8px);
     line-height: 1.85;
@@ -518,7 +529,7 @@
   }
   .bp-ms .mb .sp-her { color: rgba(192,57,43,0.45); }
   .bp-ms .mf {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-style: italic;
     font-size: clamp(5px, 1.4vw, 7px);
     color: rgba(255,255,255,0.2);
@@ -535,7 +546,7 @@
   }
   .bp-cr .cs { margin-bottom: 4%; }
   .bp-cr .cl {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(4px, 1.1vw, 5px);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -543,7 +554,7 @@
     margin-bottom: 1%;
   }
   .bp-cr .cv {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(7px, 2.2vw, 11px);
     color: rgba(255,255,255,0.35);
     line-height: 1.8;
@@ -554,7 +565,7 @@
     border-top: 1px solid rgba(255,255,255,0.035);
   }
   .bp-cr .cf p {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Franklin Gothic M', 'Franklin Gothic Medium', sans-serif;
     font-size: clamp(4px, 1.1vw, 5px);
     letter-spacing: 2px;
     color: rgba(255,255,255,0.22);
