@@ -174,7 +174,7 @@ export default function FineXMeSection() {
                 {TRACKLIST.map(({ num, title, spotify, apple, tidal }) => (
                   <li key={num} className="flex items-baseline gap-4 group">
                     <span className="text-xs font-sans text-[#c0392b]/40 tabular-nums">{num}</span>
-                    <span className="font-sans text-lg md:text-xl italic text-[#f5e6e0]/80 group-hover:text-[#f5e6e0] transition-colors">
+                    <span className="font-sans text-lg md:text-xl italic text-[#f5e6e0]/80 group-hover:text-[#f5e6e0] transition-colors uppercase">
                       {title}
                     </span>
                     {/* Streaming icons — slide in on hover */}

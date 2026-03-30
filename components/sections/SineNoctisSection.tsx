@@ -168,7 +168,7 @@ export default function SineNoctisSection() {
             {TRACKLIST.map(({ num, title, spotify, apple }) => (
               <li key={num} className="flex items-baseline gap-4 group">
                 <span className="text-xs font-sans text-[#d0d0d0]/40 tabular-nums">{num}</span>
-                <span className="font-sans text-lg md:text-xl italic text-[#e8e8e8]/80 group-hover:text-[#e8e8e8] transition-colors">
+                <span className="font-sans text-lg md:text-xl italic text-[#e8e8e8]/80 group-hover:text-[#e8e8e8] transition-colors uppercase">
                   {title}
                 </span>
                 {/* Streaming icons — slide in on hover */}
