@@ -280,30 +280,31 @@ export function email2Origin(email: string): { subject: string; html: string } {
   }
 }
 
-/* ── EMAIL 3: Manuscript + Downloads ── */
-export function email3Manuscript(email: string): { subject: string; html: string } {
-  function downloadBlock(title: string, subtitle: string, href: string): string {
-    return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid ${cardBorder};margin-bottom:16px;">
-      <tr>
-        <td style="padding:24px 28px;">
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td>
-                <a href="${href}" style="text-decoration:none;">
-                  <p style="font-family:${mono};font-size:12px;letter-spacing:2px;color:${textPrimary};margin:0 0 4px 0;">${title}</p>
-                  <p style="font-family:${mono};font-size:9px;letter-spacing:2px;color:${textFaint};text-transform:uppercase;margin:0;">${subtitle}</p>
-                </a>
-              </td>
-              <td width="40" style="text-align:right;">
-                <a href="${href}" style="font-family:${mono};font-size:18px;color:${textGhost};text-decoration:none;">&darr;</a>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>`
-  }
+/* ── Shared download block ── */
+function downloadBlock(title: string, subtitle: string, href: string): string {
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid ${cardBorder};margin-bottom:16px;">
+    <tr>
+      <td style="padding:24px 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+              <a href="${href}" style="text-decoration:none;">
+                <p style="font-family:${mono};font-size:12px;letter-spacing:2px;color:${textPrimary};margin:0 0 4px 0;">${title}</p>
+                <p style="font-family:${mono};font-size:9px;letter-spacing:2px;color:${textFaint};text-transform:uppercase;margin:0;">${subtitle}</p>
+              </a>
+            </td>
+            <td width="40" style="text-align:right;">
+              <a href="${href}" style="font-family:${mono};font-size:18px;color:${textGhost};text-decoration:none;">&darr;</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>`
+}
 
+/* ── EMAIL 3: FINExME Booklet ── */
+export function email3Booklet(email: string): { subject: string; html: string } {
   const content = `
     <!-- Meta -->
     <p style="font-family:${mono};font-size:10px;letter-spacing:2px;color:${textFaint};margin:0 0 32px 0;">
@@ -316,7 +317,6 @@ export function email3Manuscript(email: string): { subject: string; html: string
     </p>
 
     <!-- Downloads -->
-    ${downloadBlock('BENE', 'manuscript &mdash; fine by me', `${BASE_URL}/downloads/bene-manuscript.pdf`)}
     ${downloadBlock('FINExME', 'digital booklet &mdash; interactive', `${BASE_URL}/archive/finexme-booklet`)}
     ${downloadBlock('FINExME', 'digital booklet &mdash; pdf', `${BASE_URL}/downloads/finexme-booklet.pdf`)}
 
@@ -331,8 +331,40 @@ export function email3Manuscript(email: string): { subject: string; html: string
   }
 }
 
+/* ── EMAIL 4: BENE Manuscript ── */
+export function email4Bene(email: string): { subject: string; html: string } {
+  const content = `
+    <!-- Meta -->
+    <p style="font-family:${mono};font-size:10px;letter-spacing:2px;color:${textFaint};margin:0 0 32px 0;">
+      SINE NOCTIS / visit 003
+    </p>
+
+    <!-- Cover -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:40px;">
+      <tr>
+        <td style="background:#0a0a0a;border:1px solid #1a1a1a;padding:0;text-align:center;line-height:0;">
+          <img src="${BASE_URL}/images/bene-cover.png" alt="BENE" width="540" style="width:100%;max-width:540px;display:block;margin:0 auto;" />
+        </td>
+      </tr>
+    </table>
+
+    <!-- Downloads -->
+    ${downloadBlock('BENE', 'manuscript &mdash; fine by me', `${BASE_URL}/downloads/bene-manuscript.pdf`)}
+
+    <!-- Closing -->
+    <p style="font-family:${serif};font-size:15px;color:#666;font-style:italic;margin:40px 0 0 0;">
+      nothing is owed. everything is given.
+    </p>
+  `
+  return {
+    subject: 'SINE NOCTIS / visit 003',
+    html: layout(content).replace('{{email}}', encodeURIComponent(email)),
+  }
+}
+
 export const EMAIL_TEMPLATES = [
   { id: 1, delay: 0, generate: email1Welcome },
   { id: 2, delay: 3, generate: email2Origin },
-  { id: 3, delay: 7, generate: email3Manuscript },
+  { id: 3, delay: 7, generate: email3Booklet },
+  { id: 4, delay: 10, generate: email4Bene },
 ] as const
