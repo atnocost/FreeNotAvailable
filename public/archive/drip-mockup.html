@@ -404,7 +404,54 @@
     margin-top: 28px;
   }
 
-  /* ── Booklet ── */
+  /* ── Booklet thumbnail gallery ── */
+  .booklet-gallery {
+    padding: 16px 12px 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .booklet-gallery .gallery-label {
+    font-size: 7px;
+    letter-spacing: 2px;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .booklet-gallery .thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+  .booklet-gallery .thumb {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border: 1px solid #1a1a1a;
+    border-radius: 2px;
+    position: relative;
+    background: #0a0a0a;
+  }
+  .booklet-gallery .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.85;
+  }
+  .booklet-gallery .thumb img.contain {
+    object-fit: contain;
+  }
+  .booklet-gallery .thumb .thumb-num {
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+    font-size: 6px;
+    letter-spacing: 1px;
+    color: #444;
+    font-family: 'Franklin Gothic M', sans-serif;
+  }
+
+  /* ── Booklet full pages ── */
   .booklet-label {
     font-size: 7px;
     letter-spacing: 1.5px;
@@ -760,6 +807,30 @@
       <a href="#">ATNOCOST.CC</a>
       <a href="#" class="unsub">unsubscribe</a>
     </div>
+  </div>
+</div>
+
+<!-- Booklet thumbnail gallery tied to Email 3 -->
+<div class="booklet-gallery">
+  <p class="gallery-label">FINExME Digital Booklet &mdash; 17 Pages</p>
+  <div class="thumb-grid">
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/01-cover-chariot.png" alt="01" /><span class="thumb-num">01</span></div>
+    <div class="thumb"><img class="contain" src="https://atnocost.cc/images/booklet/final/02-fine-by-me-title.png" alt="02" /><span class="thumb-num">02</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/03-face-portrait-sky.jpg" alt="03" /><span class="thumb-num">03</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/04-lyric-liner.png" alt="04" /><span class="thumb-num">04</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/05-dashboard-chariot.png" alt="05" /><span class="thumb-num">05</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/06-uv-nails.png" alt="06" /><span class="thumb-num">06</span></div>
+    <div class="thumb"><img class="contain" src="https://atnocost.cc/images/booklet/final/07-bokeh-red-hand.jpg" alt="07" /><span class="thumb-num">07</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/08-red-portrait-hands.jpg" alt="08" /><span class="thumb-num">08</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/09-acknowledgments.png" alt="09" /><span class="thumb-num">09</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/10-sunset-hand-face.jpg" alt="10" /><span class="thumb-num">10</span></div>
+    <div class="thumb" style="background:#0a0a0a;"><span class="thumb-num" style="color:#333;">11</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/12-sunset-silhouette.jpg" alt="12" /><span class="thumb-num">12</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/13-backpack.jpg" alt="13" /><span class="thumb-num">13</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/15-owjv.png" alt="14" /><span class="thumb-num">14</span></div>
+    <div class="thumb"><img src="https://atnocost.cc/images/booklet/final/16-car-taillight.png" alt="15" /><span class="thumb-num">15</span></div>
+    <div class="thumb" style="background:#0a0a0a;"><span class="thumb-num" style="color:#333;">16</span></div>
+    <div class="thumb" style="background:#0a0a0a;"><span class="thumb-num" style="color:#333;">17</span></div>
   </div>
 </div>
 

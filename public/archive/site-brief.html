@@ -116,6 +116,20 @@
     color: rgba(192,57,43,0.6);
   }
 
+  /* Explainer blocks */
+  .explainer {
+    border-left: 2px solid #1c1c1c;
+    padding: 12px 0 12px 16px;
+    margin: 16px 0 24px;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #777;
+  }
+  .explainer strong {
+    color: #999;
+    font-weight: 500;
+  }
+
   /* Route table */
   .route-table {
     width: 100%;
@@ -299,14 +313,32 @@
   <p class="section-num">01</p>
   <h2>Overview</h2>
   <p><span class="highlight">atnocost.cc</span> is the digital home for <span class="highlight">FREE</span>, an R&amp;B songwriter operating under the <span class="highlight">OWJV</span> (Other Worldly, Just Visiting) imprint. The site houses the full catalog, film library, fan engagement system, press outreach tools, and token-gated business documents.</p>
+
+  <div class="explainer">
+    <strong>What this site is:</strong> Not a standard artist website. It's a controlled environment &mdash; part portfolio, part distribution system, part gated vault. Every page serves a specific function in a larger rollout strategy. Public-facing pages are for fans and discovery. Internal pages are for us. Token-gated pages are for press and industry, accessed only through unique links we generate and send. The site is the central nervous system for everything FREE does digitally.
+  </div>
+
   <p>Stack: <span class="highlight">Next.js 16 + Tailwind CSS v4</span>, deployed on <span class="highlight">Vercel</span>. Domain on <span class="highlight">Cloudflare</span> (DNS + email routing). Email via <span class="highlight">Resend</span>. State via <span class="highlight">Vercel KV</span>. Fan subscribers via <span class="highlight">Beehiiv</span> (pending integration).</p>
+
+  <div class="explainer">
+    <strong>Why this stack:</strong> Next.js gives us server-side routes and middleware &mdash; that's what powers the token gating and auth without a separate backend. Vercel handles deployment (push to git, site updates automatically). Cloudflare handles the domain and routes reply emails to Gmail. Resend sends outbound email (press pitches, fan notifications). Vercel KV is a Redis database that stores tokens and outreach status. Beehiiv will handle the fan email list once connected &mdash; we build the email HTML, Beehiiv handles scheduling and unsubscribes.
+  </div>
+
   <p>Repo: <span class="highlight">github.com/atnocost/FreeNotAvailable</span></p>
+
+  <div class="explainer">
+    <strong>Repo note:</strong> This is our fork with full push access. The upstream repo (ObsidianWRK/FreeNotAvailable) is read-only to us. All work goes to the atnocost fork, which is what Vercel deploys from.
+  </div>
 </div>
 
 <!-- 02: SITE MAP -->
 <div class="section">
   <p class="section-num">02</p>
   <h2>Site Map &amp; Page Directory</h2>
+
+  <div class="explainer">
+    <strong>How to read this:</strong> Every route on the site is listed below with its purpose and access level. "Public" means anyone can see it. "Token gate" means the visitor needs a unique URL with a token we generated. "Password" means it requires the internal admin password. When building or modifying any page, check this table first to understand what it does and who sees it.
+  </div>
 
   <h3>Public Pages</h3>
   <table class="route-table">
@@ -357,6 +389,12 @@
     </tbody>
   </table>
 
+  <div class="explainer">
+    <strong>Homepage structure:</strong> The homepage is layered intentionally. Hero image at top, then the catalog grid (clickable album tiles), then streaming platform links (Spotify, Apple Music, TIDAL), then the email capture form (feeds into the fan drip system), then the Mythos section with the Lunar Nav (a visual map of all releases past and future), then Other Media (press features, interviews), and finally the footer with the "Proposition" link to ekthesis. Each section is a component that can be updated independently.<br><br>
+    <strong>Act pages:</strong> /finexme and /sinenoctis are standalone album experiences. Each has its own color palette and visual language. They include manuscript excerpts (dialogue format, low opacity, border-left accent), gallery sections, and streaming links. The SINE NOCTIS page is the only page with embedded video &mdash; all other video lives on /films.<br><br>
+    <strong>EPK:</strong> The EPK structure is locked. When a new release cycle starts, we swap out the elements (photos, bio details, featured release) but do not change the layout or section order. This is a deliberate decision &mdash; the structure is proven and consistent.
+  </div>
+
   <h3>Token-Gated Pages</h3>
   <table class="route-table">
     <thead>
@@ -391,6 +429,11 @@
     </tbody>
   </table>
 
+  <div class="explainer">
+    <strong>How token gating works:</strong> When we want someone specific to see /ekthesis or /brief, we generate a unique token at /internal/tokens or /internal/outreach. That token gets appended to the URL (e.g., atnocost.cc/ekthesis?token=XXXX) and sent to the contact. When they click it, the middleware checks the token against our database. Valid token = they see the page. Invalid or missing = they see the gate page. Tokens can be revoked at any time. This is how we control exactly who sees sensitive business information.<br><br>
+    <strong>Site gate:</strong> This is a separate system. When SITE_GATE_ENABLED=true, the entire site is locked behind an email capture wall. Visitors enter their email, get a cookie (lasts 1 year), and can browse freely. This is for pre-launch &mdash; we turn it on before a release to build the email list, then turn it off when the site goes fully public.
+  </div>
+
   <h3>Internal (Auth-Protected)</h3>
   <table class="route-table">
     <thead>
@@ -419,6 +462,10 @@
       </tr>
     </tbody>
   </table>
+
+  <div class="explainer">
+    <strong>Internal pages are our control room.</strong> The one-sheet at /internal is the creative bible &mdash; everything about the visual identity, production standards, and guidelines lives there. The outreach tool at /internal/outreach is where press campaigns are managed: select contacts, generate unique ekthesis tokens, write and send pitch emails, and track who's been contacted and what their status is. The token manager at /internal/tokens is for generating access links to any gated page. All internal pages require the admin password, which expires after 24 hours for security.
+  </div>
 
   <h3>Static Assets &amp; Archives</h3>
   <table class="route-table">
@@ -452,6 +499,10 @@
       </tr>
     </tbody>
   </table>
+
+  <div class="explainer">
+    <strong>Archives vs Downloads:</strong> The /archive/ path holds interactive HTML experiences (booklet you can flip through, tornado report you can scroll). The /downloads/ path holds static files fans actually download (PDFs). Both are served as static files from the public folder &mdash; they don't go through Next.js routing. They're accessible if you know the URL, but they're not linked from any public navigation. The drip mockup at /archive/drip-mockup.html is strictly for internal team review &mdash; it shows exactly what each fan email looks like before we paste the HTML into Beehiiv.
+  </div>
 </div>
 
 <!-- 03: AUTH & GATING -->
@@ -460,6 +511,10 @@
   <h2>Authentication &amp; Gating</h2>
   <p>Three independent token systems protect different content tiers. All validated in middleware &mdash; env vars checked first, then Vercel KV for dynamically generated tokens.</p>
 
+  <div class="explainer">
+    <strong>How middleware works:</strong> Every request to the site passes through a middleware layer before reaching the page. The middleware checks the URL path and decides: is this a public route? Does it need a token? Does it need the admin password? If access is denied, the visitor gets redirected to the appropriate gate page. This all happens server-side before any page content loads &mdash; unauthorized visitors never see protected content, not even for a flash.
+  </div>
+
   <h3>Token Gates</h3>
   <ul class="list">
     <li><span class="highlight">Ekthesis Gate</span> &mdash; Protects /ekthesis. Tokens generated per press contact via /internal/outreach or /internal/tokens. URL format: <span class="dim">atnocost.cc/ekthesis?token=XXXX</span></li>
@@ -467,11 +522,19 @@
     <li><span class="highlight">Site Gate</span> &mdash; Optional site-wide lock. Activated by setting SITE_GATE_ENABLED=true. Visitors see email capture, then get access cookie (365 days).</li>
   </ul>
 
+  <div class="explainer">
+    <strong>Token lifecycle:</strong> Tokens are created at /internal/tokens or automatically when sending a press pitch at /internal/outreach. Each token is a random string stored in Vercel KV (Redis). When a visitor hits a gated URL with ?token=XXXX, the middleware looks it up. If found and valid, the visitor gets through. Tokens persist until manually revoked. We can revoke any token at any time from the tokens page, immediately cutting off access. Each token is tied to a specific gate (ekthesis, brief, or site) &mdash; an ekthesis token won't work on /brief and vice versa.
+  </div>
+
   <h3>Internal Auth</h3>
   <ul class="list">
     <li>Password login at /internal/login. Sets httpOnly cookie (24hr). Protects all /internal/* routes.</li>
     <li>Password stored as INTERNAL_AUTH_TOKEN env var on Vercel.</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Operational note:</strong> The internal password is a single shared password for the team. It's set as an environment variable on Vercel &mdash; to change it, update INTERNAL_AUTH_TOKEN in the Vercel dashboard and redeploy. The cookie is httpOnly (can't be read by JavaScript) and expires after 24 hours, so you'll need to re-login daily. If someone leaves the team, change the password immediately.
+  </div>
 
   <h3>Bypass Rules</h3>
   <ul class="list">
@@ -479,12 +542,20 @@
     <li>Static assets (/images, /fonts, /textures, _next) &mdash; always allowed</li>
     <li>favicon.ico, robots.txt, sitemap.xml &mdash; always allowed</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Why bypasses matter:</strong> Images and fonts must always load &mdash; even inside gated pages and emails. If /images/ were gated, the email GIFs wouldn't render in anyone's inbox. API routes are bypassed because they handle their own authentication internally (checking tokens/passwords in the request body or headers, not via cookies).
+  </div>
 </div>
 
 <!-- 04: API ROUTES -->
 <div class="section">
   <p class="section-num">04</p>
   <h2>API Routes</h2>
+
+  <div class="explainer">
+    <strong>What these are:</strong> API routes are server-side endpoints that handle actions &mdash; logging in, subscribing, sending emails, managing tokens. They're not pages you visit in a browser. They're called by the frontend (forms, buttons) or by external services. When someone fills out the email capture form, the form sends a POST request to /api/subscribe. When you click "Send Pitch" in the outreach tool, it calls /api/outreach/send.
+  </div>
 
   <table class="route-table">
     <thead>
@@ -523,6 +594,10 @@
       </tr>
     </tbody>
   </table>
+
+  <div class="explainer">
+    <strong>The two email addresses:</strong> This is important. We send from two different addresses depending on who we're talking to. <strong>free@atnocost.cc</strong> is the artist's voice &mdash; first-person, used for press contacts (Tiers 0-3). <strong>freeisavailable@atnocost.cc</strong> is the imprint voice &mdash; third-person, used for industry contacts (Tier 4: labels, distributors, A&amp;R). Both addresses route replies to the same Gmail inbox (sound.otherworld@gmail.com) via Cloudflare Email Routing. This means we see all replies in one place regardless of which address was used.
+  </div>
 </div>
 
 <!-- 05: FAN EMAIL DRIP -->
@@ -531,10 +606,19 @@
   <h2>Fan Email Drip Sequence</h2>
   <p>4-email welcome sequence triggered by fan signup. Templates built in <span class="highlight">lib/email-templates.ts</span>. Beehiiv handles subscriber storage, drip scheduling, unsubscribe, and analytics. We provide the HTML templates + hosted assets.</p>
 
+  <div class="explainer">
+    <strong>How the drip works:</strong> When a fan enters their email on the site, they enter a 4-email sequence that unfolds over 10 days. Each email is called a "visit" &mdash; the language is intentional. Fans aren't being marketed to, they're being invited deeper into the world. Each visit unlocks something: an origin story, a digital booklet, a manuscript. The content escalates in intimacy and exclusivity. This is the fan relationship engine.<br><br>
+    <strong>Current status:</strong> The email HTML templates are fully built and viewable at /archive/drip-mockup.html. They have NOT been connected to Beehiiv yet. The next step is pasting the generated HTML into Beehiiv's automation builder and configuring the drip timing. The templates reference images hosted on atnocost.cc (GIFs, PNGs) &mdash; these images are publicly accessible even when the site gate is on, because /images/ is bypassed in middleware.
+  </div>
+
   <div class="drip-card">
     <p class="drip-num">Email 1 &mdash; Day 0</p>
     <p class="drip-subj">you made it</p>
     <p class="drip-desc">Welcome. Quote from WC. "u made it, hope it feels like something." Lunar nav showing SINE NOCTIS as current chapter. Unlock list previewing all 3 visits. Signature: &mdash; FREE</p>
+  </div>
+
+  <div class="explainer">
+    <strong>Email 1 detail:</strong> This is the first impression. It opens with a Worst Choice quote, then a direct line from FREE. The Lunar Nav is a visual element showing all release chapters as moon phases &mdash; SINE NOCTIS is highlighted as "u are here." Below that is an unlock list teasing what's coming: visit 001 (origin story), visit 002 (booklet), visit 003 (manuscript). The point is to create anticipation &mdash; the fan knows there's more coming if they stay.
   </div>
 
   <div class="drip-card">
@@ -543,16 +627,28 @@
     <p class="drip-desc">Origin story. June 2021 tornado watch. Tornado GIF loop. "look at the sky." Embedded weather report (EF-1, Wayne County, radar maps). Link to interactive report. Promo GIF. "nothing stops the visit."</p>
   </div>
 
+  <div class="explainer">
+    <strong>Email 2 detail:</strong> Three days after signup, the fan gets the origin story. FINE BY ME (FREE's first major film) was shot during an actual tornado in Wayne County, June 2021. This email tells that story visually: an animated GIF of the tornado, a full embedded weather report styled like an official document (EF-1 rating, radar maps, timeline), and a link to the interactive version on the site. The embedded report is a real artifact &mdash; it looks like it was pulled from a government database. The closing line "nothing stops the visit" is the thesis: creation continues regardless of conditions.
+  </div>
+
   <div class="drip-card">
     <p class="drip-num">Email 3 &mdash; Day 7 &mdash; visit 002</p>
     <p class="drip-subj">SINE NOCTIS / visit 002</p>
     <p class="drip-desc">FINExME digital booklet delivery. Prometheus/Mnemosyne setting. Two download links: interactive booklet + PDF. "visit FREE again in chapter ii."</p>
   </div>
 
+  <div class="explainer">
+    <strong>Email 3 detail:</strong> One week in, the fan gets the FINExME digital booklet &mdash; a 17-page, LP-style square-format booklet with film stills, album liners, tracklist, a manuscript excerpt (from BENE), and full credits. It opens with a mythological setting: FREE as Prometheus, his companion as Mnemosyne (memory). Two download options: the interactive HTML version (scrollable on any device) and a 60MB PDF. This is a substantial gift &mdash; it's the kind of thing that used to come inside a physical CD case.
+  </div>
+
   <div class="drip-card">
     <p class="drip-num">Email 4 &mdash; Day 10 &mdash; visit 003</p>
     <p class="drip-subj">SINE NOCTIS / visit 003</p>
     <p class="drip-desc">BENE manuscript delivery. Cover image (cherub watermark). Manuscript PDF download. "nothing is owed. everything is given."</p>
+  </div>
+
+  <div class="explainer">
+    <strong>Email 4 detail:</strong> The final visit. BENE means "fine" &mdash; it's the manuscript behind FINE BY ME. The booklet in Email 3 included an excerpt; this is the full thing (7-10 pages). The cover features the OWJV cherub as a watermark behind the title, styled like a real manuscript cover. The closing line "nothing is owed. everything is given." captures the philosophy of the entire drip: these aren't transactions, they're gifts. The fan received four pieces of exclusive content for free, earning the name of the site itself &mdash; at no cost.
   </div>
 
   <h3>Email Assets (Hosted)</h3>
@@ -565,6 +661,10 @@
     <li>/images/owjv-cherub-hires.png &mdash; 1024&times;1024 cherub watermark</li>
   </ul>
 
+  <div class="explainer">
+    <strong>Why GIFs, not video:</strong> Email clients (Gmail, Apple Mail, Outlook) don't support embedded video. GIFs are the only motion format that renders inline across all email clients. The tornado loop and promo loop are both animated GIFs hosted on atnocost.cc. They load in the email body directly &mdash; no play button, no click required. The only actual video on the site is on the /sinenoctis page.
+  </div>
+
   <h3>Drip Mockup</h3>
   <p>Full visual preview of all 4 emails + booklet at <span class="highlight">/archive/drip-mockup.html</span></p>
 </div>
@@ -575,13 +675,21 @@
   <h2>Press Outreach</h2>
   <p><span class="highlight">142 contacts</span> across 5 tiers. Managed at /internal/outreach.</p>
 
+  <div class="explainer">
+    <strong>The outreach system:</strong> We have a built-in press campaign tool at /internal/outreach. It's not a third-party CRM &mdash; it's custom-built into the site. The 142 contacts are stored in the codebase (lib/press-contacts.ts) and organized into 5 tiers based on reach and relationship. Each contact can be assigned a unique ekthesis token, sent a personalized pitch email, and tracked through the pipeline. The outreach tool shows status for every contact: pending, sent, opened, or bounced. This gives us full visibility into our press campaign without any external tools.
+  </div>
+
   <ul class="list">
-    <li><span class="highlight">Tier 0 (VIP)</span> &mdash; First access. Exclusive contacts (e.g., Patu Ong).</li>
-    <li><span class="highlight">Tier 1 (Major)</span> &mdash; Pitchfork, Rolling Stone senior writers.</li>
-    <li><span class="highlight">Tier 2 (Mid)</span> &mdash; Mid-tier indie publications.</li>
-    <li><span class="highlight">Tier 3 (Indie/Blogs)</span> &mdash; Independent music press.</li>
-    <li><span class="highlight">Tier 4 (Industry)</span> &mdash; Labels, distributors, A&amp;R.</li>
+    <li><span class="highlight">Tier 0 (VIP)</span> &mdash; First access. Exclusive contacts (e.g., Patu Ong). These get personal attention and custom pitches.</li>
+    <li><span class="highlight">Tier 1 (Major)</span> &mdash; Pitchfork, Rolling Stone senior writers. High-impact outlets, carefully worded pitches.</li>
+    <li><span class="highlight">Tier 2 (Mid)</span> &mdash; Mid-tier indie publications. Broader reach, still curated.</li>
+    <li><span class="highlight">Tier 3 (Indie/Blogs)</span> &mdash; Independent music press. Volume play with quality contacts.</li>
+    <li><span class="highlight">Tier 4 (Industry)</span> &mdash; Labels, distributors, A&amp;R. Business contacts, not editorial. Uses imprint voice, not artist voice.</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Tier strategy:</strong> Tiers aren't just organization &mdash; they determine timing and voice. VIP and T1 get contacted first with the most care. T4 contacts hear from the imprint (freeisavailable@atnocost.cc) in third person because they're business relationships, not editorial. The pitch emails for the top 15 contacts have been individually rewritten with personalized, film-centered language. CMC (Creative Minds Coalition) is a silent partner &mdash; they are never mentioned in any outreach or public-facing material.
+  </div>
 
   <h3>Email Voices</h3>
   <ul class="list">
@@ -597,6 +705,10 @@
     <li>Track status: pending &rarr; sent &rarr; opened/bounced</li>
     <li>Revoke tokens as needed</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Practical workflow:</strong> Go to /internal/outreach. Select a contact. Click "Generate Token" to create their unique ekthesis link. Review or customize the pitch email. Click "Send." The system sends the email via Resend from the appropriate address (artist or imprint based on tier), and the contact's status updates to "sent." If they open the ekthesis link, we can update their status to "opened." If the email bounces, mark as "bounced." If a contact should lose access, revoke their token from /internal/tokens.
+  </div>
 </div>
 
 <!-- 07: CATALOG -->
@@ -604,11 +716,19 @@
   <p class="section-num">07</p>
   <h2>Catalog</h2>
 
+  <div class="explainer">
+    <strong>The world structure:</strong> FREE's catalog is organized into "Acts" within the Other World mythos. Each act has its own visual identity, color palette, and narrative thread. FINExME is Act I (red, heat, origin). SINE NOCTIS is Act II (monochrome, night, continuation). Future releases extend the mythology. The Lunar Nav on the homepage visualizes this as moon phases &mdash; each release is a different moon, and the active one is highlighted.
+  </div>
+
   <h3>Released</h3>
   <ul class="list">
     <li><span class="highlight">FINExME</span> &mdash; 7-track album (Act I, Jan 2024). Red palette. Tracks: fine by me, twins, chambers, flo, zodiac killer, maybe, pilgrim.</li>
     <li><span class="highlight">SINE NOCTIS</span> &mdash; 3-track EP (Act II, Spring 2026). Monochrome. Film is primary press draw.</li>
   </ul>
+
+  <div class="explainer">
+    <strong>SINE NOCTIS positioning:</strong> The film is the lead, not a single. SINE NOCTIS has three teasers (ANTE, VESPERA, NOCTEM) and a full visual, all directed by Blanco. The press pitch centers the film as the entry point. The music is the world &mdash; the film is the door. This is a deliberate strategy: visual-first press approach in a market saturated with audio-only releases.
+  </div>
 
   <h3>Films</h3>
   <ul class="list">
@@ -619,6 +739,10 @@
     <li><span class="highlight">NOCTEM</span> &mdash; Teaser ("nightfall"). Dir: Blanco.</li>
     <li><span class="highlight">SINE NOCTIS</span> &mdash; Full visual. Dir: Blanco.</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Teaser naming:</strong> ANTE, VESPERA, NOCTEM are Latin for "before," "dusk," and "nightfall" &mdash; they're a countdown sequence leading to SINE NOCTIS ("without night"). ANTE represents the doorway, the entry into the new Other World. Each teaser was shot by Blanco and has a distinct visual treatment within the monochrome palette.
+  </div>
 
   <h3>Planned</h3>
   <ul class="list">
@@ -633,17 +757,26 @@
 <div class="section">
   <p class="section-num">08</p>
   <h2>Key Collaborators</h2>
+
+  <div class="explainer">
+    <strong>Who does what:</strong> This is the core team and their roles. When crediting or communicating about the project, use these names and attributions exactly.
+  </div>
+
   <ul class="list">
     <li><span class="highlight">Mookie Magnolia, Ashton Woods, Worst Choice, Brando Heat</span> &mdash; Production</li>
     <li><span class="highlight">Ashton Woods</span> &mdash; Engineering &amp; post-production</li>
-    <li><span class="highlight">Worst Choice</span> &mdash; Art direction &amp; design</li>
+    <li><span class="highlight">Worst Choice</span> &mdash; Art direction &amp; design (FINExME back cover template, carries forward to all projects)</li>
     <li><span class="highlight">gotakemedia</span> &mdash; Film (AT NO COST, FINE BY ME)</li>
     <li><span class="highlight">Blanco</span> &mdash; Film (ANTE, VESPERA, NOCTEM, SINE NOCTIS clips)</li>
-    <li><span class="highlight">Rush Hour / Khalil Copeland</span> &mdash; Photography</li>
+    <li><span class="highlight">Rush Hour / Khalil Copeland</span> &mdash; Photography (BTS for Fine By Me and SINE NOCTIS)</li>
     <li><span class="highlight">Roy</span> &mdash; Vectored FREE logo and OWJV logo</li>
     <li><span class="highlight">Kohl DePaul / apt.315</span> &mdash; Wardrobe (SINE NOCTIS)</li>
     <li><span class="highlight">Juulius Juul / Heliot Emil</span> &mdash; Wardrobe (Fine By Me)</li>
   </ul>
+
+  <div class="explainer">
+    <strong>Back cover format:</strong> The back cover design was established by Choice (Worst Choice) on FINExME: Big Caesar font, FREE logo, lowercase tracklist. This format carries forward to every future release. It's a brand element, not a one-off design choice.
+  </div>
 </div>
 
 <!-- 09: ENV VARS -->
@@ -652,22 +785,26 @@
   <h2>Environment Variables</h2>
   <p>All set on Vercel. Required for the site to function.</p>
 
+  <div class="explainer">
+    <strong>Where to find these:</strong> Log into Vercel &rarr; select the FreeNotAvailable project &rarr; Settings &rarr; Environment Variables. These are server-side secrets &mdash; they never appear in the browser or source code. To change any value, update it in Vercel and redeploy. Variables prefixed with NEXT_PUBLIC_ are the exception &mdash; those are exposed to the browser (used in client-side code).
+  </div>
+
   <table class="env-table">
     <thead>
       <tr><th>Variable</th><th>Purpose</th></tr>
     </thead>
     <tbody>
-      <tr><td class="var">INTERNAL_AUTH_TOKEN</td><td>Admin password for /internal routes</td></tr>
-      <tr><td class="var">RESEND_API_KEY</td><td>Outbound email (fan signup notifications, press pitches)</td></tr>
-      <tr><td class="var">KV_REST_API_URL</td><td>Vercel KV (Redis) endpoint for token + outreach state</td></tr>
-      <tr><td class="var">KV_REST_API_TOKEN</td><td>Vercel KV auth token</td></tr>
-      <tr><td class="var">EKTHESIS_TOKENS</td><td>Comma-separated static tokens for /ekthesis</td></tr>
-      <tr><td class="var">BRIEF_TOKENS</td><td>Comma-separated static tokens for /brief</td></tr>
-      <tr><td class="var">SITE_TOKENS</td><td>Comma-separated tokens for site-wide gate</td></tr>
-      <tr><td class="var">SITE_GATE_ENABLED</td><td>Master switch for site-wide gate (true/false)</td></tr>
-      <tr><td class="var">NEXT_PUBLIC_BASE_URL</td><td>Base URL for email templates (defaults to https://atnocost.cc)</td></tr>
-      <tr><td class="var">BEEHIIV_PUBLICATION_ID</td><td>Beehiiv subscriber list ID <span class="status pending">not yet connected</span></td></tr>
-      <tr><td class="var">BEEHIIV_API_KEY</td><td>Beehiiv API key <span class="status pending">not yet connected</span></td></tr>
+      <tr><td class="var">INTERNAL_AUTH_TOKEN</td><td>Admin password for /internal routes. Change this immediately if anyone leaves the team.</td></tr>
+      <tr><td class="var">RESEND_API_KEY</td><td>Outbound email (fan signup notifications, press pitches). If emails stop sending, check this first.</td></tr>
+      <tr><td class="var">KV_REST_API_URL</td><td>Vercel KV (Redis) endpoint for token + outreach state. Auto-provisioned by Vercel.</td></tr>
+      <tr><td class="var">KV_REST_API_TOKEN</td><td>Vercel KV auth token. Paired with the URL above.</td></tr>
+      <tr><td class="var">EKTHESIS_TOKENS</td><td>Comma-separated static tokens for /ekthesis. These are fallback tokens hardcoded in config &mdash; dynamically generated tokens are stored in KV.</td></tr>
+      <tr><td class="var">BRIEF_TOKENS</td><td>Comma-separated static tokens for /brief. Same pattern as ekthesis.</td></tr>
+      <tr><td class="var">SITE_TOKENS</td><td>Comma-separated tokens for site-wide gate. Used when SITE_GATE_ENABLED is true.</td></tr>
+      <tr><td class="var">SITE_GATE_ENABLED</td><td>Master switch for site-wide gate (true/false). Set to "true" to lock the site behind email capture. Set to "false" or remove to make the site fully public.</td></tr>
+      <tr><td class="var">NEXT_PUBLIC_BASE_URL</td><td>Base URL for email templates (defaults to https://atnocost.cc). This is a public var &mdash; it appears in generated HTML.</td></tr>
+      <tr><td class="var">BEEHIIV_PUBLICATION_ID</td><td>Beehiiv subscriber list ID. <span class="status pending">not yet connected</span></td></tr>
+      <tr><td class="var">BEEHIIV_API_KEY</td><td>Beehiiv API key. <span class="status pending">not yet connected</span></td></tr>
     </tbody>
   </table>
 </div>
@@ -677,13 +814,17 @@
   <p class="section-num">10</p>
   <h2>Outstanding Items</h2>
 
+  <div class="explainer">
+    <strong>What's left:</strong> The site is largely functional. The items below are either not yet built, partially built, or in concept stage. Anything tagged "pending" needs work before launch. Anything tagged "live" or "built" is done and deployed.
+  </div>
+
   <h3>Pending</h3>
   <ul class="list">
-    <li><span class="highlight">Beehiiv Integration</span> &mdash; Connect email capture to Beehiiv API. Paste email HTML templates into Beehiiv automation builder. <span class="status pending">pending</span></li>
-    <li><span class="highlight">BENE Manuscript PDF</span> &mdash; 7-10 page manuscript. Needs full text written and designed as standalone PDF. Cover image done (bene-cover.png). <span class="status pending">pending</span></li>
-    <li><span class="highlight">Clips Page</span> &mdash; 60% disabled. Decide: finish or hide. <span class="status disabled">disabled</span></li>
-    <li><span class="highlight">Vinyl Waitlist</span> &mdash; No submission handler built. <span class="status pending">pending</span></li>
-    <li><span class="highlight">Projection Installations</span> &mdash; 3 paid projectionist installations in Detroit, post-SINE NOCTIS. Concept not fleshed out. <span class="status pending">concept</span></li>
+    <li><span class="highlight">Beehiiv Integration</span> &mdash; Connect email capture to Beehiiv API. Paste email HTML templates into Beehiiv automation builder. This is the last step to make the fan drip system live. <span class="status pending">pending</span></li>
+    <li><span class="highlight">BENE Manuscript PDF</span> &mdash; 7-10 page manuscript. Needs full text written and designed as standalone PDF. Cover image is done (bene-cover.png). This is the download delivered in Email 4. <span class="status pending">pending</span></li>
+    <li><span class="highlight">Clips Page</span> &mdash; 60% disabled. Decision needed: finish building it out with short-form content, or hide it entirely until ready. Currently shows "Coming Soon" for most items. <span class="status disabled">disabled</span></li>
+    <li><span class="highlight">Vinyl Waitlist</span> &mdash; No submission handler built. The waitlist form exists visually but doesn't actually store signups anywhere yet. Needs a backend endpoint and storage. <span class="status pending">pending</span></li>
+    <li><span class="highlight">Projection Installations</span> &mdash; 3 paid projectionist installations in Detroit, post-SINE NOCTIS. Concept not fleshed out. Needs video documentation plan and site presence when ready. <span class="status pending">concept</span></li>
   </ul>
 
   <h3>Live &amp; Working</h3>
@@ -704,18 +845,28 @@
 <div class="section">
   <p class="section-num">11</p>
   <h2>Design Rules</h2>
+
+  <div class="explainer">
+    <strong>Read this before touching anything visual.</strong> These are not suggestions &mdash; they're locked decisions. If something contradicts a rule below, the rule wins. If you're unsure whether a change violates a rule, ask before implementing.
+  </div>
+
   <ul class="list">
-    <li><span class="highlight">Big Caesar</span> &mdash; Display font. Album logotypes. SINENOCTIS renders without space in this font.</li>
-    <li><span class="highlight">Franklin Gothic Medium</span> &mdash; Body/UI font for emails and documents.</li>
-    <li><span class="highlight">FREE logotype</span> &mdash; INLINED SVG everywhere (never img tag). Canonical size: 180px mobile, 290px desktop. Locked.</li>
-    <li><span class="highlight">Color: FINExME</span> &mdash; Hot reds (#c0392b). Act I.</li>
-    <li><span class="highlight">Color: SINE NOCTIS</span> &mdash; Monochrome/grayscale. Act II.</li>
-    <li><span class="highlight">Back cover format</span> &mdash; Big Caesar font, FREE logo, tracklist. Established by Choice on FINExME, carries forward to all projects.</li>
-    <li><span class="highlight">OWJV</span> &mdash; Always "imprint," never "label."</li>
-    <li><span class="highlight">CMC</span> &mdash; Silent partner. No public mention anywhere.</li>
-    <li><span class="highlight">Content voice</span> &mdash; Compressed, coy, poetic. Not explanatory.</li>
-    <li><span class="highlight">EPK structure</span> &mdash; Locked. Swap elements per cycle, don't restructure.</li>
+    <li><span class="highlight">Big Caesar</span> &mdash; Display font. Used for album logotypes and major headings. SINENOCTIS renders without a space in this font (that's correct, not a bug). File: /fonts/BigCaesar_2.ttf</li>
+    <li><span class="highlight">Franklin Gothic Medium</span> &mdash; Body/UI font. Used for emails, documents, interface text, and this brief. File: /fonts/FranklinGothicMedium.ttf</li>
+    <li><span class="highlight">FREE logotype</span> &mdash; Always an INLINED SVG (never an img tag). Canonical size: 180px wide on mobile, 290px wide on desktop. These sizes are locked &mdash; do not scale up or down.</li>
+    <li><span class="highlight">Color: FINExME</span> &mdash; Hot reds (#c0392b). This is Act I's palette. Used on /finexme and in Act I related materials.</li>
+    <li><span class="highlight">Color: SINE NOCTIS</span> &mdash; Monochrome/grayscale. This is Act II's palette. Used on /sinenoctis and in Act II related materials.</li>
+    <li><span class="highlight">Back cover format</span> &mdash; Big Caesar font, FREE logo, tracklist. Designed by Choice on FINExME, this template carries forward to every future release. Do not redesign the back cover.</li>
+    <li><span class="highlight">OWJV</span> &mdash; Always called "imprint," never "label." OWJV is Other Worldly, Just Visiting. It's FREE's entity that owns everything.</li>
+    <li><span class="highlight">CMC</span> &mdash; Creative Minds Coalition. Silent partner. Never mentioned in any public-facing material, press outreach, social media, or site content. Period.</li>
+    <li><span class="highlight">Content voice</span> &mdash; Compressed, coy, poetic. Not explanatory. The site doesn't explain itself to visitors. It invites them to figure it out. Manuscript excerpts use dialogue format with low opacity and a border-left accent. Gallery captions use mythological names ("The Chariot" for the BMW, "The Armor" for the jacket).</li>
+    <li><span class="highlight">EPK structure</span> &mdash; Locked. When a new release cycle starts, swap out elements (photos, bio, featured release) but never change the layout or section order.</li>
+    <li><span class="highlight">Speaker labels in manuscripts</span> &mdash; Her (red), Voice (white in SN), Her echo (blue-grey in Pilgrim), Free (white). These are consistent across all manuscript appearances.</li>
   </ul>
+
+  <div class="explainer">
+    <strong>The aesthetic principle:</strong> This site is dark, cinematic, and interactive &mdash; but not minimal for minimal's sake. Every element has weight and purpose. If something looks empty, it's intentional negative space. If something looks dense, it's earned. The site should feel like entering a physical space, not browsing a webpage. Don't clean things up that are meant to feel textured. Don't simplify things that are meant to feel layered.
+  </div>
 </div>
 
 <!-- FOOTER -->
