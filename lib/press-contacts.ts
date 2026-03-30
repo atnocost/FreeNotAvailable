@@ -2966,4 +2966,38 @@ Visual works: atnocost.cc/films
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
   },
+  {
+    id: "zivsoundz",
+    name: "Luke Valentine",
+    outlet: "ZivSoundz",
+    beat: "R&B",
+    emails: ["zivsoundz@gmail.com"],
+    tier: 3,
+    note: "R&B blog/page, 330K followers. Likely also runs WhyRnBMatters. International.",
+    subject: "FREE — SINE NOCTIS | Spring 2026",
+    body: `Hi —
+
+SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
+
+EPK: https://atnocost.cc/epk
+FINExME streaming now · Visual works at atnocost.cc/films
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "whyrnbmatters",
+    name: "Luke Valentine",
+    outlet: "WhyRnBMatters",
+    beat: "R&B / Playlists",
+    emails: ["whyrnbmatters@gmail.com"],
+    tier: 3,
+    note: "R&B playlist curator. Accepts submissions via email. Likely same person as ZivSoundz.",
+    subject: "FREE — SINE NOCTIS | Submission · Spring 2026",
+    body: `Hi —
+
+Submitting FREE — SINE NOCTIS for playlist consideration. Act II of the Other World Mythos. Three tracks, R&B. Spring 2026. Debut album FINExME streaming now.
+
+EPK: https://atnocost.cc/epk
+Streaming: Spotify · Apple Music · TIDAL
+atnocost.cc | @freenotavailable`,
+  },
 ]
