@@ -10,8 +10,8 @@ const textMuted = '#888'
 const textDim = '#555'
 const textFaint = '#444'
 const textGhost = '#333'
-const mono = "'SF Mono', 'Menlo', 'Courier New', monospace"
-const serif = "'Georgia', 'Times New Roman', serif"
+const mono = "'Franklin Gothic Medium', 'SF Mono', 'Menlo', 'Courier New', monospace"
+const serif = "'Franklin Gothic Medium', 'Georgia', 'Times New Roman', serif"
 
 function layout(content: string): string {
   return `<!DOCTYPE html>

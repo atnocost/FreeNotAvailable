@@ -3,13 +3,13 @@ import Link from 'next/link'
 import FadeInView from '@/components/ui/FadeInView'
 
 const TRACKLIST = [
-  { num: '01', title: 'Fine By Me', spotify: 'https://open.spotify.com/track/1bDsTY39ICcA0DlBkiFDDv', apple: 'https://music.apple.com/us/album/fine-by-me/1724039694?i=1724039695', tidal: 'https://tidal.com/track/338087354' },
-  { num: '02', title: 'Twins', spotify: 'https://open.spotify.com/track/3gGDqcfkXGhC3djgbglAom', apple: 'https://music.apple.com/us/album/twins/1724039694?i=1724039696', tidal: 'https://tidal.com/track/338087356' },
-  { num: '03', title: 'Chambers', spotify: 'https://open.spotify.com/track/0bSisXV76kUMxJSIMsUPbN', apple: 'https://music.apple.com/us/album/chambers/1724039694?i=1724039697', tidal: 'https://tidal.com/track/338087358' },
-  { num: '04', title: 'Flo', spotify: 'https://open.spotify.com/track/7zGYtI2yueti0HpEKmQlni', apple: 'https://music.apple.com/us/album/flo/1724039694?i=1724039698', tidal: 'https://tidal.com/track/338087360' },
-  { num: '05', title: 'Zodiac Killer', spotify: 'https://open.spotify.com/track/3R5F18TT6SwbV6a9bD1bkh', apple: 'https://music.apple.com/us/album/zodiac-killer/1724039694?i=1724039699', tidal: 'https://tidal.com/track/338087362' },
-  { num: '06', title: 'Maybe', spotify: 'https://open.spotify.com/track/3JT3Oj6jsTS855v3Y2qazP', apple: 'https://music.apple.com/us/album/maybe/1724039694?i=1724039700', tidal: 'https://tidal.com/track/338087364' },
-  { num: '07', title: 'Pilgrim', spotify: 'https://open.spotify.com/track/39JXoG0CZxHFRiWwg29zi4', apple: 'https://music.apple.com/us/album/pilgrim/1724039694?i=1724039701', tidal: 'https://tidal.com/track/338087366' },
+  { num: '01', title: 'fine by me', spotify: 'https://open.spotify.com/track/1bDsTY39ICcA0DlBkiFDDv', apple: 'https://music.apple.com/us/album/fine-by-me/1724039694?i=1724039695', tidal: 'https://tidal.com/track/338087354' },
+  { num: '02', title: 'twins', spotify: 'https://open.spotify.com/track/3gGDqcfkXGhC3djgbglAom', apple: 'https://music.apple.com/us/album/twins/1724039694?i=1724039696', tidal: 'https://tidal.com/track/338087356' },
+  { num: '03', title: 'chambers', spotify: 'https://open.spotify.com/track/0bSisXV76kUMxJSIMsUPbN', apple: 'https://music.apple.com/us/album/chambers/1724039694?i=1724039697', tidal: 'https://tidal.com/track/338087358' },
+  { num: '04', title: 'flo', spotify: 'https://open.spotify.com/track/7zGYtI2yueti0HpEKmQlni', apple: 'https://music.apple.com/us/album/flo/1724039694?i=1724039698', tidal: 'https://tidal.com/track/338087360' },
+  { num: '05', title: 'zodiac killer', spotify: 'https://open.spotify.com/track/3R5F18TT6SwbV6a9bD1bkh', apple: 'https://music.apple.com/us/album/zodiac-killer/1724039694?i=1724039699', tidal: 'https://tidal.com/track/338087362' },
+  { num: '06', title: 'maybe?', spotify: 'https://open.spotify.com/track/3JT3Oj6jsTS855v3Y2qazP', apple: 'https://music.apple.com/us/album/maybe/1724039694?i=1724039700', tidal: 'https://tidal.com/track/338087364' },
+  { num: '07', title: 'pilgrim', spotify: 'https://open.spotify.com/track/39JXoG0CZxHFRiWwg29zi4', apple: 'https://music.apple.com/us/album/pilgrim/1724039694?i=1724039701', tidal: 'https://tidal.com/track/338087366' },
 ]
 
 const GALLERY = [

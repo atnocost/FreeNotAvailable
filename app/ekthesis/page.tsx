@@ -59,7 +59,7 @@ const caseStudies = [
     artist: 'Brent Faiyaz',
     project: 'Lost Kids / Wasteland (2022)',
     finding: 'Debuted #2 Billboard 200 fully independent. Wasteland certified Platinum (Sep 2023). Built Lost Kids label, kept his masters, built a moody cinematic visual identity around the music. Later distributed via UnitedMasters.',
-    relevance: 'Independent male R&B can go Platinum. FREE\'s CMC/OWJV structure follows this path.',
+    relevance: 'Independent male R&B can go Platinum. FREE\'s OWJV structure follows this path.',
   },
   {
     artist: 'Frank Ocean',
@@ -119,8 +119,8 @@ export default function EkthesisPage() {
               filtered through a millennial lens&mdash;a cold croon built on vulnerability, not bravado. The work moves where he does.
             </p>
             <p>
-              The creative universe is called Other World. Two copyright-holding entities
-              sit behind it: Creative Minds Coalition and OWJV (Other Worldly, Just Visiting).
+              The creative universe is called Other World. The copyright-holding entity behind
+              it is OWJV (Other Worldly, Just Visiting).
               Every release lives inside a visual mythology built before the first track dropped.
             </p>
           </AnimatedElement>
