@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://atnocost.vercel.app/films',
+      url: 'https://atnocost.vercel.app/cinema',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

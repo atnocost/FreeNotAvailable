@@ -28,7 +28,7 @@ const SECTIONS = [
 const NAV_LINKS = [
   { label: 'Mythos', href: '/#mythos', desc: 'The mythology behind the Other World.' },
   { label: 'Timeline', href: '/timeline', desc: 'Every release in chronological order.' },
-  { label: 'Cinema', href: '/films', desc: 'Visual works — ANTE, VESPERA, NOCTEM, FINE BY ME.' },
+  { label: 'Cinema', href: '/cinema', desc: 'Visual works — ANTE, VESPERA, NOCTEM, FINE BY ME.' },
   { label: 'Clips', href: '/clips', desc: 'Short visual works — coming with SINE NOCTIS.' },
 ]
 

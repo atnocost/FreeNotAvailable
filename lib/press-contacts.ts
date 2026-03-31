@@ -30,7 +30,7 @@ I wanted you to have it first before anyone else. No embargo, no obligation. Jus
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
+Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/cinema
 Hi-res images cleared for editorial use: freeisavailable@atnocost.cc
 
 If you want to talk before anything goes out, I'm here.
@@ -58,7 +58,7 @@ Spring 2026. I'd like to share the film early if Pitchfork is interested.
 
 EPK: https://atnocost.cc/epk
 FINExME streaming: Spotify · Apple Music · TIDAL · YouTube
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE
@@ -82,7 +82,7 @@ The debut album FINExME dropped in 2024 with its own visual series (ANTE, VESPER
 I'd love to share the film when it's ready — whether for a premiere, a write-up, or just to get it in front of you.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
 FREE
@@ -106,7 +106,7 @@ SINE NOCTIS is a short film and EP — Act II of a mythology I've been building 
 SINE NOCTIS arrives Spring 2026. Would be glad to share the film early if you're interested.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res cleared for editorial: freeisavailable@atnocost.cc
 
 FREE
@@ -130,7 +130,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -154,7 +154,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -178,7 +178,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -200,7 +200,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -222,7 +222,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -244,7 +244,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -266,7 +266,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -288,7 +288,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -310,7 +310,7 @@ FREE builds worlds. SINE NOCTIS is Act II of the Other World Mythos — three mo
 Debut FINExME arrived January 2024. The mythology has been building since.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -588,7 +588,7 @@ FREE's SINE NOCTIS is Act II of the Other World Mythos — a cinematic R&B proje
 The universe runs across music, film, and visual work. Everything lives at atnocost.cc.
 
 EPK: https://atnocost.cc/epk
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -610,7 +610,7 @@ FREE's SINE NOCTIS is Act II of the Other World Mythos — a cinematic R&B proje
 The universe runs across music, film, and visual work. Everything lives at atnocost.cc.
 
 EPK: https://atnocost.cc/epk
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -632,7 +632,7 @@ FREE's SINE NOCTIS is Act II of the Other World Mythos — a cinematic R&B proje
 The universe runs across music, film, and visual work. Everything lives at atnocost.cc.
 
 EPK: https://atnocost.cc/epk
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -654,7 +654,7 @@ FREE's SINE NOCTIS is Act II of the Other World Mythos — a cinematic R&B proje
 The universe runs across music, film, and visual work. Everything lives at atnocost.cc.
 
 EPK: https://atnocost.cc/epk
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -676,7 +676,7 @@ FREE is a songwriter operating from a simple premise: in today's R&B landscape, 
 The project follows 2024 debut FINExME and extends a cinematic universe that runs across music, film, and visual work.
 
 EPK: https://atnocost.cc/epk
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -699,7 +699,7 @@ Debut album FINExME came out in 2024 with its own visual series. Six films total
 SINE NOCTIS arrives Spring 2026. Happy to share the film early or connect directly.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -720,7 +720,7 @@ SINE NOCTIS arrives Spring 2026 — a short film and EP, Act II of a mythology I
 Everything is self-written, self-directed, self-owned through my imprint OWJV. No features across any project.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -741,7 +741,7 @@ I've been building a cinematic mythology across music and film since 2024 — si
 SINE NOCTIS is the EP. The film covers two-thirds of it. Spring 2026. Happy to share early.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -764,7 +764,7 @@ Debut album FINExME dropped in 2024. Six visual works released across both proje
 Spring 2026. Would love to get it in front of Okayplayer.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -787,7 +787,7 @@ The film carries two-thirds of the tracklist. The debut album FINExME is streami
 Would love to share the film when it's ready.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -808,7 +808,7 @@ SINE NOCTIS is my next project — an EP and short film arriving Spring 2026. Th
 Debut album FINExME is streaming now. Everything independent through my imprint OWJV.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -829,7 +829,7 @@ I'm an R&B artist releasing a short film and EP called SINE NOCTIS — Spring 20
 Six visual works out, no features, everything through my imprint OWJV. Happy to send the film early or connect.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -937,7 +937,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -978,7 +978,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -1002,7 +1002,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -1022,7 +1022,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1041,7 +1041,7 @@ I made a short film for two-thirds of my next EP. SINE NOCTIS — Act II of a my
 Spring 2026. Would love to share it.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -1060,7 +1060,7 @@ atnocost.cc`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1077,7 +1077,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1094,7 +1094,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1111,7 +1111,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1128,7 +1128,7 @@ atnocost.cc | @freenotavailable`,
 FREE is an R&B songwriter out of Detroit, now based in Atlanta. SINE NOCTIS is Act II of the Other World Mythos — the cold counterpart to 2024 debut FINExME. Three movements. One descent. Built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1145,7 +1145,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1162,7 +1162,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1183,7 +1183,7 @@ Three movements. One descent. The cold counterpart to debut album FINExME. FREE 
 Featured previously in Norbu Magazine. FINExME still streaming across all platforms.
 
 EPK: https://atnocost.cc/epk
-Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/films
+Visual works (ANTE · VESPERA · NOCTEM): atnocost.cc/cinema
 Hi-res photos cleared for editorial use: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -1207,7 +1207,7 @@ SINE NOCTIS — Act II of a mythology I've been building called the Other World.
 Spring 2026. Would love to talk premiere or write-up when the time comes.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 
 FREE
 atnocost.cc`,
@@ -1226,7 +1226,7 @@ atnocost.cc`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1243,7 +1243,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1282,7 +1282,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1299,7 +1299,7 @@ atnocost.cc | @freenotavailable`,
 Patu covered FINExME for Norbu at launch — that early support meant a lot. SINE NOCTIS is Act II arriving Spring 2026. Three movements. One descent. The cold counterpart.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1382,7 +1382,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1399,7 +1399,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1438,7 +1438,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1576,7 +1576,7 @@ atnocost.cc | @freenotavailable`,
 FREE builds cinematic worlds — SINE NOCTIS is Act II, arriving Spring 2026. The visual works (ANTE · VESPERA · NOCTEM) are central to the project. Reaching out to explore potential visual collaboration.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
@@ -1594,7 +1594,7 @@ atnocost.cc | @freenotavailable`,
 FREE builds cinematic worlds — SINE NOCTIS is Act II, arriving Spring 2026. The visual works (ANTE · VESPERA · NOCTEM) are central to the project. Reaching out to explore potential visual collaboration.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
@@ -1803,7 +1803,7 @@ SINE NOCTIS is Act II — a short film and EP. The film carries two-thirds of th
 I'd love to share the film early if you're interested.
 
 EPK: https://atnocost.cc/epk
-Films: atnocost.cc/films
+Cinema: atnocost.cc/cinema
 Hi-res: freeisavailable@atnocost.cc
 
 FREE
@@ -1825,7 +1825,7 @@ FREE operates in a lane that's been largely vacated — R&B that's honest about 
 SINE NOCTIS is Act II of the Other World Mythos — three movements arriving Spring 2026, following 2024 debut FINExME. Cinematic, deliberate, cold.
 
 EPK: https://atnocost.cc/epk
-Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/films
+Visual works: ANTE · VESPERA · NOCTEM — atnocost.cc/cinema
 FINExME streaming now · Hi-res: freeisavailable@atnocost.cc
 
 FREE / OWJV
@@ -1868,7 +1868,7 @@ Submitting SINE NOCTIS for consideration — Act II of FREE's Other World Mythos
 Three movements. One descent. Cinematic R&B built on the thesis that male vulnerability is underserved.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1885,7 +1885,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
@@ -1905,7 +1905,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -1927,7 +1927,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -1949,7 +1949,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -1971,7 +1971,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -1993,7 +1993,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2015,7 +2015,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2037,7 +2037,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2059,7 +2059,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2081,7 +2081,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2103,7 +2103,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2125,7 +2125,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2147,7 +2147,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2169,7 +2169,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2191,7 +2191,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2213,7 +2213,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2235,7 +2235,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2257,7 +2257,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2279,7 +2279,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2301,7 +2301,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2323,7 +2323,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2345,7 +2345,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2367,7 +2367,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2389,7 +2389,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2411,7 +2411,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2433,7 +2433,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2455,7 +2455,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2477,7 +2477,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2499,7 +2499,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2521,7 +2521,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2543,7 +2543,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2565,7 +2565,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2587,7 +2587,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2609,7 +2609,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2631,7 +2631,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2653,7 +2653,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2675,7 +2675,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2697,7 +2697,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2719,7 +2719,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2741,7 +2741,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2763,7 +2763,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2785,7 +2785,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2807,7 +2807,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2829,7 +2829,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2851,7 +2851,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2873,7 +2873,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2895,7 +2895,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2917,7 +2917,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2939,7 +2939,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2961,7 +2961,7 @@ The project is cinematic in scope: each release accompanied by a short film, vis
 
 EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL · YouTube
-Visual works: atnocost.cc/films
+Visual works: atnocost.cc/cinema
 
 FREE / OWJV
 atnocost.cc | @freenotavailable`,
@@ -2980,7 +2980,7 @@ atnocost.cc | @freenotavailable`,
 SINE NOCTIS arrives Spring 2026 — Act II of FREE's Other World Mythos. Three movements. One descent. R&B built for the ones who still yearn.
 
 EPK: https://atnocost.cc/epk
-FINExME streaming now · Visual works at atnocost.cc/films
+FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {

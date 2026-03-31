@@ -89,7 +89,7 @@ export default function PilgrimSection() {
             Act I &mdash; FINExME
           </Link>
           <Link
-            href="/films"
+            href="/cinema"
             className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 hover:text-white/40 transition-colors"
           >
             Cinema

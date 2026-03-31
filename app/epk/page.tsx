@@ -211,7 +211,7 @@ export default function EPKPage() {
           </div>
         </div>
         <Link
-          href="/films"
+          href="/cinema"
           className="inline-block mt-5 text-[9px] tracking-[0.14em] uppercase text-white/30 hover:text-white/55 transition-colors"
         >
           Watch &rarr;

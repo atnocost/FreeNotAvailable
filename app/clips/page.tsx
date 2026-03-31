@@ -44,7 +44,7 @@ const CLIPS: readonly Clip[] = [
   {
     id: 'SineNoctisTeaser',
     title: 'SINE NOCTIS Teaser',
-    description: <>The three-part descent: <a href="/films#ante" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">ANTE</a>, <a href="/films#vespera" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">VESPERA</a>, <a href="/films#noctem" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">NOCTEM</a>. Grayscale cuts from the <em className="text-[#d0d0d0]">SINE NOCTIS</em> trilogy, recut for short-form.</>,
+    description: <>The three-part descent: <a href="/cinema#ante" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">ANTE</a>, <a href="/cinema#vespera" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">VESPERA</a>, <a href="/cinema#noctem" className="text-[#d0d0d0] italic hover:underline focus-visible:ring-1 focus-visible:ring-white/50 focus-visible:outline-none rounded-sm">NOCTEM</a>. Grayscale cuts from the <em className="text-[#d0d0d0]">SINE NOCTIS</em> trilogy, recut for short-form.</>,
     format: '9:16 Vertical',
     duration: '30s',
     platforms: ['TikTok', 'Instagram Reels', 'YouTube Shorts'],
@@ -80,7 +80,7 @@ const CLIPS: readonly Clip[] = [
   {
     id: 'FilmReel',
     title: 'Film Reel',
-    description: <>Hard cuts, slow zoom, no text. Sixty seconds across all <a href="/films" className="text-[#d4a574] italic hover:underline focus-visible:ring-1 focus-visible:ring-warm/50 focus-visible:outline-none rounded-sm">six source films</a>. Let the work speak.</>,
+    description: <>Hard cuts, slow zoom, no text. Sixty seconds across all <a href="/cinema" className="text-[#d4a574] italic hover:underline focus-visible:ring-1 focus-visible:ring-warm/50 focus-visible:outline-none rounded-sm">six source films</a>. Let the work speak.</>,
     format: '16:9 Landscape',
     duration: '60s',
     platforms: ['YouTube', 'Website'],
