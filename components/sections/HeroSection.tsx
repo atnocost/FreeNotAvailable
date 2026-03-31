@@ -49,7 +49,7 @@ export default function HeroSection() {
         {/* Tagline */}
         <FadeInView delay={0.15}>
           <p className="font-serif text-[15px] italic font-light text-white/42 leading-[1.65] max-w-[340px] mb-5">
-            not what you think.
+            not from here.
           </p>
         </FadeInView>
 
