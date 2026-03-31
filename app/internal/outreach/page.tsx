@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { PRESS_CONTACTS, SUBMISSION_CONTACTS, type PressContact, type SubmissionContact } from '@/lib/press-contacts'
 
 type OutreachRecord = {
@@ -49,6 +49,17 @@ export default function OutreachPage() {
   const [confirm, setConfirm] = useState<ConfirmState>(null)
   const [sending, setSending] = useState(false)
   const [sendResult, setSendResult] = useState<{ success: boolean; message: string } | null>(null)
+
+  // Batch send state
+  const [batchActive, setBatchActive] = useState(false)
+  const [batchTier, setBatchTier] = useState<number | null>(null)
+  const [batchQueue, setBatchQueue] = useState<PressContact[]>([])
+  const [batchCurrent, setBatchCurrent] = useState(0)
+  const [batchTotal, setBatchTotal] = useState(0)
+  const [batchFailed, setBatchFailed] = useState<string[]>([])
+  const [batchConfirm, setBatchConfirm] = useState<{ tier: number; contacts: PressContact[] } | null>(null)
+  const batchCancelRef = useRef(false)
+  const BATCH_DELAY_MS = 120_000 // 2 minutes between sends
 
   const fetchRecords = useCallback(async () => {
     const res = await fetch('/api/outreach')
@@ -160,6 +171,79 @@ export default function OutreachPage() {
     }
 
     setSending(false)
+  }
+
+  function requestBatchSend(tier: number) {
+    const tierContacts = PRESS_CONTACTS.filter((c) => c.tier === tier)
+    const unsent = tierContacts.filter((c) => {
+      const r = records[c.id]
+      return !r || r.status === 'pending'
+    })
+    if (unsent.length === 0) return
+    setBatchConfirm({ tier, contacts: unsent })
+  }
+
+  async function startBatchSend() {
+    if (!batchConfirm) return
+    const { tier, contacts } = batchConfirm
+    setBatchConfirm(null)
+    setBatchActive(true)
+    setBatchTier(tier)
+    setBatchQueue(contacts)
+    setBatchTotal(contacts.length)
+    setBatchCurrent(0)
+    setBatchFailed([])
+    batchCancelRef.current = false
+
+    for (let i = 0; i < contacts.length; i++) {
+      if (batchCancelRef.current) break
+
+      const contact = contacts[i]
+      setBatchCurrent(i + 1)
+
+      const body = getEmailBody(contact)
+
+      try {
+        const res = await fetch('/api/outreach/send', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ contactId: contact.id, body }),
+        })
+
+        if (res.ok) {
+          setRecords((prev) => ({
+            ...prev,
+            [contact.id]: { ...prev[contact.id], status: 'sent' },
+          }))
+        } else {
+          setBatchFailed((prev) => [...prev, contact.name])
+        }
+      } catch {
+        setBatchFailed((prev) => [...prev, contact.name])
+      }
+
+      // Wait between sends (skip delay after last one or if cancelled)
+      if (i < contacts.length - 1 && !batchCancelRef.current) {
+        await new Promise((resolve) => {
+          const interval = setInterval(() => {
+            if (batchCancelRef.current) {
+              clearInterval(interval)
+              resolve(undefined)
+            }
+          }, 500)
+          setTimeout(() => {
+            clearInterval(interval)
+            resolve(undefined)
+          }, BATCH_DELAY_MS)
+        })
+      }
+    }
+
+    setBatchActive(false)
+  }
+
+  function cancelBatchSend() {
+    batchCancelRef.current = true
   }
 
   function copyToClipboard(text: string, label: string) {
@@ -288,12 +372,87 @@ export default function OutreachPage() {
         </div>
       )}
 
+      {/* Batch Confirm Modal */}
+      {batchConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm px-4">
+          <div className="bg-[#111] border border-white/10 rounded-lg max-w-md w-full">
+            <div className="px-5 py-4 border-b border-white/8">
+              <p className="text-[8px] tracking-[0.2em] uppercase text-white/25 mb-2">Batch Send</p>
+              <p className="text-[13px] font-medium">
+                Send All — {TIER_NAMES[batchConfirm.tier]}
+              </p>
+            </div>
+            <div className="px-5 py-4 space-y-3">
+              <p className="text-[11px] text-white/50 leading-relaxed">
+                This will send <span className="text-white/80 font-medium">{batchConfirm.contacts.length}</span> emails
+                with a 2-minute delay between each.
+              </p>
+              <p className="text-[11px] text-white/30">
+                Estimated time: ~{Math.ceil((batchConfirm.contacts.length - 1) * 2)} minutes
+              </p>
+              <p className="text-[11px] text-white/30">
+                Already-sent contacts are excluded. You can cancel at any time.
+              </p>
+            </div>
+            <div className="px-5 py-4 border-t border-white/8 flex gap-3">
+              <button
+                onClick={startBatchSend}
+                className="text-[10px] tracking-[0.1em] uppercase px-5 py-2 bg-white/10 border border-white/25 rounded text-white/80 hover:bg-white/15 transition-colors"
+              >
+                Start Sending
+              </button>
+              <button
+                onClick={() => setBatchConfirm(null)}
+                className="text-[10px] tracking-[0.1em] uppercase px-5 py-2 border border-white/10 rounded text-white/30 hover:text-white/50 transition-colors"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Batch Progress Banner */}
+      {batchActive && (
+        <div className="fixed top-0 left-0 right-0 z-40 bg-[#111] border-b border-white/10 px-6 py-4">
+          <div className="max-w-5xl mx-auto flex items-center gap-4">
+            <div className="flex-1">
+              <p className="text-[10px] tracking-[0.15em] uppercase text-white/50 mb-1">
+                Sending {TIER_NAMES[batchTier ?? 0]}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="flex-1 h-1.5 bg-white/8 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-white/40 rounded-full transition-all duration-500"
+                    style={{ width: `${(batchCurrent / batchTotal) * 100}%` }}
+                  />
+                </div>
+                <span className="text-[12px] font-mono text-white/60 shrink-0">
+                  {batchCurrent}/{batchTotal}
+                </span>
+              </div>
+              {batchFailed.length > 0 && (
+                <p className="text-[9px] text-red-400/60 mt-1">
+                  Failed: {batchFailed.join(', ')}
+                </p>
+              )}
+            </div>
+            <button
+              onClick={cancelBatchSend}
+              className="text-[10px] tracking-[0.1em] uppercase px-4 py-2 border border-red-400/25 rounded text-red-400/60 hover:text-red-400/80 hover:border-red-400/40 transition-colors shrink-0"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Header */}
-      <div className="border-b border-white/8 px-6 md:px-10 py-6 max-w-5xl mx-auto">
+      <div className={`border-b border-white/8 px-6 md:px-10 py-6 max-w-5xl mx-auto ${batchActive ? 'mt-16' : ''}`}>
         <p className="text-[8px] tracking-[0.3em] uppercase text-white/20 mb-2">Internal</p>
         <h1 className="text-2xl font-light tracking-wide mb-1">Press Outreach</h1>
         <p className="text-[10px] text-white/25 tracking-wide">
-          SINE NOCTIS &middot; Spring 2026 &middot; {PRESS_CONTACTS.length} contacts &middot; EPK: atnocost.cc/epk
+          SINE NOCTIS &middot; Act II &middot; {PRESS_CONTACTS.length} contacts &middot; EPK: atnocost.cc/epk
         </p>
       </div>
 
@@ -370,6 +529,15 @@ export default function OutreachPage() {
                   <span className="text-[9px] text-white/20">
                     {tierContacts.length} contacts &middot; {tierSent} sent
                   </span>
+                  {tierSent < tierContacts.length && (
+                    <button
+                      onClick={() => requestBatchSend(tier)}
+                      disabled={batchActive}
+                      className="ml-auto text-[8px] tracking-[0.1em] uppercase px-3 py-1 border border-white/15 rounded text-white/35 hover:text-white/60 hover:border-white/25 transition-colors disabled:opacity-20 disabled:cursor-not-allowed"
+                    >
+                      Send All ({tierContacts.length - tierSent})
+                    </button>
+                  )}
                 </div>
                 <div className="flex flex-col gap-1.5">
                   {tierContacts.map((c) => (
