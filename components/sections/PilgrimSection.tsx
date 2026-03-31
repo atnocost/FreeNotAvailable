@@ -32,19 +32,11 @@ export default function PilgrimSection() {
         <FadeInView className="max-w-2xl mb-20 md:mb-28">
           <div className="border-l border-[#8899aa]/20 pl-6 space-y-6">
             <p className="font-sans text-sm md:text-base leading-[1.9] text-[#e0e8f0]/40 italic">
-              The world is static. The lake sleeps beneath glass, unbroken. FREE kneels&mdash;hands buried in frost, eyes gone somewhere else. Her words linger.
+              The world is static. The lake sleeps beneath glass, unbroken. FREE kneels&mdash;hands buried in frost, eyes gone somewhere else.
             </p>
-            <div className="space-y-4 text-sm md:text-base leading-[1.9]">
-              <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-[#8899aa]/80 not-italic mr-3">Her</span>
-                <span className="font-sans italic text-[#e0e8f0]/30">(echo)</span>
-                <span className="font-sans italic text-[#e0e8f0]/40 ml-2">You always said the night never ended out here.</span>
-              </p>
-              <p>
-                <span className="text-[9px] tracking-[0.2em] uppercase text-white/40 not-italic mr-3">Free</span>
-                <span className="font-sans italic text-[#e0e8f0]/40">Maybe it didn&rsquo;t. Maybe I just outlasted it.</span>
-              </p>
-            </div>
+            <p className="font-sans text-sm md:text-base leading-[1.9] text-[#e0e8f0]/40 italic">
+              The cold doesn&rsquo;t bother him. It&rsquo;s the quiet that won&rsquo;t stop.
+            </p>
             <p className="font-sans text-sm md:text-base leading-[1.9] text-[#e0e8f0]/30 italic">
               Wind flattens the horizon&mdash;no color now, only white folded into white. He traces the shape of something unseen in the ice, a memory or a promise.
             </p>
