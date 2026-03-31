@@ -14,7 +14,7 @@ const FINEXME_FILMS = [
     slug: 'at-no-cost',
     role: 'First Trailer',
     description:
-      'Full color. Face concealed. She appears before her name does.',
+      'Face concealed. She appears before a name does.',
     credit: 'gotakemedia',
     image: '/images/red-portrait.avif',
     alt: 'Red-lit portrait from AT NO COST trailer',
@@ -25,7 +25,7 @@ const FINEXME_FILMS = [
     slug: 'fine-by-me',
     role: 'Film',
     description:
-      'Gravel lot. The bridge. A white BMW cutting through night. Every frame feels stolen \u2014 long glass, partial glimpses, two figures circling something they won\u2019t name.',
+      'Gravel beneath the bridge. A white chariot cutting through night. Two figures circling something nameless.',
     credit: 'gotakemedia · Wardrobe by Juulius Juul for Heliot Emil',
     image: '/images/dusk-silhouette-two.avif',
     alt: 'Dusk silhouette from Fine By Me',
@@ -39,7 +39,7 @@ const SINENOCTIS_FILMS = [
     slug: 'ante',
     role: 'Teaser',
     description:
-      'A dark doorway. Grayscale. What\u2019s on the other side doesn\u2019t have a name yet.',
+      'A dark doorway. What\u2019s on the other side doesn\u2019t have a name yet.',
     credit: 'Blanco',
     image: '/images/ante-doorway.avif',
     alt: 'Stone archway doorway from ANTE teaser',
@@ -50,7 +50,7 @@ const SINENOCTIS_FILMS = [
     slug: 'vespera',
     role: 'Teaser II',
     description:
-      'First evening in the new world. No urgency \u2014 just weight, and the slow return of feeling.',
+      'No urgency \u2014 just weight, and the slow return of feeling.',
     credit: 'Blanco',
     image: '/images/vespera-cover.avif',
     alt: 'European architecture at night from VESPERA',
@@ -61,7 +61,7 @@ const SINENOCTIS_FILMS = [
     slug: 'noctem',
     role: 'Trailer',
     description:
-      'The night sharpens. He stops drifting and starts choosing.',
+      'The night sharpens.',
     credit: 'Blanco',
     image: '/images/noctem-cover.avif',
     alt: 'Bokeh night photography from NOCTEM trailer',
@@ -72,7 +72,7 @@ const SINENOCTIS_FILMS = [
     slug: 'sine-noctis',
     role: 'Full Visual',
     description:
-      'Van Gogh and Thin Ice Freestyle. One jacket. One night. Every corridor leads somewhere he\u2019s already been.',
+      'Van Gogh and Thin Ice Freestyle. One jacket. One night.',
     credit: 'Blanco',
     image: '/images/sinenoctis-visual-cover.avif',
     alt: 'Alpinestars jacket portrait from SINE NOCTIS visual',
@@ -300,7 +300,7 @@ export default function FilmsPage() {
         <div className="absolute inset-0 vignette" />
 
         <div className="relative z-10 text-center px-6">
-          <h1 className="font-pixel text-[clamp(3.5rem,10vw,8rem)] text-heading tracking-[0.04em] leading-none">
+          <h1 className="font-sans italic text-[clamp(3.5rem,10vw,8rem)] text-heading tracking-wide leading-none">
             CINEMA
           </h1>
           <p className="mt-4 font-sans text-lg md:text-xl italic text-white/50 tracking-wide">
@@ -324,7 +324,7 @@ export default function FilmsPage() {
             <span className="text-xs font-sans tracking-[0.2em] uppercase text-[#c0392b]/80 block mb-4">
               Act I
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-heading tracking-wide">
+            <h2 className="font-big-caesar text-4xl md:text-5xl lg:text-6xl text-heading tracking-wide">
               FINExME
             </h2>
             <div className="mt-4 w-16 h-px bg-[#c0392b]/40" />
@@ -381,8 +381,8 @@ export default function FilmsPage() {
             <span className="text-xs font-sans tracking-[0.2em] uppercase text-white/40 block mb-4">
               Act II
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#e8e8e8]/90 tracking-wide">
-              SINE NOCTIS
+            <h2 className="font-big-caesar text-4xl md:text-5xl lg:text-6xl text-[#e8e8e8]/90 tracking-wide">
+              SINENOCTIS
             </h2>
             <div className="mt-4 w-16 h-px bg-white/20" />
           </div>
