@@ -30,15 +30,8 @@ export default function HeroSection() {
 
       {/* Content — bottom-left aligned */}
       <div className="relative z-10 mt-auto px-6 md:px-8 pb-10 md:pb-11 max-w-[960px]">
-        {/* Eyebrow */}
-        <FadeInView>
-          <p className="text-[8px] tracking-[0.24em] uppercase text-[#c35f23]/90 mb-[-2px]">
-            Other Worldly, Just Visiting
-          </p>
-        </FadeInView>
-
         {/* FREE logo — inline SVG, forced white */}
-        <FadeInView delay={0.15}>
+        <FadeInView>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 557 214"
@@ -54,14 +47,14 @@ export default function HeroSection() {
         </FadeInView>
 
         {/* Tagline */}
-        <FadeInView delay={0.25}>
+        <FadeInView delay={0.15}>
           <p className="font-serif text-[15px] italic font-light text-white/42 leading-[1.65] max-w-[340px] mb-5">
-            For the ones who still yearn.
+            not what you think.
           </p>
         </FadeInView>
 
         {/* CTAs */}
-        <FadeInView delay={0.35}>
+        <FadeInView delay={0.25}>
           <div className="flex gap-2.5">
             <Link
               href="/#links"
