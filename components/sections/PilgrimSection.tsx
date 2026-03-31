@@ -92,7 +92,7 @@ export default function PilgrimSection() {
             href="/films"
             className="inline-flex items-center gap-2 text-xs font-sans tracking-[0.15em] uppercase text-white/25 hover:text-white/40 transition-colors"
           >
-            Films
+            Cinema
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
               <path d="M2 6h8M7 3l3 3-3 3" />
             </svg>

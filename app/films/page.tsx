@@ -282,7 +282,7 @@ export default function FilmsPage() {
       <section
         data-section-id="films-hero"
         className="relative min-h-[70vh] flex flex-col items-center justify-center overflow-hidden"
-        aria-label="Films"
+        aria-label="Cinema"
       >
         {/* Background */}
         <div className="absolute inset-0">
@@ -301,10 +301,10 @@ export default function FilmsPage() {
 
         <div className="relative z-10 text-center px-6">
           <h1 className="font-pixel text-[clamp(3.5rem,10vw,8rem)] text-heading tracking-[0.04em] leading-none">
-            FILMS
+            CINEMA
           </h1>
           <p className="mt-4 font-sans text-lg md:text-xl italic text-white/50 tracking-wide">
-            The Other World in motion.
+            Other World in motu.
           </p>
         </div>
       </section>
@@ -313,7 +313,7 @@ export default function FilmsPage() {
       <section
         data-section-id="films-finexme"
         className="relative section-padding"
-        aria-label="FINExME Era Films"
+        aria-label="FINExME Era Cinema"
       >
         {/* Ambient red glow */}
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,rgba(192,57,43,0.1)_0%,transparent_60%)]" />
@@ -373,7 +373,7 @@ export default function FilmsPage() {
       <section
         data-section-id="films-sinenoctis"
         className="relative section-padding"
-        aria-label="SINE NOCTIS Era Films"
+        aria-label="SINE NOCTIS Era Cinema"
       >
         <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10">
           {/* Era label */}

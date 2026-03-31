@@ -236,7 +236,7 @@ export default function LunarOverlay({
               onClick={handleNavigate}
               className="text-[8px] tracking-[0.18em] uppercase text-white/20 hover:text-white/45 transition-colors"
             >
-              Films
+              Cinema
             </Link>
             <Link
               href="/otherworld"

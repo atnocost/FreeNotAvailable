@@ -1,17 +1,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Films — FREE',
-  description: 'The Other World in motion. Short films and trailers from FREE.',
+  title: 'Cinema — FREE',
+  description: 'Other World in motu. Short films and trailers from FREE.',
   openGraph: {
-    title: 'Films — FREE',
-    description: 'The Other World in motion.',
-    images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: 'FREE — Films' }],
+    title: 'Cinema — FREE',
+    description: 'Other World in motu.',
+    images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: 'FREE — Cinema' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Films — FREE',
-    description: 'The Other World in motion.',
+    title: 'Cinema — FREE',
+    description: 'Other World in motu.',
     images: ['/opengraph-image.png'],
   },
 }
