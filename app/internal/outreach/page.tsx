@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { PRESS_CONTACTS, type PressContact } from '@/lib/press-contacts'
+import { PRESS_CONTACTS, SUBMISSION_CONTACTS, type PressContact, type SubmissionContact } from '@/lib/press-contacts'
 
 type OutreachRecord = {
   token?: string
@@ -420,6 +420,9 @@ export default function OutreachPage() {
         {filtered.length === 0 && (
           <p className="text-[11px] text-white/20 py-10 text-center">No contacts match your filter.</p>
         )}
+
+        {/* ---- Submission Forms ---- */}
+        <SubmissionsSection copied={copied} onCopy={copyToClipboard} />
       </div>
     </div>
   )
@@ -654,6 +657,142 @@ function ContactCard({
           </div>
         </div>
       )}
+    </div>
+  )
+}
+
+const PLATFORM_LABELS: Record<SubmissionContact['platform'], string> = {
+  form: 'Form',
+  submithub: 'SubmitHub',
+  groover: 'Groover',
+  musosoup: 'MusoSoup',
+}
+const PLATFORM_COLORS: Record<SubmissionContact['platform'], string> = {
+  form: 'rgba(180,140,255,0.6)',
+  submithub: 'rgba(100,220,180,0.6)',
+  groover: 'rgba(255,180,100,0.6)',
+  musosoup: 'rgba(100,180,255,0.6)',
+}
+
+function SubmissionsSection({
+  copied,
+  onCopy,
+}: {
+  copied: string | null
+  onCopy: (text: string, label: string) => void
+}) {
+  const [expandedSub, setExpandedSub] = useState<string | null>(null)
+
+  return (
+    <div className="mt-12 pt-8 border-t border-white/8">
+      <div className="flex items-center gap-3 mb-4">
+        <span className="text-[10px] tracking-[0.15em] uppercase font-medium text-purple-400/70">
+          Submission Forms
+        </span>
+        <span className="text-[9px] text-white/20">
+          {SUBMISSION_CONTACTS.length} platforms &middot; paste &amp; go
+        </span>
+      </div>
+      <p className="text-[10px] text-white/25 mb-4">
+        These are form-based submissions — no email needed. Copy the rhetoric below and paste into each platform.
+      </p>
+
+      <div className="flex flex-col gap-1.5">
+        {SUBMISSION_CONTACTS.map((s) => {
+          const isOpen = expandedSub === s.id
+          const platformColor = PLATFORM_COLORS[s.platform]
+          return (
+            <div
+              key={s.id}
+              className={`bg-white/[0.02] border rounded-md overflow-hidden transition-colors ${
+                isOpen ? 'border-white/15' : 'border-white/6'
+              }`}
+            >
+              <div
+                className="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-white/[0.02] transition-colors"
+                onClick={() => setExpandedSub(isOpen ? null : s.id)}
+              >
+                <span
+                  className="text-[8px] tracking-[0.1em] uppercase px-2 py-0.5 rounded-sm border shrink-0"
+                  style={{ color: platformColor, borderColor: platformColor }}
+                >
+                  {PLATFORM_LABELS[s.platform]}
+                </span>
+                <div className="flex-1 min-w-0">
+                  <div className="text-[12px] font-medium truncate">{s.outlet}</div>
+                  <div className="text-[9px] text-white/30 truncate">{s.beat}</div>
+                </div>
+                <span
+                  className={`text-[10px] text-white/25 shrink-0 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                >
+                  ▾
+                </span>
+              </div>
+
+              {isOpen && (
+                <div className="border-t border-white/6 px-4 py-4 bg-white/[0.01]">
+                  {s.note && (
+                    <p className="text-[9px] text-white/30 mb-3">{s.note}</p>
+                  )}
+
+                  {/* Link */}
+                  <div className="mb-3">
+                    <span className="text-[8px] tracking-[0.12em] uppercase text-white/25 block mb-1">URL</span>
+                    <a
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[10px] font-mono text-purple-400/60 hover:text-purple-400/80 underline underline-offset-2 break-all"
+                    >
+                      {s.url}
+                    </a>
+                  </div>
+
+                  {/* Rhetoric */}
+                  <div className="mb-3">
+                    <span className="text-[8px] tracking-[0.12em] uppercase text-white/25 block mb-1">Rhetoric</span>
+                    <div className="bg-white/[0.03] border border-white/8 rounded px-3 py-3">
+                      <pre className="text-[10px] text-white/55 whitespace-pre-wrap font-sans leading-[1.7]">
+                        {s.rhetoric}
+                      </pre>
+                    </div>
+                  </div>
+
+                  {/* Actions */}
+                  <div className="flex gap-2">
+                    <a
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[9px] tracking-[0.1em] uppercase px-4 py-1.5 bg-purple-500/10 border border-purple-500/25 rounded text-purple-400/80 hover:bg-purple-500/15 transition-colors"
+                    >
+                      Open Form
+                    </a>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        onCopy(s.rhetoric, `rhet-${s.id}`)
+                      }}
+                      className="text-[9px] tracking-[0.08em] uppercase px-3 py-1.5 border border-white/15 rounded text-white/40 hover:text-white/60 transition-colors"
+                    >
+                      {copied === `rhet-${s.id}` ? 'copied' : 'copy rhetoric'}
+                    </button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        onCopy(s.url, `url-${s.id}`)
+                      }}
+                      className="text-[9px] tracking-[0.08em] uppercase px-3 py-1.5 border border-white/15 rounded text-white/40 hover:text-white/60 transition-colors"
+                    >
+                      {copied === `url-${s.id}` ? 'copied' : 'copy url'}
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

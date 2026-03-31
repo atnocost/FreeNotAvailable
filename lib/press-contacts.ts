@@ -3497,4 +3497,328 @@ FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
 Contact: freeisavailable@atnocost.cc
 atnocost.cc | @freenotavailable`,
   },
+  // ---- Wave 2: R&B blogs, pop crossover, international ----
+  {
+    id: "theboombox",
+    name: "The Boombox",
+    outlet: "The Boombox",
+    beat: "Hip-Hop / R&B",
+    emails: ["staff@theboombox.com"],
+    tier: 3,
+    note: "Hip-hop and R&B news platform.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "soulandjazz",
+    name: "Brian",
+    outlet: "Soul and Jazz",
+    beat: "Soul / Jazz",
+    emails: ["brian@soulandjazz.com"],
+    tier: 3,
+    note: "UK-based soul and jazz publication.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "sidewalkhustle",
+    name: "Sidewalk Hustle",
+    outlet: "Sidewalk Hustle",
+    beat: "Music / Lifestyle / Culture",
+    emails: ["info@sidewalkhustle.com"],
+    tier: 3,
+    note: "Canadian lifestyle, music, fashion, culture. Accepts submissions.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "dorkmagazine",
+    name: "Dork Magazine",
+    outlet: "Dork Magazine",
+    beat: "Music / Indie / Pop",
+    emails: ["info@readdork.com"],
+    tier: 3,
+    note: "UK music magazine. 'Down With Boring' ethos. Covers all genres.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "theupcoming",
+    name: "The Upcoming",
+    outlet: "The Upcoming",
+    beat: "Arts / Entertainment",
+    emails: ["music@theupcoming.co.uk"],
+    tier: 3,
+    note: "London arts and entertainment. Dedicated music desk.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "whenthehornblows",
+    name: "Anthony",
+    outlet: "When The Horn Blows",
+    beat: "Music / Reviews",
+    emails: ["wow@whenthehornblows.com"],
+    tier: 3,
+    note: "UK blog. Album/single reviews, emerging artists.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "kaltblut",
+    name: "Nicola Phillips",
+    outlet: "KALTBLUT Magazine",
+    beat: "Art / Fashion / Music",
+    emails: ["nphillips@kaltblut-magazine.com"],
+    tier: 3,
+    note: "Berlin-based independent magazine. Music editor contact. Art, fashion, music crossover.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "offkey",
+    name: "OFFKEY / NBHAP",
+    outlet: "OFFKEY Magazine",
+    beat: "Independent / International",
+    emails: ["contact@nbhap.com"],
+    tier: 3,
+    note: "Berlin-based. Independent music, international artists.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "dazed",
+    name: "Dazed",
+    outlet: "Dazed",
+    beat: "Culture / Fashion / Music / Film",
+    emails: ["pr@dazedmedia.com"],
+    tier: 2,
+    note: "Major UK culture publication. Music + film + fashion crossover. International reach.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME. Music, film, and wardrobe are all part of the vision.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "theculturecrypt",
+    name: "The Culture Crypt",
+    outlet: "The Culture Crypt",
+    beat: "Music / Culture",
+    emails: ["contact@theculturecrypt.com"],
+    tier: 3,
+    note: "London-based music and culture platform.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+]
+
+/* ------------------------------------------------------------------ */
+/*  Submission-form contacts (no email — paste rhetoric into forms)    */
+/* ------------------------------------------------------------------ */
+
+export type SubmissionContact = {
+  id: string
+  outlet: string
+  beat: string
+  platform: 'form' | 'submithub' | 'groover' | 'musosoup'
+  url: string
+  note: string
+  rhetoric: string
+}
+
+const SUBMISSION_RHETORIC = `FREE — SINE NOCTIS
+
+Detroit R&B. Three tracks, a short film in three movements. Act II of the Other World Mythos following 2024 debut FINExME.
+
+Genre: Alternative R&B / Cinematic
+Imprint: OWJV (Other Worldly, Just Visiting)
+Release: Spring 2026
+
+EPK: https://atnocost.cc/epk
+Cinema: https://atnocost.cc/cinema
+Spotify: https://open.spotify.com/album/7qa4temn9cmuwiSPTwbf8c
+Apple Music: https://music.apple.com/us/album/finexme/1724039694
+TIDAL: https://tidal.com/album/338087351
+
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`
+
+export const SUBMISSION_CONTACTS: SubmissionContact[] = [
+  {
+    id: "sub_pigeonsandplanes",
+    outlet: "Pigeons & Planes",
+    beat: "Hip-Hop / R&B / Indie",
+    platform: "submithub",
+    url: "https://www.submithub.com/blog/pigeons-and-planes",
+    note: "Free submission via SubmitHub. Major discovery platform.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_rapup",
+    outlet: "Rap-Up",
+    beat: "R&B / Hip-Hop",
+    platform: "form",
+    url: "https://form.jotform.com/241205218793152",
+    note: "Contact form submission. R&B and hip-hop coverage.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_revolt",
+    outlet: "REVOLT",
+    beat: "Hip-Hop / R&B / Culture",
+    platform: "form",
+    url: "https://form.jotform.com/233305746370050",
+    note: "Contact form submission. Major hip-hop/R&B platform.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_singersroom",
+    outlet: "SingersRoom",
+    beat: "R&B / Soul / Vocal",
+    platform: "form",
+    url: "https://singersroom.com/submit-music/",
+    note: "Direct submission page. R&B and soul focused.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_stereofox",
+    outlet: "Stereofox",
+    beat: "Indie / Electronic / Chill",
+    platform: "form",
+    url: "https://www.stereofox.com/contact",
+    note: "Contact form. ~100K submissions received, ~4,300 approved.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_themusicninja",
+    outlet: "The Music Ninja",
+    beat: "Indie / R&B / Hip-Hop / Experimental",
+    platform: "submithub",
+    url: "https://www.submithub.com/to/tmn-the-music-ninja",
+    note: "Free submission via SubmitHub. All genres including R&B.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
+  {
+    id: "sub_fortheloveofbands",
+    outlet: "For The Love Of Bands",
+    beat: "Indie / Alternative",
+    platform: "form",
+    url: "https://fortheloveofbands.com/submit/",
+    note: "Direct submission form. Distributed international team.",
+    rhetoric: SUBMISSION_RHETORIC,
+  },
 ]
