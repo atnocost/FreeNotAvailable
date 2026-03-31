@@ -3000,4 +3000,501 @@ EPK: https://atnocost.cc/epk
 Streaming: Spotify · Apple Music · TIDAL
 atnocost.cc | @freenotavailable`,
   },
+  // ---- T2: Mid-tier established outlets ----
+  {
+    id: "afropunk",
+    name: "AFROPUNK Music",
+    outlet: "AFROPUNK",
+    beat: "Alternative / Culture",
+    emails: ["music@afropunk.com"],
+    tier: 2,
+    note: "Alternative black culture platform. Film + music crossover aligns with Other World aesthetic.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS, a three-track EP accompanied by a short film in three movements: ANTE, VESPERA, NOCTEM. Act II of the Other World Mythos following 2024 debut FINExME.
+
+Dark, cinematic, and built around the intersection of music and film.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "lineofbestfit",
+    name: "The Line of Best Fit",
+    outlet: "The Line of Best Fit",
+    beat: "Indie / Alternative",
+    emails: ["news@thelineofbestfit.com"],
+    tier: 2,
+    note: "Major indie music discovery magazine, 15+ years running.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "crackmagazine",
+    name: "Crack Magazine",
+    outlet: "Crack Magazine",
+    beat: "Alternative / Experimental",
+    emails: ["crack@crackmagazine.net"],
+    tier: 2,
+    note: "UK independent music magazine. Alternative and experimental focus.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "wonderland",
+    name: "Wonderland Magazine",
+    outlet: "Wonderland Magazine",
+    beat: "Music / Fashion / Culture",
+    emails: ["online@wonderlandmagazine.com"],
+    tier: 2,
+    note: "International magazine covering music, fashion, culture crossover.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME. Music, film, and wardrobe are all part of the vision.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "exclaim",
+    name: "Exclaim!",
+    outlet: "Exclaim!",
+    beat: "Music / Entertainment",
+    emails: ["editorial@exclaim.ca"],
+    tier: 2,
+    note: "Canada's authority on music. Covers all genres including R&B.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "ratedrnb",
+    name: "Rated R&B",
+    outlet: "Rated R&B",
+    beat: "R&B",
+    emails: ["info@ratedrnb.com"],
+    tier: 2,
+    note: "Dedicated R&B publication since 2011. Multi-platform presence.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "hotnewhiphop",
+    name: "HotNewHipHop",
+    outlet: "HotNewHipHop",
+    beat: "Hip-Hop / R&B",
+    emails: ["staff@hotnewhiphop.com"],
+    tier: 2,
+    note: "Large hip-hop and R&B platform.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "grungecake",
+    name: "Richardine Bartee",
+    outlet: "GRUNGECAKE",
+    beat: "Music / Art / Culture",
+    emails: ["richardine@grungecake.com"],
+    tier: 2,
+    note: "Global media for music and art. Works with Recording Academy. International reach.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "loudandquiet",
+    name: "Loud and Quiet",
+    outlet: "Loud and Quiet",
+    beat: "Indie / Alternative",
+    emails: ["contribute@loudandquiet.com"],
+    tier: 2,
+    note: "UK music publication since 2005. Print + digital.",
+    subject: "FREE \u2014 SINE NOCTIS \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+FREE is a Detroit R&B artist releasing SINE NOCTIS \u2014 three tracks, a short film in three movements, Spring 2026. Act II of the Other World Mythos following 2024 debut FINExME.
+
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+Streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  // ---- T3: Indie blogs, emerging-artist focused ----
+  {
+    id: "atwoodmag",
+    name: "Mitch Mosk",
+    outlet: "Atwood Magazine",
+    beat: "Indie / Alternative",
+    emails: ["mitch@atwoodmagazine.com"],
+    tier: 3,
+    note: "Indie/alternative emerging artists. Receives 1,000+ emails/week.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "obscuresound",
+    name: "Mike Mineo",
+    outlet: "Obscure Sound",
+    beat: "Indie / Emerging",
+    emails: ["mike@obscuresound.com"],
+    tier: 3,
+    note: "Emerging indie blog since 2006.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "wordplay",
+    name: "WORDPLAY Magazine",
+    outlet: "WORDPLAY Magazine",
+    beat: "Music / Premieres",
+    emails: ["info@wordplaymagazine.com"],
+    tier: 3,
+    note: "UK premieres and new music. Actively solicits submissions.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "northerntransmissions",
+    name: "Charles Shortino",
+    outlet: "Northern Transmissions",
+    beat: "Indie / Alternative",
+    emails: ["charles@northerntransmissions.com"],
+    tier: 3,
+    note: "Daily indie music coverage. Self-described last independent music site.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "beatsperminute",
+    name: "Chase McMullen",
+    outlet: "Beats Per Minute",
+    beat: "Music / Reviews",
+    emails: ["chase.mcmullen@beatsperminute.com"],
+    tier: 3,
+    note: "Music news, reviews, interviews. Editor-in-chief.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "thecomeupshow",
+    name: "The Come Up Show",
+    outlet: "The Come Up Show",
+    beat: "Hip-Hop / R&B",
+    emails: ["music@thecomeupshow.com"],
+    tier: 3,
+    note: "Toronto hip-hop and R&B scene. Artist spotlights and interviews.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "theknockturnal",
+    name: "The Knockturnal",
+    outlet: "The Knockturnal",
+    beat: "Music / Lifestyle",
+    emails: ["Info@theknockturnal.com"],
+    tier: 3,
+    note: "Lifestyle, music, entertainment. Artist interviews and reviews.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "hiphopnmore",
+    name: "HipHop-N-More",
+    outlet: "HipHop-N-More",
+    beat: "Hip-Hop / R&B",
+    emails: ["info@hiphop-n-more.com"],
+    tier: 3,
+    note: "Saturday Spotlight feature for submissions. Established hip-hop blog.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "freshnewtracks",
+    name: "Fresh New Tracks",
+    outlet: "Fresh New Tracks",
+    beat: "Hip-Hop / R&B",
+    emails: ["freshnewtracks@gmail.com"],
+    tier: 3,
+    note: "Emerging hip-hop and R&B blog.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "youheardthatnew",
+    name: "You Heard That New",
+    outlet: "You Heard That New",
+    beat: "R&B / Underground",
+    emails: ["contact@youheardthatnew.com"],
+    tier: 3,
+    note: "Discovery-focused. Underground and emerging artists.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "gigslutz",
+    name: "Becky",
+    outlet: "Gigslutz",
+    beat: "Unsigned / Emerging",
+    emails: ["beckygigslutz@gmail.com"],
+    tier: 3,
+    note: "UK blog focused on unsigned and emerging artists. New music submissions.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "themusicuniverse",
+    name: "The Music Universe",
+    outlet: "The Music Universe",
+    beat: "Music / Reviews",
+    emails: ["info@themusicuniverse.com"],
+    tier: 3,
+    note: "Multi-genre coverage including R&B/soul.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "celebmix",
+    name: "CelebMix",
+    outlet: "CelebMix",
+    beat: "Pop / R&B / Rising Artists",
+    emails: ["hello@celebmix.com"],
+    tier: 3,
+    note: "Pop culture with Rising artist section.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "ratingsgamemusic",
+    name: "Ratings Game Music",
+    outlet: "Ratings Game Music",
+    beat: "Music / Reviews",
+    emails: ["info@ratingsgamemusic.com"],
+    tier: 3,
+    note: "Song and album reviews since 2017.",
+    subject: "FREE \u2014 SINE NOCTIS (Submission) \u00b7 Spring 2026",
+    body: `Hi \u2014
+
+Submitting FREE's upcoming project SINE NOCTIS for your consideration.
+
+Artist: FREE
+Project: SINE NOCTIS (Act II \u00b7 Other World Mythos)
+Release: Spring 2026
+Imprint: OWJV
+EPK: https://atnocost.cc/epk
+Cinema: atnocost.cc/cinema
+FINExME streaming: Spotify \u00b7 Apple Music \u00b7 TIDAL
+Contact: freeisavailable@atnocost.cc
+atnocost.cc | @freenotavailable`,
+  },
 ]
