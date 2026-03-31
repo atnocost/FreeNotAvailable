@@ -42,14 +42,11 @@ export default function OtherworldPage() {
             {/* Heading */}
             <div className="mb-16 md:mb-24">
               <span className="text-xs font-pixel tracking-[0.2em] uppercase text-[#c0392b] block mb-6">
-                Other World Mythos
+                Other Worldly, Just Visiting
               </span>
-              <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#f2ede8] leading-[0.95] mb-6">
-                The Other World
+              <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl italic text-[#f2ede8] leading-[0.95]">
+                Other World
               </h1>
-              <p className="font-sans text-sm md:text-base leading-[1.8] text-white/45 max-w-[55ch]">
-                Everything lives here.
-              </p>
             </div>
 
             {/* Act cards — album covers */}
