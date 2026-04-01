@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(req: NextRequest) {
-  const { email } = await req.json()
+  const { email, source } = await req.json()
 
   if (!email || typeof email !== 'string' || !email.includes('@')) {
     return NextResponse.json({ error: 'valid email required' }, { status: 400 })
   }
+
+  const tag = source === 'presave' ? ' (presave)' : ''
 
   const apiKey = process.env.RESEND_API_KEY
   if (!apiKey) {
@@ -21,8 +23,8 @@ export async function POST(req: NextRequest) {
     body: JSON.stringify({
       from: 'OTHER WORLD <freeisavailable@atnocost.cc>',
       to: 'freeisavailable@atnocost.cc',
-      subject: 'new subscriber',
-      text: `new subscriber: ${email}`,
+      subject: `new subscriber${tag}`,
+      text: `new subscriber${tag}: ${email}`,
     }),
   })
 
