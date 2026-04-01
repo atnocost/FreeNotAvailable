@@ -1442,6 +1442,74 @@ FINExME streaming now · Visual works at atnocost.cc/cinema
 atnocost.cc | @freenotavailable`,
   },
   {
+    id: "freshdaily",
+    name: "Fresh Daily",
+    outlet: "Very Relaxed / Beat Haus Show",
+    beat: "Hip-Hop / Culture",
+    emails: ["freshdotdaily@gmail.com"],
+    tier: 3,
+    note: "Runs @very_relaxed & @beathausshow. Oakland, CA. Also does graphic design. X: @Freshdotdaily.",
+    subject: "FREE \u2014 SINE NOCTIS | Act II (EPK)",
+    body: `Hi \u2014
+
+SINE NOCTIS is Act II of FREE's Other World Mythos. Three movements. One descent. R&B with two short films behind it.
+
+EPK: https://atnocost.cc/epk
+FINExME streaming now \u00b7 Visual works at atnocost.cc/cinema
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "balltillwefall",
+    name: "Alex",
+    outlet: "Need To Know Pod / SiriusXM",
+    beat: "Music / Blogging",
+    emails: ["balltillwefall@gmail.com"],
+    tier: 3,
+    note: "Music blogger, Need To Know podcast, SiriusXM. X: @Balltillwefall, 10.5K. Email unverified \u2014 found via search, not bio.",
+    subject: "FREE \u2014 SINE NOCTIS | Act II (EPK)",
+    body: `Hi \u2014
+
+SINE NOCTIS is Act II of FREE's Other World Mythos. Three movements. One descent. R&B with two short films behind it.
+
+EPK: https://atnocost.cc/epk
+FINExME streaming now \u00b7 Visual works at atnocost.cc/cinema
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "nosa",
+    name: "Nosa",
+    outlet: "Independent",
+    beat: "Music / Content",
+    emails: ["nosaputyouon@gmail.com"],
+    tier: 3,
+    note: "Music content creator. X: @nosaputyouon, 5.4K. \u201CIntroverted until the topic is music.\u201D",
+    subject: "FREE \u2014 SINE NOCTIS | Act II (EPK)",
+    body: `Hi \u2014
+
+SINE NOCTIS is Act II of FREE's Other World Mythos. Three movements. One descent. R&B with two short films behind it.
+
+EPK: https://atnocost.cc/epk
+FINExME streaming now \u00b7 Visual works at atnocost.cc/cinema
+atnocost.cc | @freenotavailable`,
+  },
+  {
+    id: "brandonousley",
+    name: "Brandon Ousley",
+    outlet: "Discogs / Bandcamp",
+    beat: "Music Writing",
+    emails: ["brandon91writes@gmail.com"],
+    tier: 3,
+    note: "Writer at Discogs and Bandcamp. Chicago. X: @brandonousley, 5.9K.",
+    subject: "FREE \u2014 SINE NOCTIS | Act II (EPK)",
+    body: `Hi Brandon \u2014
+
+SINE NOCTIS is Act II of FREE's Other World Mythos. Three movements. One descent. R&B with two short films behind it.
+
+EPK: https://atnocost.cc/epk
+FINExME streaming now \u00b7 Visual works at atnocost.cc/cinema
+atnocost.cc | @freenotavailable`,
+  },
+  {
     id: "dancewax",
     name: "Dance Wax",
     outlet: "Dance Wax",
