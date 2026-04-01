@@ -670,7 +670,7 @@
           </div>
           <div class="detail">
             <div class="detail-label">Admission</div>
-            <div class="detail-value">General &middot; All Platforms</div>
+            <div class="detail-value">FREE Admission</div>
           </div>
         </div>
         <div class="ticket-serial">
@@ -703,7 +703,7 @@
     <!-- Pre-save: Step 1 — button -->
     <div class="cta-area" id="cta-step1">
       <button class="cta-btn" onclick="showEmailForm()">Reserve Your Seat</button>
-      <div class="cta-note">your library, opening night</div>
+      <div class="cta-note">you'll know when it's dark.</div>
     </div>
 
     <!-- Pre-save: Step 2 — email input -->
@@ -717,13 +717,12 @@
         autocomplete="email"
       >
       <button type="submit" class="email-submit" id="email-submit">Confirm Reservation</button>
-      <div class="cta-note">we'll let you know when it's time</div>
     </form>
 
     <!-- Pre-save: Step 3 — confirmed -->
     <div class="confirmed-msg" id="cta-step3">
       <div class="confirmed-text">Seat Reserved</div>
-      <div class="confirmed-note">you'll be the first to know.</div>
+      <div class="confirmed-note">see you opening night.</div>
     </div>
 
     <div class="fine-print">OWJV</div>
@@ -790,7 +789,7 @@
       step1.style.display = 'block';
       step1.querySelector('.cta-btn').textContent = 'LISTEN NOW';
       step1.querySelector('.cta-btn').onclick = null;
-      step1.querySelector('.cta-note').textContent = 'available everywhere';
+      step1.querySelector('.cta-note').textContent = 'free is available.';
       btnPost.classList.add('active');
       btnPre.classList.remove('active');
     } else {
@@ -800,7 +799,7 @@
       step1.style.display = 'block';
       step1.querySelector('.cta-btn').textContent = 'RESERVE YOUR SEAT';
       step1.querySelector('.cta-btn').onclick = showEmailForm;
-      step1.querySelector('.cta-note').textContent = 'your library, opening night';
+      step1.querySelector('.cta-note').textContent = 'you'll know when it's dark.';
       step2.style.display = 'none';
       step2.classList.remove('visible');
       step3.classList.remove('visible');
