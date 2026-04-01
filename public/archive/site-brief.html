@@ -157,6 +157,14 @@
     font-size: 11px;
     letter-spacing: 0.5px;
   }
+  .route-table a.path {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(232,228,220,0.15);
+    transition: border-color 0.2s;
+  }
+  .route-table a.path:hover {
+    border-bottom-color: rgba(232,228,220,0.4);
+  }
   .route-table .gate-tag {
     display: inline-block;
     font-size: 8px;
@@ -305,7 +313,7 @@
   <p class="owjv">OTHER WORLD &middot; JUST VISITING</p>
   <h1>ATNOCOST.CC</h1>
   <p class="subtitle">Team Site Brief &mdash; All Active Initiatives</p>
-  <p class="date">Updated March 30, 2026</p>
+  <p class="date">Updated March 31, 2026</p>
 </div>
 
 <!-- 01: OVERVIEW -->
@@ -347,42 +355,42 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="path">/</span></td>
+        <td><a class="path" href="https://atnocost.cc" target="_blank">/</a></td>
         <td>Homepage. Hero, catalog grid, streaming links, email capture, mythos + lunar nav, other media, footer.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/finexme</span></td>
+        <td><a class="path" href="https://atnocost.cc/finexme" target="_blank">/finexme</a></td>
         <td>Act I album page. FINExME (7 tracks, Jan 2024). Red palette, album-specific visuals.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/sinenoctis</span></td>
+        <td><a class="path" href="https://atnocost.cc/sinenoctis" target="_blank">/sinenoctis</a></td>
         <td>Act II album page. SINE NOCTIS (3 tracks, Spring 2026). Monochrome palette + Pilgrim interlude.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/cinema</span></td>
+        <td><a class="path" href="https://atnocost.cc/cinema" target="_blank">/cinema</a></td>
         <td>Cinema page. 6 visual works across both eras with YouTube embeds. AT NO COST, FINE BY ME, ANTE, VESPERA, NOCTEM, SINE NOCTIS. Renamed from "Films" to "Cinema." Subtitle: "Other World in motu."</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/otherworld</span></td>
+        <td><a class="path" href="https://atnocost.cc/otherworld" target="_blank">/otherworld</a></td>
         <td>Hub page. Links to both acts, mythos, timeline, cinema, clips.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/timeline</span></td>
+        <td><a class="path" href="https://atnocost.cc/timeline" target="_blank">/timeline</a></td>
         <td>Horizontal scroll chronological timeline. Three eras: FINExME, SINE NOCTIS, Future.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/clips</span></td>
+        <td><a class="path" href="https://atnocost.cc/clips" target="_blank">/clips</a></td>
         <td>Short-form content hub (TikTok, Reels, Shorts). 60% disabled &mdash; Coming Soon state.</td>
         <td><span class="gate-tag green">public</span> <span class="status disabled">60% disabled</span></td>
       </tr>
       <tr>
-        <td><span class="path">/epk</span></td>
+        <td><a class="path" href="https://atnocost.cc/epk" target="_blank">/epk</a></td>
         <td>Public Electronic Press Kit. Bio, catalog, visuals, press photos, contact info, PDF download.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
@@ -402,27 +410,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="path">/ekthesis</span></td>
+        <td><a class="path" href="https://atnocost.cc/ekthesis?token=owjv2026" target="_blank">/ekthesis</a></td>
         <td>12-section animated business case. Revenue model, market data, comparables, projections. Sent to press/industry with unique tokens.</td>
         <td><span class="gate-tag red">token gate</span></td>
       </tr>
       <tr>
-        <td><span class="path">/ekthesis/gate</span></td>
+        <td><a class="path" href="https://atnocost.cc/ekthesis/gate" target="_blank">/ekthesis/gate</a></td>
         <td>Landing page shown when no valid token. "This isn't public. You'd know if it were."</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/brief</span></td>
+        <td><a class="path" href="https://atnocost.cc/brief?token=owjv2026" target="_blank">/brief</a></td>
         <td>SINE NOCTIS creative brief. Redirects to static HTML if valid token.</td>
         <td><span class="gate-tag red">token gate</span></td>
       </tr>
       <tr>
-        <td><span class="path">/brief/gate</span></td>
+        <td><a class="path" href="https://atnocost.cc/brief/gate" target="_blank">/brief/gate</a></td>
         <td>Landing page for brief access. "This document is internal."</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/gate</span></td>
+        <td><a class="path" href="https://atnocost.cc/gate" target="_blank">/gate</a></td>
         <td>Site-wide email capture gate. Only active when SITE_GATE_ENABLED=true. Collects email, triggers fan drip.</td>
         <td><span class="gate-tag">conditional</span></td>
       </tr>
@@ -441,22 +449,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="path">/internal</span></td>
+        <td><a class="path" href="https://atnocost.cc/internal" target="_blank">/internal</a></td>
         <td>One-sheet, visual bible, production standards, design guidelines. Full creative reference.</td>
         <td><span class="gate-tag red">password</span></td>
       </tr>
       <tr>
-        <td><span class="path">/internal/login</span></td>
+        <td><a class="path" href="https://atnocost.cc/internal/login" target="_blank">/internal/login</a></td>
         <td>Password entry. Sets 24hr auth cookie.</td>
         <td><span class="gate-tag green">public</span></td>
       </tr>
       <tr>
-        <td><span class="path">/internal/outreach</span></td>
+        <td><a class="path" href="https://atnocost.cc/internal/outreach" target="_blank">/internal/outreach</a></td>
         <td>Press campaign tool. Contacts across 5 tiers. Generate tokens, send pitches, track status.</td>
         <td><span class="gate-tag red">password</span></td>
       </tr>
       <tr>
-        <td><span class="path">/internal/tokens</span></td>
+        <td><a class="path" href="https://atnocost.cc/internal/tokens" target="_blank">/internal/tokens</a></td>
         <td>Token generator for ekthesis, brief, and site gates. Create, copy URL, revoke.</td>
         <td><span class="gate-tag red">password</span></td>
       </tr>
@@ -474,27 +482,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="path">/archive/finexme-booklet</span></td>
+        <td><a class="path" href="https://atnocost.cc/archive/finexme-booklet.html" target="_blank">/archive/finexme-booklet</a></td>
         <td>Interactive 17-page digital booklet (1200&times;1200 square). Film stills, liners, tracklist, manuscript, credits.</td>
       </tr>
       <tr>
-        <td><span class="path">/archive/tornado-report</span></td>
+        <td><a class="path" href="https://atnocost.cc/archive/tornado-report.html" target="_blank">/archive/tornado-report</a></td>
         <td>Interactive tornado weather report. Procedural radar maps, narrative of June 2021 production disruption.</td>
       </tr>
       <tr>
-        <td><span class="path">/archive/drip-mockup.html</span></td>
+        <td><a class="path" href="https://atnocost.cc/archive/drip-mockup.html" target="_blank">/archive/drip-mockup.html</a></td>
         <td>Email drip preview. All 4 emails + booklet gallery. Team review only.</td>
       </tr>
       <tr>
-        <td><span class="path">/downloads/finexme-booklet.pdf</span></td>
+        <td><a class="path" href="https://atnocost.cc/downloads/finexme-booklet.pdf" target="_blank">/downloads/finexme-booklet.pdf</a></td>
         <td>PDF version of booklet (60MB). Generated via Puppeteer.</td>
       </tr>
       <tr>
         <td><span class="path">/downloads/bene-manuscript.pdf</span></td>
-        <td>BENE manuscript (7-10 pages). <span class="status pending">not yet created</span></td>
+        <td>BENE manuscript (7-10 pages). <span class="status pending">not yet created</span> — no link yet</td>
       </tr>
       <tr>
-        <td><span class="path">/FREE-EPK-2026.pdf</span></td>
+        <td><a class="path" href="https://atnocost.cc/FREE-EPK-2026.pdf" target="_blank">/FREE-EPK-2026.pdf</a></td>
         <td>Downloadable EPK PDF (1.5MB).</td>
       </tr>
     </tbody>
