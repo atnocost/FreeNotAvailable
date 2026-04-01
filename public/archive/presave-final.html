@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>SINE NOCTIS — Premiere</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 <style>
@@ -512,7 +512,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 14px 20px;
+    padding: 14px 20px calc(14px + env(safe-area-inset-bottom, 0px));
     background: rgba(5,5,5,0.9);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -799,7 +799,7 @@
       step1.style.display = 'block';
       step1.querySelector('.cta-btn').textContent = 'RESERVE YOUR SEAT';
       step1.querySelector('.cta-btn').onclick = showEmailForm;
-      step1.querySelector('.cta-note').textContent = 'you'll know when it's dark.';
+      step1.querySelector('.cta-note').textContent = "you\u2019ll know when it\u2019s dark.";
       step2.style.display = 'none';
       step2.classList.remove('visible');
       step3.classList.remove('visible');
