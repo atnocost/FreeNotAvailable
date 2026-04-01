@@ -82,6 +82,9 @@ export async function middleware(req: NextRequest) {
       pathname.startsWith('/images/') ||
       pathname.startsWith('/textures/') ||
       pathname.startsWith('/fonts/') ||
+      pathname.startsWith('/ekthesis') ||
+      pathname.startsWith('/brief') ||
+      pathname.startsWith('/internal') ||
       pathname === '/favicon.ico' ||
       pathname === '/icon.png' ||
       pathname === '/robots.txt' ||
